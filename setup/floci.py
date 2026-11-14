@@ -1,8 +1,8 @@
 """
 Get the local AWS emulator ready. Resources (buckets, tables) are created by the setup_*_lab.py scripts.
 
-    uv run -m setup.floci            # start Floci with persistence + UI in your region
-    uv run -m setup.floci --no-ui    # only start Floci
+    uv run setup/floci.py            # start Floci with persistence + UI in your region
+    uv run setup/floci.py --no-ui    # only start Floci
 
 What it does:
   1. Starts Floci with --persist so data survives restarts (skips if already running)
@@ -83,4 +83,4 @@ if __name__ == "__main__":
     start_floci()
     if "--no-ui" not in sys.argv:
         fix_ui_region()
-    print("\nFloci ready ✅  Next: uv run -m setup.s3_lab / setup.ddb_lab")
+    print("\nFloci ready ✅  Next: uv run setup/s3_lab.py / setup/ddb_lab.py")
