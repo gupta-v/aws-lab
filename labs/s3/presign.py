@@ -1,5 +1,12 @@
+"""Presigned URLs: temporary links that let anyone GET/PUT/POST an object without AWS keys.
+Covers GET, PUT, POST with a size limit, expiry, and a browser download filename."""
+import os
+import sys
 import time, uuid, httpx
-from utils.s3_utils import BUCKET, get_s3, get_text, presign_get, presign_put, presign_post
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from utils.s3_utils import BUCKET, get_s3, get_text, presign_get, presign_put, presign_post  # noqa: E402
 
 s3 = get_s3()
 

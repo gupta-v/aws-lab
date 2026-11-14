@@ -2,6 +2,7 @@ import uuid
 from datetime import datetime, timezone
 import os
 import boto3
+from boto3.dynamodb.types import TypeSerializer, TypeDeserializer
 
 TABLE = os.getenv("DDB_TABLE", "research-jobs")
 
@@ -40,3 +41,11 @@ def describe(ddb, name=TABLE):
     t = ddb.describe_table(TableName=name)["Table"]
     keys = [(k["AttributeName"], k["KeyType"]) for k in t["KeySchema"]]
     return t["TableName"], t["TableStatus"], keys
+
+
+# The client wants typed values: {"status": {"S": "pending"}}.
+# These two translate plain Python dicts to that format and back.
+_ser, _de = TypeSerializer(), TypeDeserializer()
+
+def to_ddb(d):   return {k: _ser.serialize(v) for k, v in d.items()}
+def from_ddb(i): return {k: _de.deserialize(v) for k, v in i.items()}

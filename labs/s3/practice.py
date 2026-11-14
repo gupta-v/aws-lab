@@ -1,5 +1,41 @@
+"""S3 CRUD practice: put/get text, list by prefix and folder, multipart upload/download, silent overwrite."""
 import os
-from utils.s3_utils import BUCKET, get_s3, put_text, get_text, upload, download, list_objects, list_folders
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from boto3.s3.transfer import TransferConfig  # noqa: E402
+from utils.s3_utils import BUCKET, get_s3  # noqa: E402
+
+
+def put_text(s3, bucket, key, text, content_type="text/plain"):
+    """CREATE/overwrite: store a string as an object. Same key again = silent overwrite."""
+    s3.put_object(Bucket=bucket, Key=key, Body=text.encode(), ContentType=content_type)
+
+def get_text(s3, bucket, key):
+    """READ: fetch an object and decode its body (a stream) to str. Raises NoSuchKey if missing."""
+    return s3.get_object(Bucket=bucket, Key=key)["Body"].read().decode()
+
+def upload(s3, path, bucket, key):
+    """Upload a local file; boto3 switches to multipart automatically above the threshold."""
+    cfg = TransferConfig(multipart_threshold=8 * 1024**2)   # multipart above 8 MB
+    s3.upload_file(path, bucket, key, Config=cfg)
+
+def download(s3, bucket, key, path):
+    """Save an object to a local file path."""
+    s3.download_file(bucket, key, path)
+
+def list_objects(s3, bucket, prefix=""):
+    """Yield (key, size) for every object under prefix; the paginator handles the 1000-per-page limit."""
+    for page in s3.get_paginator("list_objects_v2").paginate(Bucket=bucket, Prefix=prefix):
+        for obj in page.get("Contents", []):
+            yield obj["Key"], obj["Size"]
+
+def list_folders(s3, bucket, prefix=""):
+    """Like `ls`: Delimiter="/" groups keys into (folders, files) one level below prefix."""
+    resp = s3.list_objects_v2(Bucket=bucket, Prefix=prefix, Delimiter="/")
+    return [p["Prefix"] for p in resp.get("CommonPrefixes", [])], [o["Key"] for o in resp.get("Contents", [])]
+
 
 s3, B = get_s3(), BUCKET
 

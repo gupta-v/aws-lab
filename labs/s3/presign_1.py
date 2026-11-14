@@ -1,11 +1,19 @@
+"""Interactive presigned PUT: upload a file path or typed text.
+The Content-Type is worked out first, then signed, so the upload must send the same type."""
 import mimetypes, uuid
+import os
+import sys
 from pathlib import Path
 import httpx
-from utils.s3_utils import BUCKET, get_s3, get_text, presign_put
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from utils.s3_utils import BUCKET, get_s3, get_text, presign_put  # noqa: E402
 
 s3 = get_s3()
 
 def is_file_path(text: str) -> bool:
+    """True if text (optionally quoted, e.g. a dragged-in path) is an existing file."""
     try:
         return bool(text) and Path(text.strip('"\'')).is_file()
     except OSError:

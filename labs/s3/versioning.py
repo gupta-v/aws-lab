@@ -1,5 +1,11 @@
-from utils.s3_utils import BUCKET, get_s3, put_text, get_text
+"""Bucket versioning: overwrite, list versions, restore an old one, delete markers, lifecycle rules."""
 import json
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from utils.s3_utils import BUCKET, get_s3, put_text, get_text  # noqa: E402
 
 s3 = get_s3()
 KEY = "notes/plan.md"

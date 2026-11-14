@@ -1,5 +1,9 @@
 import os
-from utils.s3_utils import BUCKET, get_s3, put_text
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from utils.s3_utils import BUCKET, get_s3, put_text  # noqa: E402
 
 s3 = get_s3()
 region = os.getenv("AWS_DEFAULT_REGION", "us-east-1")
