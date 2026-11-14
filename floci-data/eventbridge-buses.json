@@ -1,0 +1,24 @@
+{
+  "000000000000/bus:ap-south-1:default" : {
+    "name" : "default",
+    "arn" : "arn:aws:events:ap-south-1:000000000000:event-bus/default",
+    "description" : null,
+    "tags" : { },
+    "createdTime" : "2026-11-14T17:13:09.722182805Z",
+    "policy" : null,
+    "kmsKeyIdentifier" : null,
+    "deadLetterConfig" : null,
+    "logConfig" : null
+  },
+  "000000000000/bus:us-east-1:default" : {
+    "name" : "default",
+    "arn" : "arn:aws:events:us-east-1:000000000000:event-bus/default",
+    "description" : null,
+    "tags" : { },
+    "createdTime" : "2026-11-14T17:11:45.146360641Z",
+    "policy" : null,
+    "kmsKeyIdentifier" : null,
+    "deadLetterConfig" : null,
+    "logConfig" : null
+  }
+}

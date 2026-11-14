@@ -1,0 +1,31 @@
+{
+  "000000000000/my-bucket" : {
+    "name" : "my-bucket",
+    "creationDate" : "2026-11-14T17:13:29.601457487Z",
+    "versioningStatus" : "Enabled",
+    "loggingConfiguration" : null,
+    "tags" : { },
+    "notificationConfiguration" : null,
+    "objectLockEnabled" : false,
+    "defaultRetention" : null,
+    "policy" : null,
+    "corsConfiguration" : null,
+    "lifecycleConfiguration" : "<LifecycleConfiguration xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Rule><ID>temp-uploads</ID><Status>Enabled</Status><Filter><Prefix>uploads/</Prefix></Filter><Expiration><Days>7</Days></Expiration></Rule><Rule><ID>archive-reports</ID><Status>Enabled</Status><Filter><Prefix>reports/</Prefix></Filter><Transition><Days>30</Days><StorageClass>STANDARD_IA</StorageClass></Transition><Transition><Days>365</Days><StorageClass>GLACIER</StorageClass></Transition></Rule><Rule><ID>cleanup</ID><Status>Enabled</Status><Filter><Prefix /></Filter><NoncurrentVersionExpiration><NoncurrentDays>30</NoncurrentDays></NoncurrentVersionExpiration><AbortIncompleteMultipartUpload><DaysAfterInitiation>7</DaysAfterInitiation></AbortIncompleteMultipartUpload></Rule></LifecycleConfiguration>",
+    "transitionDefaultMinimumObjectSize" : "all_storage_classes_128K",
+    "acl" : null,
+    "encryptionConfiguration" : null,
+    "replicationConfiguration" : null,
+    "publicAccessBlockConfiguration" : null,
+    "publicAccessBlockDeleted" : false,
+    "ownershipControlsConfiguration" : "<OwnershipControls xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Rule><ObjectOwnership>BucketOwnerEnforced</ObjectOwnership></Rule></OwnershipControls>",
+    "requestPaymentPayer" : null,
+    "accelerateStatus" : null,
+    "region" : "ap-south-1",
+    "websiteConfiguration" : null,
+    "metricsConfigurations" : null,
+    "intelligentTieringConfigurations" : null,
+    "analyticsConfigurations" : null,
+    "inventoryConfigurations" : null,
+    "versioningEnabled" : true
+  }
+}

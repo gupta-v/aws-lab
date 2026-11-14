@@ -1,0 +1,57 @@
+{
+  "000000000000/ap-south-1::research-jobs" : {
+    "tableName" : "research-jobs",
+    "keySchema" : [ {
+      "attributeName" : "user_id",
+      "keyType" : "HASH"
+    }, {
+      "attributeName" : "job_id",
+      "keyType" : "RANGE"
+    } ],
+    "attributeDefinitions" : [ {
+      "attributeName" : "user_id",
+      "attributeType" : "S"
+    }, {
+      "attributeName" : "job_id",
+      "attributeType" : "S"
+    } ],
+    "tableStatus" : "ACTIVE",
+    "creationDateTime" : "2026-11-14T17:30:02.366004096Z",
+    "itemCount" : 0,
+    "tableSizeBytes" : 0,
+    "provisionedThroughput" : {
+      "readCapacityUnits" : 0,
+      "writeCapacityUnits" : 0,
+      "lastIncreaseDateTime" : null,
+      "lastDecreaseDateTime" : null,
+      "numberOfDecreasesToday" : 0
+    },
+    "tableArn" : "arn:aws:dynamodb:ap-south-1:000000000000:table/research-jobs",
+    "tags" : { },
+    "globalSecondaryIndexes" : [ ],
+    "localSecondaryIndexes" : [ ],
+    "vectorIndexes" : [ ],
+    "billingMode" : "PAY_PER_REQUEST",
+    "ttlAttributeName" : null,
+    "ttlEnabled" : false,
+    "pointInTimeRecoveryEnabled" : false,
+    "pointInTimeRecoveryRecoveryPeriodInDays" : 35,
+    "pointInTimeRecoveryStartDateTime" : null,
+    "deletionProtectionEnabled" : false,
+    "streamEnabled" : false,
+    "streamArn" : null,
+    "streamViewType" : null,
+    "sseEnabled" : false,
+    "sseType" : null,
+    "kmsMasterKeyArn" : null,
+    "kinesisStreamingDestinations" : [ ],
+    "tableId" : "de6e7cff-5327-4889-990c-a9e8775b0a3d",
+    "tableClass" : null,
+    "onDemandMaxReadRequestUnits" : null,
+    "onDemandMaxWriteRequestUnits" : null,
+    "replicaRegions" : [ ],
+    "globalTableHomeRegion" : null,
+    "resourcePolicy" : null,
+    "resourcePolicyRevisionId" : null
+  }
+}

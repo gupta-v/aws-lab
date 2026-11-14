@@ -1,0 +1,11 @@
+{
+  "000000000000/us-east-1::/floci/ui" : {
+    "logGroupName" : "/floci/ui",
+    "logGroupClass" : "STANDARD",
+    "createdTime" : 1794676302630,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  }
+}

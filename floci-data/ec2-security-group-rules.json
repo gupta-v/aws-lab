@@ -1,0 +1,32 @@
+{
+  "000000000000/us-east-1::sgr-619b3fa1cfdc2eb62" : {
+    "securityGroupRuleId" : "sgr-619b3fa1cfdc2eb62",
+    "groupId" : "sg-default-us-east-1",
+    "groupOwnerId" : "000000000000",
+    "ipProtocol" : "-1",
+    "fromPort" : null,
+    "toPort" : null,
+    "cidrIpv4" : "0.0.0.0/0",
+    "cidrIpv6" : null,
+    "prefixListId" : null,
+    "referencedGroupInfo" : null,
+    "description" : null,
+    "tags" : [ ],
+    "egress" : true
+  },
+  "000000000000/ap-south-1::sgr-041f466699c28c405" : {
+    "securityGroupRuleId" : "sgr-041f466699c28c405",
+    "groupId" : "sg-default-ap-south-1",
+    "groupOwnerId" : "000000000000",
+    "ipProtocol" : "-1",
+    "fromPort" : null,
+    "toPort" : null,
+    "cidrIpv4" : "0.0.0.0/0",
+    "cidrIpv6" : null,
+    "prefixListId" : null,
+    "referencedGroupInfo" : null,
+    "description" : null,
+    "tags" : [ ],
+    "egress" : true
+  }
+}

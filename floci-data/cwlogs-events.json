@@ -1,0 +1,2585 @@
+{
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320410::a766cbfa-0ec9-4484-9d99-1daa3427bc64" : {
+    "eventId" : "a766cbfa-0ec9-4484-9d99-1daa3427bc64",
+    "timestamp" : 1794676320410,
+    "message" : "--> GET /api/clouds/aws/services/identity/resources \u001B[32m200\u001B[0m 11ms",
+    "ingestionTime" : 1794676320410,
+    "sequence" : 183
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320392::f2c69bdc-860c-43aa-8c61-66f3153d0ff2" : {
+    "eventId" : "f2c69bdc-860c-43aa-8c61-66f3153d0ff2",
+    "timestamp" : 1794676320392,
+    "message" : "--> GET /api/clouds/aws/services/iac/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676320392,
+    "sequence" : 176
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355608::4e68fd0c-e96f-4a3b-b548-fcf1c4eda5d6" : {
+    "eventId" : "4e68fd0c-e96f-4a3b-b548-fcf1c4eda5d6",
+    "timestamp" : 1794676355608,
+    "message" : "<-- GET /api/clouds/aws/services/cognito/resources",
+    "ingestionTime" : 1794676355609,
+    "sequence" : 349
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320219::134c9ee6-ed39-4a79-adac-3c3e95c20636" : {
+    "eventId" : "134c9ee6-ed39-4a79-adac-3c3e95c20636",
+    "timestamp" : 1794676320219,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320219,
+    "sequence" : 119
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676321945::36030710-7a2f-4d1b-82f2-89cc45c7e102" : {
+    "eventId" : "36030710-7a2f-4d1b-82f2-89cc45c7e102",
+    "timestamp" : 1794676321945,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources?search=",
+    "ingestionTime" : 1794676321946,
+    "sequence" : 194
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324215::8942ab3f-5d52-416e-a5a5-f3e2a0e5ff88" : {
+    "eventId" : "8942ab3f-5d52-416e-a5a5-f3e2a0e5ff88",
+    "timestamp" : 1794676324215,
+    "message" : "<-- GET /api/clouds/aws/services/database/resources",
+    "ingestionTime" : 1794676324215,
+    "sequence" : 246
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320277::edd46e66-fcb7-407a-87de-b4418e3785bb" : {
+    "eventId" : "edd46e66-fcb7-407a-87de-b4418e3785bb",
+    "timestamp" : 1794676320277,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320277,
+    "sequence" : 133
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323168::50b1faa4-63a1-47b2-9e3c-b1c3ccdc747d" : {
+    "eventId" : "50b1faa4-63a1-47b2-9e3c-b1c3ccdc747d",
+    "timestamp" : 1794676323168,
+    "message" : "--> GET /assets/index-C7xX0Ox1.css \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323168,
+    "sequence" : 211
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676321952::e58c6de0-8b10-4878-9a88-3982182236e5" : {
+    "eventId" : "e58c6de0-8b10-4878-9a88-3982182236e5",
+    "timestamp" : 1794676321952,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources?search= \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676321952,
+    "sequence" : 195
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323193::bc744640-fbbb-4660-b50f-a422fe7eac45" : {
+    "eventId" : "bc744640-fbbb-4660-b50f-a422fe7eac45",
+    "timestamp" : 1794676323193,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources?search= \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676323193,
+    "sequence" : 220
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324268::934f2eaf-418b-4e76-a43e-d01767cd0bdd" : {
+    "eventId" : "934f2eaf-418b-4e76-a43e-d01767cd0bdd",
+    "timestamp" : 1794676324268,
+    "message" : "<-- GET /api/clouds/aws/services/events/resources",
+    "ingestionTime" : 1794676324268,
+    "sequence" : 261
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320242::c02262aa-ca7e-46cc-9e93-e1739307ad8d" : {
+    "eventId" : "c02262aa-ca7e-46cc-9e93-e1739307ad8d",
+    "timestamp" : 1794676320242,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676320243,
+    "sequence" : 124
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320396::d994bc5c-712f-47fb-b235-86879f462891" : {
+    "eventId" : "d994bc5c-712f-47fb-b235-86879f462891",
+    "timestamp" : 1794676320396,
+    "message" : "<-- GET /api/clouds/aws/services/kms/resources",
+    "ingestionTime" : 1794676320397,
+    "sequence" : 178
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355619::a0ee59ad-4035-474b-a8a2-1887af3e7ae6" : {
+    "eventId" : "a0ee59ad-4035-474b-a8a2-1887af3e7ae6",
+    "timestamp" : 1794676355619,
+    "message" : "<-- GET /api/clouds/aws/services/kms/resources",
+    "ingestionTime" : 1794676355619,
+    "sequence" : 352
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305125::f59db359-274e-437e-a1fe-f8299ad43224" : {
+    "eventId" : "f59db359-274e-437e-a1fe-f8299ad43224",
+    "timestamp" : 1794676305125,
+    "message" : "<-- GET /api/clouds/aws/services/database/resources",
+    "ingestionTime" : 1794676305125,
+    "sequence" : 48
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323188::3c2b3d8a-380d-4420-95d4-0dbced6ff9c4" : {
+    "eventId" : "3c2b3d8a-380d-4420-95d4-0dbced6ff9c4",
+    "timestamp" : 1794676323188,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources?search=",
+    "ingestionTime" : 1794676323188,
+    "sequence" : 218
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324272::b95863fc-1311-4559-85c5-be6e2cfb7c1f" : {
+    "eventId" : "b95863fc-1311-4559-85c5-be6e2cfb7c1f",
+    "timestamp" : 1794676324272,
+    "message" : "<-- GET /api/clouds/aws/services/streams/resources",
+    "ingestionTime" : 1794676324272,
+    "sequence" : 262
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305042::a358b3cc-e2e5-47c5-bd0d-29922698e728" : {
+    "eventId" : "a358b3cc-e2e5-47c5-bd0d-29922698e728",
+    "timestamp" : 1794676305042,
+    "message" : "<-- GET /api/clouds/aws/services/sagemaker/resources",
+    "ingestionTime" : 1794676305042,
+    "sequence" : 40
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304993::a314a0b5-ed62-4880-9aac-7facc3870812" : {
+    "eventId" : "a314a0b5-ed62-4880-9aac-7facc3870812",
+    "timestamp" : 1794676304993,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304994,
+    "sequence" : 35
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305266::e39c0569-ea4b-47ea-8633-10801a41c966" : {
+    "eventId" : "e39c0569-ea4b-47ea-8633-10801a41c966",
+    "timestamp" : 1794676305266,
+    "message" : "--> GET /api/clouds/aws/services/cloudwatch/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676305266,
+    "sequence" : 91
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324152::ea8b2c72-817e-4d9c-94a0-ab399de7cb1c" : {
+    "eventId" : "ea8b2c72-817e-4d9c-94a0-ab399de7cb1c",
+    "timestamp" : 1794676324152,
+    "message" : "<-- GET /api/clouds/aws/services/serverless/resources",
+    "ingestionTime" : 1794676324152,
+    "sequence" : 234
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676346930::c94fa0a1-aa4b-4c47-aa93-2dbb42f591ec" : {
+    "eventId" : "c94fa0a1-aa4b-4c47-aa93-2dbb42f591ec",
+    "timestamp" : 1794676346930,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676346930,
+    "sequence" : 302
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320270::6eaa0ba8-a18d-49fd-b4f6-19a153cf1864" : {
+    "eventId" : "6eaa0ba8-a18d-49fd-b4f6-19a153cf1864",
+    "timestamp" : 1794676320270,
+    "message" : "--> GET /api/clouds/aws/services \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320270,
+    "sequence" : 131
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323479::12cf216d-1251-4700-a240-ad000e418653" : {
+    "eventId" : "12cf216d-1251-4700-a240-ad000e418653",
+    "timestamp" : 1794676323479,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323479,
+    "sequence" : 226
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324259::e01b25da-be16-45b9-8ad9-f03736de13ad" : {
+    "eventId" : "e01b25da-be16-45b9-8ad9-f03736de13ad",
+    "timestamp" : 1794676324259,
+    "message" : "<-- GET /api/clouds/aws/services/apigateway/resources",
+    "ingestionTime" : 1794676324259,
+    "sequence" : 258
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355632::f9ccf9aa-27fa-4dd9-be59-504e8805cf46" : {
+    "eventId" : "f9ccf9aa-27fa-4dd9-be59-504e8805cf46",
+    "timestamp" : 1794676355632,
+    "message" : "<-- GET /api/clouds/aws/services/logs/resources",
+    "ingestionTime" : 1794676355632,
+    "sequence" : 356
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355567::360399ac-5887-4042-989f-9d7bd9637153" : {
+    "eventId" : "360399ac-5887-4042-989f-9d7bd9637153",
+    "timestamp" : 1794676355567,
+    "message" : "<-- GET /api/clouds/aws/services/events/resources",
+    "ingestionTime" : 1794676355567,
+    "sequence" : 337
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305184::9fb81935-f772-4612-be44-7584f4f7358b" : {
+    "eventId" : "9fb81935-f772-4612-be44-7584f4f7358b",
+    "timestamp" : 1794676305184,
+    "message" : "<-- GET /api/clouds/aws/services/events/resources",
+    "ingestionTime" : 1794676305184,
+    "sequence" : 63
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324248::d5cd2227-c782-4738-b4a8-a8923cefc6b2" : {
+    "eventId" : "d5cd2227-c782-4738-b4a8-a8923cefc6b2",
+    "timestamp" : 1794676324248,
+    "message" : "--> GET /api/clouds/aws/services/loadbalancing/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676324248,
+    "sequence" : 255
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320358::be716527-789a-4b6c-a708-f2d33918bef1" : {
+    "eventId" : "be716527-789a-4b6c-a708-f2d33918bef1",
+    "timestamp" : 1794676320358,
+    "message" : "--> GET /api/clouds/aws/services/apigateway/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320358,
+    "sequence" : 163
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320263::8ba6fec6-3a33-4b65-8d57-e50828553fa6" : {
+    "eventId" : "8ba6fec6-3a33-4b65-8d57-e50828553fa6",
+    "timestamp" : 1794676320263,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320263,
+    "sequence" : 129
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320324::2734f33d-b5c5-49d5-abd7-a8adb5766582" : {
+    "eventId" : "2734f33d-b5c5-49d5-abd7-a8adb5766582",
+    "timestamp" : 1794676320324,
+    "message" : "--> GET /api/clouds/aws/services/database/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676320324,
+    "sequence" : 151
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320251::49c13179-6bd1-4c92-975f-ec2c45c75645" : {
+    "eventId" : "49c13179-6bd1-4c92-975f-ec2c45c75645",
+    "timestamp" : 1794676320251,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676320251,
+    "sequence" : 126
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320308::611a5077-38b5-4a4e-a429-41c04e03b52b" : {
+    "eventId" : "611a5077-38b5-4a4e-a429-41c04e03b52b",
+    "timestamp" : 1794676320308,
+    "message" : "<-- GET /api/clouds/aws/services/database/resources",
+    "ingestionTime" : 1794676320308,
+    "sequence" : 145
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323476::67d0397f-53df-4261-938e-a1384ef090a9" : {
+    "eventId" : "67d0397f-53df-4261-938e-a1384ef090a9",
+    "timestamp" : 1794676323476,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676323476,
+    "sequence" : 225
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320176::5ed24dec-9ae5-449f-bb4a-13a967a0e541" : {
+    "eventId" : "5ed24dec-9ae5-449f-bb4a-13a967a0e541",
+    "timestamp" : 1794676320176,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320176,
+    "sequence" : 111
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320234::6bad239f-bf30-45af-acd7-1b06e8741040" : {
+    "eventId" : "6bad239f-bf30-45af-acd7-1b06e8741040",
+    "timestamp" : 1794676320234,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676320234,
+    "sequence" : 122
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324238::c995bad6-6294-44b9-895b-80b09f0eedca" : {
+    "eventId" : "c995bad6-6294-44b9-895b-80b09f0eedca",
+    "timestamp" : 1794676324238,
+    "message" : "<-- GET /api/clouds/aws/services/cdn/resources",
+    "ingestionTime" : 1794676324238,
+    "sequence" : 252
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305269::cd372c4e-75e6-49dd-9a79-b3e2907b91ed" : {
+    "eventId" : "cd372c4e-75e6-49dd-9a79-b3e2907b91ed",
+    "timestamp" : 1794676305269,
+    "message" : "--> GET /api/clouds/aws/services/parameters/resources \u001B[32m200\u001B[0m 10ms",
+    "ingestionTime" : 1794676305269,
+    "sequence" : 92
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305196::0906a7f8-6f94-4f50-a34a-c81e078f31c3" : {
+    "eventId" : "0906a7f8-6f94-4f50-a34a-c81e078f31c3",
+    "timestamp" : 1794676305196,
+    "message" : "--> GET /api/clouds/aws/services/apigateway/resources \u001B[32m200\u001B[0m 15ms",
+    "ingestionTime" : 1794676305196,
+    "sequence" : 66
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320366::4d95206e-9603-4bfa-b2ba-e95e0a7565bf" : {
+    "eventId" : "4d95206e-9603-4bfa-b2ba-e95e0a7565bf",
+    "timestamp" : 1794676320366,
+    "message" : "--> GET /api/clouds/aws/services/sns/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320366,
+    "sequence" : 166
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323486::b6ee5c73-0cb5-43b4-b7f4-5bbe1d672a13" : {
+    "eventId" : "b6ee5c73-0cb5-43b4-b7f4-5bbe1d672a13",
+    "timestamp" : 1794676323486,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323486,
+    "sequence" : 228
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320332::856f750e-d0be-46ff-8c84-0876cb910637" : {
+    "eventId" : "856f750e-d0be-46ff-8c84-0876cb910637",
+    "timestamp" : 1794676320332,
+    "message" : "--> GET /api/clouds/aws/services/loadbalancing/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676320332,
+    "sequence" : 154
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676368240::11faad59-7e5f-47c9-bf84-073105048af3" : {
+    "eventId" : "11faad59-7e5f-47c9-bf84-073105048af3",
+    "timestamp" : 1794676368240,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676368240,
+    "sequence" : 365
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323473::f74caa47-0741-4094-9022-dafc5faff2cf" : {
+    "eventId" : "f74caa47-0741-4094-9022-dafc5faff2cf",
+    "timestamp" : 1794676323473,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676323473,
+    "sequence" : 224
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355478::2d5ea3dd-34f9-4a4b-8a04-421b660f6674" : {
+    "eventId" : "2d5ea3dd-34f9-4a4b-8a04-421b660f6674",
+    "timestamp" : 1794676355478,
+    "message" : "--> GET /api/clouds/aws/services/serverless/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676355478,
+    "sequence" : 313
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324335::0ad2f6a4-0572-439b-9573-832c3a0b430e" : {
+    "eventId" : "0ad2f6a4-0572-439b-9573-832c3a0b430e",
+    "timestamp" : 1794676324335,
+    "message" : "<-- GET /api/clouds/aws/services/kms/resources",
+    "ingestionTime" : 1794676324335,
+    "sequence" : 282
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324251::8d29c163-4f49-48e5-b1b1-c351736d3162" : {
+    "eventId" : "8d29c163-4f49-48e5-b1b1-c351736d3162",
+    "timestamp" : 1794676324251,
+    "message" : "--> GET /api/clouds/aws/services/cdn/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324251,
+    "sequence" : 256
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355642::30dc3cca-c885-49e9-ab2b-b36081bc68e0" : {
+    "eventId" : "30dc3cca-c885-49e9-ab2b-b36081bc68e0",
+    "timestamp" : 1794676355642,
+    "message" : "--> GET /api/clouds/aws/services/logs/resources \u001B[32m200\u001B[0m 13ms",
+    "ingestionTime" : 1794676355642,
+    "sequence" : 359
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305238::11205fcb-7339-40d1-acee-80bd80973ad3" : {
+    "eventId" : "11205fcb-7339-40d1-acee-80bd80973ad3",
+    "timestamp" : 1794676305238,
+    "message" : "<-- GET /api/clouds/aws/services/secrets/resources",
+    "ingestionTime" : 1794676305238,
+    "sequence" : 80
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323171::48d6c701-f9d6-49df-b867-0b2f8bcb84aa" : {
+    "eventId" : "48d6c701-f9d6-49df-b867-0b2f8bcb84aa",
+    "timestamp" : 1794676323171,
+    "message" : "<-- GET /api/clouds/aws/services",
+    "ingestionTime" : 1794676323171,
+    "sequence" : 212
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323182::5fa0d55b-b086-47f0-a354-f3728ea9c638" : {
+    "eventId" : "5fa0d55b-b086-47f0-a354-f3728ea9c638",
+    "timestamp" : 1794676323182,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676323182,
+    "sequence" : 216
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304853::5d746d12-6a95-40fa-a413-a1c30e1d09b6" : {
+    "eventId" : "5d746d12-6a95-40fa-a413-a1c30e1d09b6",
+    "timestamp" : 1794676304853,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676304853,
+    "sequence" : 6
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355438::eb58e8db-3bf8-4735-aa90-b9fe44feb064" : {
+    "eventId" : "eb58e8db-3bf8-4735-aa90-b9fe44feb064",
+    "timestamp" : 1794676355438,
+    "message" : "<-- GET /api/clouds/aws/services/compute/resources",
+    "ingestionTime" : 1794676355438,
+    "sequence" : 305
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305253::60614419-efa4-46f5-a830-cc8ebfbacb23" : {
+    "eventId" : "60614419-efa4-46f5-a830-cc8ebfbacb23",
+    "timestamp" : 1794676305253,
+    "message" : "<-- GET /api/clouds/aws/services/cloudwatch/resources",
+    "ingestionTime" : 1794676305254,
+    "sequence" : 86
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320421::4d010a74-79b9-4cc6-9dcf-0d36780d502a" : {
+    "eventId" : "4d010a74-79b9-4cc6-9dcf-0d36780d502a",
+    "timestamp" : 1794676320421,
+    "message" : "<-- GET /api/clouds/aws/services/cloudwatch/resources",
+    "ingestionTime" : 1794676320421,
+    "sequence" : 187
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305216::47704a0e-1ec5-4b1a-8ae0-ee9c9db401f0" : {
+    "eventId" : "47704a0e-1ec5-4b1a-8ae0-ee9c9db401f0",
+    "timestamp" : 1794676305216,
+    "message" : "--> GET /api/clouds/aws/services/workflows/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676305216,
+    "sequence" : 72
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676318977::9217fefb-1c81-4427-8cde-1130934cbcce" : {
+    "eventId" : "9217fefb-1c81-4427-8cde-1130934cbcce",
+    "timestamp" : 1794676318977,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676318978,
+    "sequence" : 100
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320349::ada4736b-2e46-47a8-92bd-f25993d7632f" : {
+    "eventId" : "ada4736b-2e46-47a8-92bd-f25993d7632f",
+    "timestamp" : 1794676320349,
+    "message" : "<-- GET /api/clouds/aws/services/sns/resources",
+    "ingestionTime" : 1794676320349,
+    "sequence" : 160
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304958::63a6e256-95e1-4891-9b75-b079e2ea5738" : {
+    "eventId" : "63a6e256-95e1-4891-9b75-b079e2ea5738",
+    "timestamp" : 1794676304958,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676304958,
+    "sequence" : 24
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305221::5e047b42-65f8-445b-a5c7-63ce7a43fa93" : {
+    "eventId" : "5e047b42-65f8-445b-a5c7-63ce7a43fa93",
+    "timestamp" : 1794676305221,
+    "message" : "<-- GET /api/clouds/aws/services/identity/resources",
+    "ingestionTime" : 1794676305221,
+    "sequence" : 74
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320117::474207df-5243-47f3-925f-00525403d30e" : {
+    "eventId" : "474207df-5243-47f3-925f-00525403d30e",
+    "timestamp" : 1794676320117,
+    "message" : "<-- GET /console/aws",
+    "ingestionTime" : 1794676320117,
+    "sequence" : 102
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324307::117b6437-2b07-4ce2-a247-2cdf73f13c5a" : {
+    "eventId" : "117b6437-2b07-4ce2-a247-2cdf73f13c5a",
+    "timestamp" : 1794676324307,
+    "message" : "<-- GET /api/clouds/aws/services/identity/resources",
+    "ingestionTime" : 1794676324307,
+    "sequence" : 273
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323090::780d41a6-1315-424d-8605-79ab124e3f1e" : {
+    "eventId" : "780d41a6-1315-424d-8605-79ab124e3f1e",
+    "timestamp" : 1794676323090,
+    "message" : "<-- GET /cloud-explorer/aws/nosql",
+    "ingestionTime" : 1794676323090,
+    "sequence" : 196
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324159::195beb78-dbe9-404a-b808-75addce1e50d" : {
+    "eventId" : "195beb78-dbe9-404a-b808-75addce1e50d",
+    "timestamp" : 1794676324159,
+    "message" : "<-- GET /api/clouds/aws/services/compute/resources",
+    "ingestionTime" : 1794676324159,
+    "sequence" : 235
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355577::b56340d2-f67a-43ee-8a50-35ba7ed57cba" : {
+    "eventId" : "b56340d2-f67a-43ee-8a50-35ba7ed57cba",
+    "timestamp" : 1794676355577,
+    "message" : "--> GET /api/clouds/aws/services/email/resources \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676355577,
+    "sequence" : 340
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320360::3b2dd2a9-6485-41b1-afc2-b2ac0fd9f5c2" : {
+    "eventId" : "3b2dd2a9-6485-41b1-afc2-b2ac0fd9f5c2",
+    "timestamp" : 1794676320360,
+    "message" : "<-- GET /api/clouds/aws/services/events/resources",
+    "ingestionTime" : 1794676320360,
+    "sequence" : 164
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305256::606bc66a-8c6d-49b9-ae42-c9aa6f79e09c" : {
+    "eventId" : "606bc66a-8c6d-49b9-ae42-c9aa6f79e09c",
+    "timestamp" : 1794676305256,
+    "message" : "--> GET /api/clouds/aws/services/cognito/resources \u001B[32m200\u001B[0m 16ms",
+    "ingestionTime" : 1794676305256,
+    "sequence" : 87
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320123::3b5ca203-11e5-4ca0-8a64-2df555bb647f" : {
+    "eventId" : "3b5ca203-11e5-4ca0-8a64-2df555bb647f",
+    "timestamp" : 1794676320123,
+    "message" : "--> GET /console/aws \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320123,
+    "sequence" : 103
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305065::90e8d340-5985-4b14-a0d8-4227941f58c1" : {
+    "eventId" : "90e8d340-5985-4b14-a0d8-4227941f58c1",
+    "timestamp" : 1794676305065,
+    "message" : "--> GET /api/clouds/aws/services/containers/resources \u001B[32m200\u001B[0m 25ms",
+    "ingestionTime" : 1794676305065,
+    "sequence" : 43
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320165::07a48c21-1985-42e2-b54b-c72c9227326d" : {
+    "eventId" : "07a48c21-1985-42e2-b54b-c72c9227326d",
+    "timestamp" : 1794676320165,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676320165,
+    "sequence" : 109
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320327::784f0592-819c-487b-ad6c-40ca9a9172d9" : {
+    "eventId" : "784f0592-819c-487b-ad6c-40ca9a9172d9",
+    "timestamp" : 1794676320327,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676320327,
+    "sequence" : 152
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304946::ae72c9af-e6ff-4b3d-9a34-7e3016a9f37c" : {
+    "eventId" : "ae72c9af-e6ff-4b3d-9a34-7e3016a9f37c",
+    "timestamp" : 1794676304946,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304946,
+    "sequence" : 21
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323185::02ed5ea2-1cc2-4bed-8a9d-9253facc9a62" : {
+    "eventId" : "02ed5ea2-1cc2-4bed-8a9d-9253facc9a62",
+    "timestamp" : 1794676323185,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676323185,
+    "sequence" : 217
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305241::495d625b-5d0a-41c8-8bcb-c5d902caac5f" : {
+    "eventId" : "495d625b-5d0a-41c8-8bcb-c5d902caac5f",
+    "timestamp" : 1794676305241,
+    "message" : "--> GET /api/clouds/aws/services/identity/resources \u001B[32m200\u001B[0m 10ms",
+    "ingestionTime" : 1794676305241,
+    "sequence" : 81
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305199::e4b2bea0-a67e-4283-b037-dbbe381d772c" : {
+    "eventId" : "e4b2bea0-a67e-4283-b037-dbbe381d772c",
+    "timestamp" : 1794676305199,
+    "message" : "<-- GET /api/clouds/aws/services/email/resources",
+    "ingestionTime" : 1794676305199,
+    "sequence" : 67
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355513::4c0d427b-f658-468b-b682-967dc0a5d3d4" : {
+    "eventId" : "4c0d427b-f658-468b-b682-967dc0a5d3d4",
+    "timestamp" : 1794676355513,
+    "message" : "--> GET /api/clouds/aws/services/database/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676355513,
+    "sequence" : 322
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355557::3565e83c-e2ef-4135-8a89-75070101e089" : {
+    "eventId" : "3565e83c-e2ef-4135-8a89-75070101e089",
+    "timestamp" : 1794676355557,
+    "message" : "<-- GET /api/clouds/aws/services/streams/resources",
+    "ingestionTime" : 1794676355557,
+    "sequence" : 334
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305144::895b0853-68d2-4add-8af1-6dd55db3bfe6" : {
+    "eventId" : "895b0853-68d2-4add-8af1-6dd55db3bfe6",
+    "timestamp" : 1794676305144,
+    "message" : "<-- GET /api/clouds/aws/services/dns/resources",
+    "ingestionTime" : 1794676305144,
+    "sequence" : 53
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324175::7e561acc-6029-409e-8bb5-c937506af198" : {
+    "eventId" : "7e561acc-6029-409e-8bb5-c937506af198",
+    "timestamp" : 1794676324175,
+    "message" : "<-- GET /api/clouds/aws/services/containers/resources",
+    "ingestionTime" : 1794676324175,
+    "sequence" : 238
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355526::59092b13-6583-49ce-aa71-edee37897dd1" : {
+    "eventId" : "59092b13-6583-49ce-aa71-edee37897dd1",
+    "timestamp" : 1794676355526,
+    "message" : "<-- GET /api/clouds/aws/services/cdn/resources",
+    "ingestionTime" : 1794676355526,
+    "sequence" : 325
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324200::a88677dc-cafe-40a5-8990-8701a52595ff" : {
+    "eventId" : "a88677dc-cafe-40a5-8990-8701a52595ff",
+    "timestamp" : 1794676324200,
+    "message" : "--> GET /api/clouds/aws/services/storage/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676324200,
+    "sequence" : 243
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355448::79b1ed7e-adf0-4586-b530-618e1b44310c" : {
+    "eventId" : "79b1ed7e-adf0-4586-b530-618e1b44310c",
+    "timestamp" : 1794676355448,
+    "message" : "<-- GET /api/clouds/aws/services/serverless/resources",
+    "ingestionTime" : 1794676355448,
+    "sequence" : 307
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355605::dd274c0d-d176-4df7-b61d-866944dd0e38" : {
+    "eventId" : "dd274c0d-d176-4df7-b61d-866944dd0e38",
+    "timestamp" : 1794676355605,
+    "message" : "--> GET /api/clouds/aws/services/configuration/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676355606,
+    "sequence" : 348
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320259::fc738fa3-7c7c-4a40-8dfe-010f5703d2b2" : {
+    "eventId" : "fc738fa3-7c7c-4a40-8dfe-010f5703d2b2",
+    "timestamp" : 1794676320259,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676320259,
+    "sequence" : 128
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320378::2d215fcc-3635-47ae-b66b-82c219daa4e4" : {
+    "eventId" : "2d215fcc-3635-47ae-b66b-82c219daa4e4",
+    "timestamp" : 1794676320378,
+    "message" : "--> GET /api/clouds/aws/services/streams/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676320378,
+    "sequence" : 171
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320344::4d140555-c326-4f0e-a7f1-7fca66cb9451" : {
+    "eventId" : "4d140555-c326-4f0e-a7f1-7fca66cb9451",
+    "timestamp" : 1794676320344,
+    "message" : "<-- GET /api/clouds/aws/services/apigateway/resources",
+    "ingestionTime" : 1794676320344,
+    "sequence" : 158
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355537::ec2cfe55-ef4d-4603-820e-5c505da4b8e7" : {
+    "eventId" : "ec2cfe55-ef4d-4603-820e-5c505da4b8e7",
+    "timestamp" : 1794676355537,
+    "message" : "<-- GET /api/clouds/aws/services/messaging/resources",
+    "ingestionTime" : 1794676355537,
+    "sequence" : 328
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305169::6f67c026-f76d-4ea9-b539-a7946996e0ec" : {
+    "eventId" : "6f67c026-f76d-4ea9-b539-a7946996e0ec",
+    "timestamp" : 1794676305169,
+    "message" : "--> GET /api/clouds/aws/services/database/resources \u001B[32m200\u001B[0m 56ms",
+    "ingestionTime" : 1794676305169,
+    "sequence" : 59
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304896::a75a2e77-83f4-4ac5-b181-e073cd85d6e9" : {
+    "eventId" : "a75a2e77-83f4-4ac5-b181-e073cd85d6e9",
+    "timestamp" : 1794676304896,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676304896,
+    "sequence" : 16
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676318981::1ab3055a-6c9f-475c-9384-3b3b72ba7628" : {
+    "eventId" : "1ab3055a-6c9f-475c-9384-3b3b72ba7628",
+    "timestamp" : 1794676318981,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676318981,
+    "sequence" : 101
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305174::2155e069-a9de-4e14-86de-76a5fb8fd0e5" : {
+    "eventId" : "2155e069-a9de-4e14-86de-76a5fb8fd0e5",
+    "timestamp" : 1794676305174,
+    "message" : "<-- GET /api/clouds/aws/services/apigateway/resources",
+    "ingestionTime" : 1794676305174,
+    "sequence" : 60
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305225::507e4d52-0e99-4fde-9f09-52f5f57d9975" : {
+    "eventId" : "507e4d52-0e99-4fde-9f09-52f5f57d9975",
+    "timestamp" : 1794676305225,
+    "message" : "<-- GET /api/clouds/aws/services/cognito/resources",
+    "ingestionTime" : 1794676305225,
+    "sequence" : 75
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304984::4592e6f9-0385-4d6f-b73d-597c06779a75" : {
+    "eventId" : "4592e6f9-0385-4d6f-b73d-597c06779a75",
+    "timestamp" : 1794676304984,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676304984,
+    "sequence" : 32
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323149::040dcbd6-d31f-41cb-bdf2-82c36aee52ce" : {
+    "eventId" : "040dcbd6-d31f-41cb-bdf2-82c36aee52ce",
+    "timestamp" : 1794676323149,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323149,
+    "sequence" : 206
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355647::d6568fdc-9c77-4fa5-8ade-5789990179c1" : {
+    "eventId" : "d6568fdc-9c77-4fa5-8ade-5789990179c1",
+    "timestamp" : 1794676355647,
+    "message" : "--> GET /api/clouds/aws/services/cloudwatch/resources \u001B[32m200\u001B[0m 13ms",
+    "ingestionTime" : 1794676355647,
+    "sequence" : 360
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324357::3f83a15e-edec-45ca-ad06-9cbfdfd6ccbc" : {
+    "eventId" : "3f83a15e-edec-45ca-ad06-9cbfdfd6ccbc",
+    "timestamp" : 1794676324357,
+    "message" : "--> GET /api/clouds/aws/services/kms/resources \u001B[32m200\u001B[0m 26ms",
+    "ingestionTime" : 1794676324357,
+    "sequence" : 289
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323499::88aea8cb-9584-4af2-b00e-7ce0a57fab34" : {
+    "eventId" : "88aea8cb-9584-4af2-b00e-7ce0a57fab34",
+    "timestamp" : 1794676323499,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676323499,
+    "sequence" : 232
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320146::ad58f31f-3229-44b9-abfb-8e1e3312f4fd" : {
+    "eventId" : "ad58f31f-3229-44b9-abfb-8e1e3312f4fd",
+    "timestamp" : 1794676320146,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676320147,
+    "sequence" : 106
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324262::6e705320-7c90-4c2c-9ea0-20c555735796" : {
+    "eventId" : "6e705320-7c90-4c2c-9ea0-20c555735796",
+    "timestamp" : 1794676324262,
+    "message" : "<-- GET /api/clouds/aws/services/messaging/resources",
+    "ingestionTime" : 1794676324262,
+    "sequence" : 259
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324206::14a281bc-329b-410b-844c-df182b74b014" : {
+    "eventId" : "14a281bc-329b-410b-844c-df182b74b014",
+    "timestamp" : 1794676324206,
+    "message" : "--> GET /api/clouds/aws/services/containers/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676324206,
+    "sequence" : 244
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355493::ed39128a-07f4-428f-93b9-95398ccc7677" : {
+    "eventId" : "ed39128a-07f4-428f-93b9-95398ccc7677",
+    "timestamp" : 1794676355493,
+    "message" : "<-- GET /api/clouds/aws/services/database/resources",
+    "ingestionTime" : 1794676355493,
+    "sequence" : 317
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676321939::a416b965-b019-4bce-b786-b9d0ead7833d" : {
+    "eventId" : "a416b965-b019-4bce-b786-b9d0ead7833d",
+    "timestamp" : 1794676321939,
+    "message" : "--> GET /api/clouds/aws/services/nosql/schema \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676321939,
+    "sequence" : 193
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320298::a375787b-db21-4fe6-bf16-25ca21e6cb15" : {
+    "eventId" : "a375787b-db21-4fe6-bf16-25ca21e6cb15",
+    "timestamp" : 1794676320298,
+    "message" : "--> GET /api/clouds/aws/services/k8s/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676320298,
+    "sequence" : 141
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320280::ee0b7ce8-91e4-44eb-8316-2cc0aa2b6215" : {
+    "eventId" : "ee0b7ce8-91e4-44eb-8316-2cc0aa2b6215",
+    "timestamp" : 1794676320280,
+    "message" : "<-- GET /api/clouds/aws/services/compute/resources",
+    "ingestionTime" : 1794676320280,
+    "sequence" : 134
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304990::da9fad8e-4caf-405e-9071-078469712322" : {
+    "eventId" : "da9fad8e-4caf-405e-9071-078469712322",
+    "timestamp" : 1794676304990,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676304990,
+    "sequence" : 34
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355547::832be47f-e1b7-42e4-8594-4db925416290" : {
+    "eventId" : "832be47f-e1b7-42e4-8594-4db925416290",
+    "timestamp" : 1794676355547,
+    "message" : "<-- GET /api/clouds/aws/services/sns/resources",
+    "ingestionTime" : 1794676355547,
+    "sequence" : 331
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320412::43ccb59e-d2da-413e-9891-28f5a1c4f679" : {
+    "eventId" : "43ccb59e-d2da-413e-9891-28f5a1c4f679",
+    "timestamp" : 1794676320412,
+    "message" : "--> GET /api/clouds/aws/services/parameters/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676320412,
+    "sequence" : 184
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355551::ca6e4590-ee7e-4305-a603-3caf77a745e5" : {
+    "eventId" : "ca6e4590-ee7e-4305-a603-3caf77a745e5",
+    "timestamp" : 1794676355551,
+    "message" : "--> GET /api/clouds/aws/services/dns/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676355551,
+    "sequence" : 332
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355626::aa073786-ec70-4221-8b7f-c6716d377e87" : {
+    "eventId" : "aa073786-ec70-4221-8b7f-c6716d377e87",
+    "timestamp" : 1794676355626,
+    "message" : "--> GET /api/clouds/aws/services/secrets/resources \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676355626,
+    "sequence" : 354
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324186::051e1eab-e2a6-4cc5-8536-b74ff5a87b96" : {
+    "eventId" : "051e1eab-e2a6-4cc5-8536-b74ff5a87b96",
+    "timestamp" : 1794676324186,
+    "message" : "--> GET /api/clouds/aws/services/serverless/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676324186,
+    "sequence" : 240
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305132::c459da84-c970-4aa1-8a18-7e6523c0ca54" : {
+    "eventId" : "c459da84-c970-4aa1-8a18-7e6523c0ca54",
+    "timestamp" : 1794676305132,
+    "message" : "<-- GET /api/clouds/aws/services/networking/resources",
+    "ingestionTime" : 1794676305132,
+    "sequence" : 50
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304954::7a89ae5d-9361-449d-8f01-3a7fa24e5d11" : {
+    "eventId" : "7a89ae5d-9361-449d-8f01-3a7fa24e5d11",
+    "timestamp" : 1794676304954,
+    "message" : "--> GET /api/clouds/aws/services \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304954,
+    "sequence" : 23
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304839::9d1669aa-fca6-4c0b-b91c-be57a1f25789" : {
+    "eventId" : "9d1669aa-fca6-4c0b-b91c-be57a1f25789",
+    "timestamp" : 1794676304839,
+    "message" : "--> GET / \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676304839,
+    "sequence" : 5
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324180::d5b24695-29c1-47a8-bccf-96cc41e16aa2" : {
+    "eventId" : "d5b24695-29c1-47a8-bccf-96cc41e16aa2",
+    "timestamp" : 1794676324180,
+    "message" : "<-- GET /api/clouds/aws/services/sagemaker/resources",
+    "ingestionTime" : 1794676324180,
+    "sequence" : 239
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324235::9ffedb2d-da8f-4fb0-9776-2b188db0e8cb" : {
+    "eventId" : "9ffedb2d-da8f-4fb0-9776-2b188db0e8cb",
+    "timestamp" : 1794676324235,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324235,
+    "sequence" : 251
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324320::8f7cdf0d-9170-404d-a4bf-055fbfecc7f4" : {
+    "eventId" : "8f7cdf0d-9170-404d-a4bf-055fbfecc7f4",
+    "timestamp" : 1794676324320,
+    "message" : "<-- GET /api/clouds/aws/services/secrets/resources",
+    "ingestionTime" : 1794676324320,
+    "sequence" : 277
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320273::e5c8b881-f92f-43e6-a24f-b2650dc68329" : {
+    "eventId" : "e5c8b881-f92f-43e6-a24f-b2650dc68329",
+    "timestamp" : 1794676320273,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676320273,
+    "sequence" : 132
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676315824::11439950-deec-4a2a-8d24-1db60f66fb85" : {
+    "eventId" : "11439950-deec-4a2a-8d24-1db60f66fb85",
+    "timestamp" : 1794676315824,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676315825,
+    "sequence" : 95
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320389::f8f63fdd-57d8-4f9c-9756-ebb458c5fcd7" : {
+    "eventId" : "f8f63fdd-57d8-4f9c-9756-ebb458c5fcd7",
+    "timestamp" : 1794676320389,
+    "message" : "<-- GET /api/clouds/aws/services/cognito/resources",
+    "ingestionTime" : 1794676320389,
+    "sequence" : 175
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305192::6d79ce5f-263b-4ed7-8c7f-44185c4d0c0f" : {
+    "eventId" : "6d79ce5f-263b-4ed7-8c7f-44185c4d0c0f",
+    "timestamp" : 1794676305192,
+    "message" : "--> GET /api/clouds/aws/services/messaging/resources \u001B[32m200\u001B[0m 53ms",
+    "ingestionTime" : 1794676305192,
+    "sequence" : 65
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355467::1129543b-5599-42e2-af36-6d4cee944be4" : {
+    "eventId" : "1129543b-5599-42e2-af36-6d4cee944be4",
+    "timestamp" : 1794676355467,
+    "message" : "--> GET /api/clouds/aws/services/compute/resources \u001B[32m200\u001B[0m 9ms",
+    "ingestionTime" : 1794676355467,
+    "sequence" : 311
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304872::32be39dd-4502-4e2e-90d0-b831f54ee294" : {
+    "eventId" : "32be39dd-4502-4e2e-90d0-b831f54ee294",
+    "timestamp" : 1794676304872,
+    "message" : "<-- GET /assets/index-C7xX0Ox1.css",
+    "ingestionTime" : 1794676304872,
+    "sequence" : 10
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320185::7a8b6107-d697-4f4e-8165-638782bfa9be" : {
+    "eventId" : "7a8b6107-d697-4f4e-8165-638782bfa9be",
+    "timestamp" : 1794676320185,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320185,
+    "sequence" : 113
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323136::c1e5e39d-109e-4532-ad08-f73388cbbacc" : {
+    "eventId" : "c1e5e39d-109e-4532-ad08-f73388cbbacc",
+    "timestamp" : 1794676323136,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676323136,
+    "sequence" : 203
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305235::f3e8be0b-842f-4d52-8897-9a0f8c5d3c4f" : {
+    "eventId" : "f3e8be0b-842f-4d52-8897-9a0f8c5d3c4f",
+    "timestamp" : 1794676305235,
+    "message" : "--> GET /api/clouds/aws/services/configuration/resources \u001B[32m200\u001B[0m 10ms",
+    "ingestionTime" : 1794676305235,
+    "sequence" : 79
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320428::6349532a-eefb-4a5c-ad86-1f86c3a7ad2b" : {
+    "eventId" : "6349532a-eefb-4a5c-ad86-1f86c3a7ad2b",
+    "timestamp" : 1794676320428,
+    "message" : "--> GET /api/clouds/aws/services/cloudwatch/resources \u001B[32m200\u001B[0m 15ms",
+    "ingestionTime" : 1794676320428,
+    "sequence" : 190
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304889::d3ee9fa4-cffc-4bc1-b079-24f8bd9713dd" : {
+    "eventId" : "d3ee9fa4-cffc-4bc1-b079-24f8bd9713dd",
+    "timestamp" : 1794676304889,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676304890,
+    "sequence" : 14
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305177::38f83e94-3f19-4a77-83bf-b2a9ea172fe3" : {
+    "eventId" : "38f83e94-3f19-4a77-83bf-b2a9ea172fe3",
+    "timestamp" : 1794676305177,
+    "message" : "<-- GET /api/clouds/aws/services/sns/resources",
+    "ingestionTime" : 1794676305177,
+    "sequence" : 61
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355485::73ee2419-a9cd-4507-a270-ce0e3d85cb31" : {
+    "eventId" : "73ee2419-a9cd-4507-a270-ce0e3d85cb31",
+    "timestamp" : 1794676355485,
+    "message" : "--> GET /api/clouds/aws/services/sagemaker/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676355485,
+    "sequence" : 315
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305047::a1d2c75e-4acd-41ef-8bdf-ae030135a931" : {
+    "eventId" : "a1d2c75e-4acd-41ef-8bdf-ae030135a931",
+    "timestamp" : 1794676305047,
+    "message" : "<-- GET /api/clouds/aws/services/storage/resources",
+    "ingestionTime" : 1794676305047,
+    "sequence" : 41
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324242::590daa90-d3ab-4624-9c1b-832d175b9b86" : {
+    "eventId" : "590daa90-d3ab-4624-9c1b-832d175b9b86",
+    "timestamp" : 1794676324242,
+    "message" : "--> GET /api/clouds/aws/services/networking/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324242,
+    "sequence" : 253
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320319::41f320c6-18d6-4086-937f-1e4f1bddaef4" : {
+    "eventId" : "41f320c6-18d6-4086-937f-1e4f1bddaef4",
+    "timestamp" : 1794676320319,
+    "message" : "<-- GET /api/clouds/aws/services/loadbalancing/resources",
+    "ingestionTime" : 1794676320319,
+    "sequence" : 149
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320267::13a1c995-e3b5-4e3d-968c-cbc6270b35d9" : {
+    "eventId" : "13a1c995-e3b5-4e3d-968c-cbc6270b35d9",
+    "timestamp" : 1794676320267,
+    "message" : "<-- GET /api/clouds/aws/services",
+    "ingestionTime" : 1794676320267,
+    "sequence" : 130
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326920::ce73a23d-0eac-4fd2-98c1-9855dff630aa" : {
+    "eventId" : "ce73a23d-0eac-4fd2-98c1-9855dff630aa",
+    "timestamp" : 1794676326920,
+    "message" : "--> GET /api/clouds/aws/services/database/resources?search= \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676326920,
+    "sequence" : 295
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323140::33d01b3a-d451-4354-8e17-341f6ee09e9e" : {
+    "eventId" : "33d01b3a-d451-4354-8e17-341f6ee09e9e",
+    "timestamp" : 1794676323140,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676323140,
+    "sequence" : 204
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324354::03aea881-bd2e-4281-828b-3a193e0d0269" : {
+    "eventId" : "03aea881-bd2e-4281-828b-3a193e0d0269",
+    "timestamp" : 1794676324354,
+    "message" : "--> GET /api/clouds/aws/services/cloudwatch/resources \u001B[32m200\u001B[0m 17ms",
+    "ingestionTime" : 1794676324354,
+    "sequence" : 288
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320303::30ecff5f-068f-44bf-9823-c1c91a9373ce" : {
+    "eventId" : "30ecff5f-068f-44bf-9823-c1c91a9373ce",
+    "timestamp" : 1794676320303,
+    "message" : "--> GET /api/clouds/aws/services/storage/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676320303,
+    "sequence" : 143
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355541::4101916a-05e9-477d-9f4f-85a61638025a" : {
+    "eventId" : "4101916a-05e9-477d-9f4f-85a61638025a",
+    "timestamp" : 1794676355541,
+    "message" : "--> GET /api/clouds/aws/services/cdn/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676355541,
+    "sequence" : 329
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320300::24d17c9e-b777-48d2-91cf-93c68cd506fd" : {
+    "eventId" : "24d17c9e-b777-48d2-91cf-93c68cd506fd",
+    "timestamp" : 1794676320300,
+    "message" : "--> GET /api/clouds/aws/services/containers/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676320300,
+    "sequence" : 142
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305140::e98c503a-99ab-43d4-9ebf-0943216e5169" : {
+    "eventId" : "e98c503a-99ab-43d4-9ebf-0943216e5169",
+    "timestamp" : 1794676305140,
+    "message" : "<-- GET /api/clouds/aws/services/cdn/resources",
+    "ingestionTime" : 1794676305140,
+    "sequence" : 52
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676371860::296e9f60-32f7-4bc7-86d2-2a37ae63441d" : {
+    "eventId" : "296e9f60-32f7-4bc7-86d2-2a37ae63441d",
+    "timestamp" : 1794676371860,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676371860,
+    "sequence" : 367
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324297::d3f2cf3f-9505-4c66-aa05-f55eacf431f1" : {
+    "eventId" : "d3f2cf3f-9505-4c66-aa05-f55eacf431f1",
+    "timestamp" : 1794676324297,
+    "message" : "<-- GET /api/clouds/aws/services/workflows/resources",
+    "ingestionTime" : 1794676324297,
+    "sequence" : 270
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320426::8d36744e-8657-4408-bea0-306df1b2670e" : {
+    "eventId" : "8d36744e-8657-4408-bea0-306df1b2670e",
+    "timestamp" : 1794676320426,
+    "message" : "--> GET /api/clouds/aws/services/logs/resources \u001B[32m200\u001B[0m 16ms",
+    "ingestionTime" : 1794676320426,
+    "sequence" : 189
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324265::7108f92d-3150-4941-b169-598d367789dd" : {
+    "eventId" : "7108f92d-3150-4941-b169-598d367789dd",
+    "timestamp" : 1794676324265,
+    "message" : "<-- GET /api/clouds/aws/services/sns/resources",
+    "ingestionTime" : 1794676324265,
+    "sequence" : 260
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305154::009d2385-4b07-49dd-ae83-9f430d31aac1" : {
+    "eventId" : "009d2385-4b07-49dd-ae83-9f430d31aac1",
+    "timestamp" : 1794676305154,
+    "message" : "<-- GET /api/clouds/aws/services/messaging/resources",
+    "ingestionTime" : 1794676305154,
+    "sequence" : 55
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305271::1bfed1a5-9daf-4843-b9da-f8def2f47c71" : {
+    "eventId" : "1bfed1a5-9daf-4843-b9da-f8def2f47c71",
+    "timestamp" : 1794676305271,
+    "message" : "--> GET /api/clouds/aws/services/kms/resources \u001B[32m200\u001B[0m 51ms",
+    "ingestionTime" : 1794676305271,
+    "sequence" : 93
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324255::6c369a4d-aa32-4769-a606-24886da05c28" : {
+    "eventId" : "6c369a4d-aa32-4769-a606-24886da05c28",
+    "timestamp" : 1794676324255,
+    "message" : "--> GET /api/clouds/aws/services/dns/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324255,
+    "sequence" : 257
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320355::9130e6bf-002d-4b08-bf45-385ccb63cd6c" : {
+    "eventId" : "9130e6bf-002d-4b08-bf45-385ccb63cd6c",
+    "timestamp" : 1794676320355,
+    "message" : "--> GET /api/clouds/aws/services/messaging/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320355,
+    "sequence" : 162
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305213::4d40b720-5611-4b5b-a51f-520f96f5450b" : {
+    "eventId" : "4d40b720-5611-4b5b-a51f-520f96f5450b",
+    "timestamp" : 1794676305213,
+    "message" : "--> GET /api/clouds/aws/services/streams/resources \u001B[32m200\u001B[0m 17ms",
+    "ingestionTime" : 1794676305213,
+    "sequence" : 71
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304877::da66a7d5-b413-492d-b0ea-5766fff04e5e" : {
+    "eventId" : "da66a7d5-b413-492d-b0ea-5766fff04e5e",
+    "timestamp" : 1794676304877,
+    "message" : "--> GET /assets/index-C7xX0Ox1.css \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676304877,
+    "sequence" : 11
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305130::f87087ef-da2a-4a66-8327-bfca074e38be" : {
+    "eventId" : "f87087ef-da2a-4a66-8327-bfca074e38be",
+    "timestamp" : 1794676305130,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources",
+    "ingestionTime" : 1794676305130,
+    "sequence" : 49
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320431::1b40a118-4f17-4656-9753-50c56035fb8f" : {
+    "eventId" : "1b40a118-4f17-4656-9753-50c56035fb8f",
+    "timestamp" : 1794676320431,
+    "message" : "--> GET /api/clouds/aws/services/kms/resources \u001B[32m200\u001B[0m 26ms",
+    "ingestionTime" : 1794676320431,
+    "sequence" : 191
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324310::a4a7a9ed-6ff8-4ec8-a2ca-c39cf18b04b1" : {
+    "eventId" : "a4a7a9ed-6ff8-4ec8-a2ca-c39cf18b04b1",
+    "timestamp" : 1794676324310,
+    "message" : "<-- GET /api/clouds/aws/services/cognito/resources",
+    "ingestionTime" : 1794676324310,
+    "sequence" : 274
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324278::f6962dfc-3e33-4b33-bdad-53566a79f230" : {
+    "eventId" : "f6962dfc-3e33-4b33-bdad-53566a79f230",
+    "timestamp" : 1794676324278,
+    "message" : "--> GET /api/clouds/aws/services/apigateway/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676324278,
+    "sequence" : 264
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320285::02e808d2-5b3e-4ab2-ab28-a6ae011b91a0" : {
+    "eventId" : "02e808d2-5b3e-4ab2-ab28-a6ae011b91a0",
+    "timestamp" : 1794676320285,
+    "message" : "<-- GET /api/clouds/aws/services/k8s/resources",
+    "ingestionTime" : 1794676320285,
+    "sequence" : 136
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355481::8954bc9d-add0-4c77-b31d-032636ae6e7d" : {
+    "eventId" : "8954bc9d-add0-4c77-b31d-032636ae6e7d",
+    "timestamp" : 1794676355481,
+    "message" : "--> GET /api/clouds/aws/services/containers/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676355481,
+    "sequence" : 314
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324348::73795c60-fefc-4694-a50e-bcd760de9709" : {
+    "eventId" : "73795c60-fefc-4694-a50e-bcd760de9709",
+    "timestamp" : 1794676324348,
+    "message" : "--> GET /api/clouds/aws/services/parameters/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676324348,
+    "sequence" : 286
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304949::6b2bb7a0-0793-4321-b170-20f57adf9191" : {
+    "eventId" : "6b2bb7a0-0793-4321-b170-20f57adf9191",
+    "timestamp" : 1794676304949,
+    "message" : "<-- GET /api/clouds/aws/services",
+    "ingestionTime" : 1794676304949,
+    "sequence" : 22
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320136::a46cd1d5-fe54-47b8-b594-9c3e08572126" : {
+    "eventId" : "a46cd1d5-fe54-47b8-b594-9c3e08572126",
+    "timestamp" : 1794676320136,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676320136,
+    "sequence" : 104
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355571::0e191d1d-115d-43a2-9419-885f09a06f42" : {
+    "eventId" : "0e191d1d-115d-43a2-9419-885f09a06f42",
+    "timestamp" : 1794676355571,
+    "message" : "<-- GET /api/clouds/aws/services/email/resources",
+    "ingestionTime" : 1794676355571,
+    "sequence" : 338
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320399::edc358d1-6582-4199-bea2-93c44454d4e9" : {
+    "eventId" : "edc358d1-6582-4199-bea2-93c44454d4e9",
+    "timestamp" : 1794676320399,
+    "message" : "--> GET /api/clouds/aws/services/configuration/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320399,
+    "sequence" : 179
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320190::366487fc-9970-4a32-ac5c-caec374d8263" : {
+    "eventId" : "366487fc-9970-4a32-ac5c-caec374d8263",
+    "timestamp" : 1794676320190,
+    "message" : "<-- GET /assets/ui-vendor-BK6_BAfi.js",
+    "ingestionTime" : 1794676320190,
+    "sequence" : 114
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305232::5e474699-fffc-470c-98e1-16d1a4eaa101" : {
+    "eventId" : "5e474699-fffc-470c-98e1-16d1a4eaa101",
+    "timestamp" : 1794676305232,
+    "message" : "--> GET /api/clouds/aws/services/iac/resources \u001B[32m200\u001B[0m 14ms",
+    "ingestionTime" : 1794676305232,
+    "sequence" : 78
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304967::79972572-2048-4e21-ba40-1e702d4137a1" : {
+    "eventId" : "79972572-2048-4e21-ba40-1e702d4137a1",
+    "timestamp" : 1794676304967,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304967,
+    "sequence" : 27
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305210::6efb16bc-cf42-417e-acd7-6a87cfa213bf" : {
+    "eventId" : "6efb16bc-cf42-417e-acd7-6a87cfa213bf",
+    "timestamp" : 1794676305210,
+    "message" : "<-- GET /api/clouds/aws/services/iac/resources",
+    "ingestionTime" : 1794676305210,
+    "sequence" : 70
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324221::e70e68c6-d9eb-43bd-b85c-066176508dd0" : {
+    "eventId" : "e70e68c6-d9eb-43bd-b85c-066176508dd0",
+    "timestamp" : 1794676324221,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources",
+    "ingestionTime" : 1794676324221,
+    "sequence" : 247
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304964::566bffe5-377b-4d19-82c9-c27b069ea356" : {
+    "eventId" : "566bffe5-377b-4d19-82c9-c27b069ea356",
+    "timestamp" : 1794676304964,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304964,
+    "sequence" : 26
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355601::0d255363-5e5a-4769-94aa-bbd94f0a0aba" : {
+    "eventId" : "0d255363-5e5a-4769-94aa-bbd94f0a0aba",
+    "timestamp" : 1794676355601,
+    "message" : "--> GET /api/clouds/aws/services/iac/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676355601,
+    "sequence" : 347
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304892::c4b87a73-9608-4ad4-aeb3-276d786e5612" : {
+    "eventId" : "c4b87a73-9608-4ad4-aeb3-276d786e5612",
+    "timestamp" : 1794676304892,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676304893,
+    "sequence" : 15
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676337791::2e8e0cfe-76ce-4560-a745-78d8005e2e47" : {
+    "eventId" : "2e8e0cfe-76ce-4560-a745-78d8005e2e47",
+    "timestamp" : 1794676337791,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676337791,
+    "sequence" : 299
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305251::903812dd-bfc8-4aa5-88cc-d42186727787" : {
+    "eventId" : "903812dd-bfc8-4aa5-88cc-d42186727787",
+    "timestamp" : 1794676305251,
+    "message" : "--> GET /api/clouds/aws/services/secrets/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676305251,
+    "sequence" : 85
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355554::4966b0b3-5795-4cac-8064-f6ffbe83aa27" : {
+    "eventId" : "4966b0b3-5795-4cac-8064-f6ffbe83aa27",
+    "timestamp" : 1794676355554,
+    "message" : "--> GET /api/clouds/aws/services/messaging/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676355554,
+    "sequence" : 333
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304826::89b3f898-9b42-4aac-affb-3e72dc23b847" : {
+    "eventId" : "89b3f898-9b42-4aac-affb-3e72dc23b847",
+    "timestamp" : 1794676304826,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676304826,
+    "sequence" : 3
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676378468::3ca2ca77-16f1-415c-b3aa-814a735c6099" : {
+    "eventId" : "3ca2ca77-16f1-415c-b3aa-814a735c6099",
+    "timestamp" : 1794676378468,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676378468,
+    "sequence" : 369
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355489::0e61fc3c-98cd-4fae-bbd6-c51ed41fa8ed" : {
+    "eventId" : "0e61fc3c-98cd-4fae-bbd6-c51ed41fa8ed",
+    "timestamp" : 1794676355489,
+    "message" : "<-- GET /api/clouds/aws/services/storage/resources",
+    "ingestionTime" : 1794676355489,
+    "sequence" : 316
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676371856::7460eeda-907f-47c7-9ea5-1827dbe51cd2" : {
+    "eventId" : "7460eeda-907f-47c7-9ea5-1827dbe51cd2",
+    "timestamp" : 1794676371856,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676371856,
+    "sequence" : 366
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320224::7fe2e74f-7f97-42e2-828d-c775761416e4" : {
+    "eventId" : "7fe2e74f-7f97-42e2-828d-c775761416e4",
+    "timestamp" : 1794676320224,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676320224,
+    "sequence" : 120
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320418::9a960864-a95d-4cf5-8a29-c25590301e5c" : {
+    "eventId" : "9a960864-a95d-4cf5-8a29-c25590301e5c",
+    "timestamp" : 1794676320418,
+    "message" : "<-- GET /assets/floci-black-BZXfF1vs.svg",
+    "ingestionTime" : 1794676320418,
+    "sequence" : 186
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324165::241264cb-06ce-4017-b2ec-b8a50000ace5" : {
+    "eventId" : "241264cb-06ce-4017-b2ec-b8a50000ace5",
+    "timestamp" : 1794676324165,
+    "message" : "<-- GET /api/clouds/aws/services/k8s/resources",
+    "ingestionTime" : 1794676324165,
+    "sequence" : 236
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320415::a9d178a5-afb0-4493-a626-3063c19219b2" : {
+    "eventId" : "a9d178a5-afb0-4493-a626-3063c19219b2",
+    "timestamp" : 1794676320415,
+    "message" : "<-- GET /api/clouds/aws/services/logs/resources",
+    "ingestionTime" : 1794676320415,
+    "sequence" : 185
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305120::724a0f54-286d-4c8a-b188-a04ab884f254" : {
+    "eventId" : "724a0f54-286d-4c8a-b188-a04ab884f254",
+    "timestamp" : 1794676305120,
+    "message" : "--> GET /api/clouds/aws/services/sagemaker/resources \u001B[32m200\u001B[0m 25ms",
+    "ingestionTime" : 1794676305120,
+    "sequence" : 47
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676368234::33e7ee38-7b61-4129-b563-5ee61e33d94d" : {
+    "eventId" : "33e7ee38-7b61-4129-b563-5ee61e33d94d",
+    "timestamp" : 1794676368234,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676368234,
+    "sequence" : 364
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320159::f60f248c-15c3-4de6-ad34-5255ec55e2db" : {
+    "eventId" : "f60f248c-15c3-4de6-ad34-5255ec55e2db",
+    "timestamp" : 1794676320159,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676320159,
+    "sequence" : 108
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323109::f4759927-a922-4689-bc34-b8355576459f" : {
+    "eventId" : "f4759927-a922-4689-bc34-b8355576459f",
+    "timestamp" : 1794676323109,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676323109,
+    "sequence" : 198
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305158::c9040ce3-8516-4961-be08-16fc68a8367e" : {
+    "eventId" : "c9040ce3-8516-4961-be08-16fc68a8367e",
+    "timestamp" : 1794676305158,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources \u001B[32m200\u001B[0m 51ms",
+    "ingestionTime" : 1794676305159,
+    "sequence" : 56
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305074::66243057-decf-43a7-85b8-d5a5d978911e" : {
+    "eventId" : "66243057-decf-43a7-85b8-d5a5d978911e",
+    "timestamp" : 1794676305074,
+    "message" : "--> GET /api/clouds/aws/services/compute/resources \u001B[32m200\u001B[0m 49ms",
+    "ingestionTime" : 1794676305074,
+    "sequence" : 45
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676360951::c2ac34a6-f71e-4170-8c5e-7ba453bd69b4" : {
+    "eventId" : "c2ac34a6-f71e-4170-8c5e-7ba453bd69b4",
+    "timestamp" : 1794676360951,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676360951,
+    "sequence" : 363
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320402::4f22082f-ceaa-44b8-861b-90a94e216eb7" : {
+    "eventId" : "4f22082f-ceaa-44b8-861b-90a94e216eb7",
+    "timestamp" : 1794676320402,
+    "message" : "--> GET /api/clouds/aws/services/cognito/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676320402,
+    "sequence" : 180
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305227::b6cfd7a2-397a-4dc0-b548-bcb3aad60b93" : {
+    "eventId" : "b6cfd7a2-397a-4dc0-b548-bcb3aad60b93",
+    "timestamp" : 1794676305227,
+    "message" : "--> GET /api/clouds/aws/services/sns/resources \u001B[32m200\u001B[0m 29ms",
+    "ingestionTime" : 1794676305227,
+    "sequence" : 76
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355518::7149176c-c3fb-4bea-918a-3e2f364f0e04" : {
+    "eventId" : "7149176c-c3fb-4bea-918a-3e2f364f0e04",
+    "timestamp" : 1794676355518,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676355518,
+    "sequence" : 323
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324231::4bb29706-dc1f-4267-91d0-ed59350220d0" : {
+    "eventId" : "4bb29706-dc1f-4267-91d0-ed59350220d0",
+    "timestamp" : 1794676324231,
+    "message" : "--> GET /api/clouds/aws/services/database/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324231,
+    "sequence" : 250
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320322::0fda066c-d350-4390-be11-58bf3664f7e4" : {
+    "eventId" : "0fda066c-d350-4390-be11-58bf3664f7e4",
+    "timestamp" : 1794676320322,
+    "message" : "<-- GET /api/clouds/aws/services/cdn/resources",
+    "ingestionTime" : 1794676320322,
+    "sequence" : 150
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323177::6c2b7e6c-32ca-40ae-b118-f06db6081e5d" : {
+    "eventId" : "6c2b7e6c-32ca-40ae-b118-f06db6081e5d",
+    "timestamp" : 1794676323177,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/schema",
+    "ingestionTime" : 1794676323177,
+    "sequence" : 214
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304908::ee818198-08b6-4d3a-a24a-d8bd74a55fc4" : {
+    "eventId" : "ee818198-08b6-4d3a-a24a-d8bd74a55fc4",
+    "timestamp" : 1794676304908,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676304908,
+    "sequence" : 19
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323501::716fce30-4554-45e9-86b4-e7da64eb225a" : {
+    "eventId" : "716fce30-4554-45e9-86b4-e7da64eb225a",
+    "timestamp" : 1794676323501,
+    "message" : "--> GET /assets/react-vendor-Dt4LK9cA.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323501,
+    "sequence" : 233
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305079::67e787d9-14e8-4d32-bcc1-e51c2081de63" : {
+    "eventId" : "67e787d9-14e8-4d32-bcc1-e51c2081de63",
+    "timestamp" : 1794676305079,
+    "message" : "--> GET /api/clouds/aws/services/serverless/resources \u001B[32m200\u001B[0m 33ms",
+    "ingestionTime" : 1794676305079,
+    "sequence" : 46
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304971::e2f0aaf1-b352-4fb7-a196-95b5e1c78749" : {
+    "eventId" : "e2f0aaf1-b352-4fb7-a196-95b5e1c78749",
+    "timestamp" : 1794676304971,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676304971,
+    "sequence" : 28
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320195::73b38bea-cdc5-4128-9369-61c505ee77f1" : {
+    "eventId" : "73b38bea-cdc5-4128-9369-61c505ee77f1",
+    "timestamp" : 1794676320195,
+    "message" : "<-- GET /assets/index-C7xX0Ox1.css",
+    "ingestionTime" : 1794676320195,
+    "sequence" : 115
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320381::64745cd2-8dfe-4893-91f8-7ccded9f86b8" : {
+    "eventId" : "64745cd2-8dfe-4893-91f8-7ccded9f86b8",
+    "timestamp" : 1794676320381,
+    "message" : "--> GET /api/clouds/aws/services/workflows/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676320381,
+    "sequence" : 172
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355612::b1f8a04c-7966-42f5-9a90-3e642127a17a" : {
+    "eventId" : "b1f8a04c-7966-42f5-9a90-3e642127a17a",
+    "timestamp" : 1794676355612,
+    "message" : "--> GET /api/clouds/aws/services/identity/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676355612,
+    "sequence" : 350
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323165::0ea986fe-a380-4499-9286-bc1c02af460f" : {
+    "eventId" : "0ea986fe-a380-4499-9286-bc1c02af460f",
+    "timestamp" : 1794676323165,
+    "message" : "<-- GET /assets/index-C7xX0Ox1.css",
+    "ingestionTime" : 1794676323165,
+    "sequence" : 210
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320386::a889419a-b162-4633-ad0f-b565820851b7" : {
+    "eventId" : "a889419a-b162-4633-ad0f-b565820851b7",
+    "timestamp" : 1794676320386,
+    "message" : "<-- GET /api/clouds/aws/services/identity/resources",
+    "ingestionTime" : 1794676320386,
+    "sequence" : 174
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323180::01a9beb7-7114-42e6-abe4-148b9838cd2c" : {
+    "eventId" : "01a9beb7-7114-42e6-abe4-148b9838cd2c",
+    "timestamp" : 1794676323180,
+    "message" : "--> GET /api/clouds/aws/services/nosql/schema \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323180,
+    "sequence" : 215
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320306::83058f0c-9188-4352-89a1-2fd26a83de25" : {
+    "eventId" : "83058f0c-9188-4352-89a1-2fd26a83de25",
+    "timestamp" : 1794676320306,
+    "message" : "--> GET /api/clouds/aws/services/compute/resources \u001B[32m200\u001B[0m 16ms",
+    "ingestionTime" : 1794676320306,
+    "sequence" : 144
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355580::130250a6-01a8-4bbe-97cf-4910438d1bdb" : {
+    "eventId" : "130250a6-01a8-4bbe-97cf-4910438d1bdb",
+    "timestamp" : 1794676355580,
+    "message" : "--> GET /api/clouds/aws/services/events/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676355581,
+    "sequence" : 341
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355433::3c27787d-c58f-4ed4-a804-c1b40e8f6614" : {
+    "eventId" : "3c27787d-c58f-4ed4-a804-c1b40e8f6614",
+    "timestamp" : 1794676355433,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676355433,
+    "sequence" : 304
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324245::b1717149-295a-45e0-8f3d-bc25988b5b1d" : {
+    "eventId" : "b1717149-295a-45e0-8f3d-bc25988b5b1d",
+    "timestamp" : 1794676324245,
+    "message" : "<-- GET /api/clouds/aws/services/dns/resources",
+    "ingestionTime" : 1794676324245,
+    "sequence" : 254
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324332::56072238-dccd-4354-b48f-cdb487de4687" : {
+    "eventId" : "56072238-dccd-4354-b48f-cdb487de4687",
+    "timestamp" : 1794676324332,
+    "message" : "--> GET /api/clouds/aws/services/secrets/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676324332,
+    "sequence" : 281
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676317677::f7dcbe41-5ac5-49c4-9cf3-a99cf94d59ba" : {
+    "eventId" : "f7dcbe41-5ac5-49c4-9cf3-a99cf94d59ba",
+    "timestamp" : 1794676317677,
+    "message" : "--> GET /api/clouds/aws/services/nosql/schema \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676317677,
+    "sequence" : 97
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355574::56a763d5-c83a-48e1-baef-4a3d308e904a" : {
+    "eventId" : "56a763d5-c83a-48e1-baef-4a3d308e904a",
+    "timestamp" : 1794676355574,
+    "message" : "<-- GET /api/clouds/aws/services/workflows/resources",
+    "ingestionTime" : 1794676355574,
+    "sequence" : 339
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355509::ea869677-8dbc-4da8-9c27-2f00321f8119" : {
+    "eventId" : "ea869677-8dbc-4da8-9c27-2f00321f8119",
+    "timestamp" : 1794676355509,
+    "message" : "--> GET /api/clouds/aws/services/storage/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676355509,
+    "sequence" : 321
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324323::efa2303f-b7b9-4257-9d1c-609bc3c31891" : {
+    "eventId" : "efa2303f-b7b9-4257-9d1c-609bc3c31891",
+    "timestamp" : 1794676324323,
+    "message" : "--> GET /api/clouds/aws/services/iac/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324323,
+    "sequence" : 278
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320368::4a670895-e8ef-484a-96ea-e327284d0f76" : {
+    "eventId" : "4a670895-e8ef-484a-96ea-e327284d0f76",
+    "timestamp" : 1794676320368,
+    "message" : "--> GET /api/clouds/aws/services/email/resources \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320368,
+    "sequence" : 167
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320141::dce428c5-05e4-4b81-aa53-93c695ecf3ae" : {
+    "eventId" : "dce428c5-05e4-4b81-aa53-93c695ecf3ae",
+    "timestamp" : 1794676320141,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320141,
+    "sequence" : 105
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320181::8c967208-2d12-4f46-b54a-27ba815fe570" : {
+    "eventId" : "8c967208-2d12-4f46-b54a-27ba815fe570",
+    "timestamp" : 1794676320181,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676320181,
+    "sequence" : 112
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323196::71860f16-fe00-45b8-93f8-37b5c1b9c727" : {
+    "eventId" : "71860f16-fe00-45b8-93f8-37b5c1b9c727",
+    "timestamp" : 1794676323196,
+    "message" : "--> GET /assets/floci-black-BZXfF1vs.svg \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676323196,
+    "sequence" : 221
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355623::281854d6-860b-4bdc-8318-03ac811fb381" : {
+    "eventId" : "281854d6-860b-4bdc-8318-03ac811fb381",
+    "timestamp" : 1794676355623,
+    "message" : "--> GET /api/clouds/aws/services/cognito/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676355623,
+    "sequence" : 353
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324287::202427eb-7a39-45c7-9f0f-84dc6782b921" : {
+    "eventId" : "202427eb-7a39-45c7-9f0f-84dc6782b921",
+    "timestamp" : 1794676324287,
+    "message" : "--> GET /api/clouds/aws/services/events/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324287,
+    "sequence" : 267
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323153::76ff43fc-6485-4c8a-aa95-aa2849cef8e5" : {
+    "eventId" : "76ff43fc-6485-4c8a-aa95-aa2849cef8e5",
+    "timestamp" : 1794676323153,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323153,
+    "sequence" : 207
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320352::0ab33722-9dbd-43c3-a910-44660067979f" : {
+    "eventId" : "0ab33722-9dbd-43c3-a910-44660067979f",
+    "timestamp" : 1794676320352,
+    "message" : "<-- GET /api/clouds/aws/services/streams/resources",
+    "ingestionTime" : 1794676320352,
+    "sequence" : 161
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320290::d64f160d-15ea-4cc5-91eb-12995a66a02a" : {
+    "eventId" : "d64f160d-15ea-4cc5-91eb-12995a66a02a",
+    "timestamp" : 1794676320290,
+    "message" : "<-- GET /api/clouds/aws/services/storage/resources",
+    "ingestionTime" : 1794676320290,
+    "sequence" : 138
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305150::ebf5dee2-6bfa-4224-97e7-35f6eede7bb0" : {
+    "eventId" : "ebf5dee2-6bfa-4224-97e7-35f6eede7bb0",
+    "timestamp" : 1794676305150,
+    "message" : "--> GET /api/clouds/aws/services/networking/resources \u001B[32m200\u001B[0m 9ms",
+    "ingestionTime" : 1794676305150,
+    "sequence" : 54
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323465::0a5bb7d3-4fef-414a-b9d3-d547910acb0d" : {
+    "eventId" : "0a5bb7d3-4fef-414a-b9d3-d547910acb0d",
+    "timestamp" : 1794676323465,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676323465,
+    "sequence" : 222
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323125::9f35e062-80bb-4308-b737-a3e979635ea9" : {
+    "eventId" : "9f35e062-80bb-4308-b737-a3e979635ea9",
+    "timestamp" : 1794676323125,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323125,
+    "sequence" : 201
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324326::085188bc-cf7d-455f-8a00-5428d6a8db7a" : {
+    "eventId" : "085188bc-cf7d-455f-8a00-5428d6a8db7a",
+    "timestamp" : 1794676324326,
+    "message" : "--> GET /api/clouds/aws/services/identity/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324326,
+    "sequence" : 279
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305034::fb6b1640-8dbf-4245-9a25-4e8d8eb1fbc8" : {
+    "eventId" : "fb6b1640-8dbf-4245-9a25-4e8d8eb1fbc8",
+    "timestamp" : 1794676305034,
+    "message" : "<-- GET /api/clouds/aws/services/serverless/resources",
+    "ingestionTime" : 1794676305034,
+    "sequence" : 38
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320201::416fb0ca-f94e-48de-87ca-1bc2fe2f7443" : {
+    "eventId" : "416fb0ca-f94e-48de-87ca-1bc2fe2f7443",
+    "timestamp" : 1794676320201,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320201,
+    "sequence" : 116
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304987::57462282-c727-4d7f-9677-fbe7e92bab41" : {
+    "eventId" : "57462282-c727-4d7f-9677-fbe7e92bab41",
+    "timestamp" : 1794676304987,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304987,
+    "sequence" : 33
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320338::a8720e63-bcf8-4332-bfcf-2e05e0f6cf0a" : {
+    "eventId" : "a8720e63-bcf8-4332-bfcf-2e05e0f6cf0a",
+    "timestamp" : 1794676320338,
+    "message" : "--> GET /api/clouds/aws/services/cdn/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320338,
+    "sequence" : 156
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304886::d57ffc9c-4bf2-42ca-9002-ce3fc2e12b0f" : {
+    "eventId" : "d57ffc9c-4bf2-42ca-9002-ce3fc2e12b0f",
+    "timestamp" : 1794676304886,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304886,
+    "sequence" : 13
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324293::7a2a2fb2-6df6-49e0-8558-c66481bd870b" : {
+    "eventId" : "7a2a2fb2-6df6-49e0-8558-c66481bd870b",
+    "timestamp" : 1794676324293,
+    "message" : "--> GET /api/clouds/aws/services/streams/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676324293,
+    "sequence" : 269
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323470::36f9dce9-98d7-4f6f-b294-e47d80980e2e" : {
+    "eventId" : "36f9dce9-98d7-4f6f-b294-e47d80980e2e",
+    "timestamp" : 1794676323470,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676323470,
+    "sequence" : 223
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324351::738b730f-5928-4e18-85f4-505061d759cc" : {
+    "eventId" : "738b730f-5928-4e18-85f4-505061d759cc",
+    "timestamp" : 1794676324351,
+    "message" : "--> GET /api/clouds/aws/services/logs/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676324351,
+    "sequence" : 287
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320214::d4ebd2a3-4b42-422d-9ab5-c33d0e7b345b" : {
+    "eventId" : "d4ebd2a3-4b42-422d-9ab5-c33d0e7b345b",
+    "timestamp" : 1794676320214,
+    "message" : "<-- GET /assets/index-5X5NyFea.js",
+    "ingestionTime" : 1794676320214,
+    "sequence" : 118
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324210::fc5cb62c-f7b2-46c1-b11d-24f676e8980b" : {
+    "eventId" : "fc5cb62c-f7b2-46c1-b11d-24f676e8980b",
+    "timestamp" : 1794676324210,
+    "message" : "--> GET /api/clouds/aws/services/sagemaker/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676324210,
+    "sequence" : 245
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676332852::fbd19707-e5d7-4a21-9356-1984d65ff313" : {
+    "eventId" : "fbd19707-e5d7-4a21-9356-1984d65ff313",
+    "timestamp" : 1794676332852,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676332852,
+    "sequence" : 297
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324329::887c4b16-85ee-4113-b7b9-547222f82cf9" : {
+    "eventId" : "887c4b16-85ee-4113-b7b9-547222f82cf9",
+    "timestamp" : 1794676324329,
+    "message" : "--> GET /api/clouds/aws/services/cognito/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324329,
+    "sequence" : 280
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320207::dcb0e617-5e19-4300-96cb-85e7efb7bf29" : {
+    "eventId" : "dcb0e617-5e19-4300-96cb-85e7efb7bf29",
+    "timestamp" : 1794676320207,
+    "message" : "--> GET /assets/index-C7xX0Ox1.css \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320207,
+    "sequence" : 117
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324303::6682a355-af63-4210-80d7-f0407903b7f1" : {
+    "eventId" : "6682a355-af63-4210-80d7-f0407903b7f1",
+    "timestamp" : 1794676324303,
+    "message" : "<-- GET /api/clouds/aws/services/iac/resources",
+    "ingestionTime" : 1794676324303,
+    "sequence" : 272
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305248::67799f20-36a4-48c3-a6cf-99e556dbd543" : {
+    "eventId" : "67799f20-36a4-48c3-a6cf-99e556dbd543",
+    "timestamp" : 1794676305248,
+    "message" : "<-- GET /api/clouds/aws/services/parameters/resources",
+    "ingestionTime" : 1794676305248,
+    "sequence" : 84
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324338::e5a3a682-a69f-41e5-97ad-5bc6c3896452" : {
+    "eventId" : "e5a3a682-a69f-41e5-97ad-5bc6c3896452",
+    "timestamp" : 1794676324338,
+    "message" : "<-- GET /api/clouds/aws/services/parameters/resources",
+    "ingestionTime" : 1794676324338,
+    "sequence" : 283
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324170::4b75433a-0700-4d0e-9431-28a14e7d854b" : {
+    "eventId" : "4b75433a-0700-4d0e-9431-28a14e7d854b",
+    "timestamp" : 1794676324170,
+    "message" : "<-- GET /api/clouds/aws/services/storage/resources",
+    "ingestionTime" : 1794676324170,
+    "sequence" : 237
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320347::c91487a0-ba81-4c1d-9d44-da01024a8347" : {
+    "eventId" : "c91487a0-ba81-4c1d-9d44-da01024a8347",
+    "timestamp" : 1794676320347,
+    "message" : "--> GET /api/clouds/aws/services/dns/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676320347,
+    "sequence" : 159
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323174::7b29f67c-027e-4b27-8af9-0eec36c34502" : {
+    "eventId" : "7b29f67c-027e-4b27-8af9-0eec36c34502",
+    "timestamp" : 1794676323174,
+    "message" : "--> GET /api/clouds/aws/services \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323174,
+    "sequence" : 213
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304961::aca0e37d-ef33-4fdc-b568-afe18d5f3ec7" : {
+    "eventId" : "aca0e37d-ef33-4fdc-b568-afe18d5f3ec7",
+    "timestamp" : 1794676304961,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676304961,
+    "sequence" : 25
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320408::3a40a4a9-3181-403e-8d2a-a99575a2ebf4" : {
+    "eventId" : "3a40a4a9-3181-403e-8d2a-a99575a2ebf4",
+    "timestamp" : 1794676320408,
+    "message" : "<-- GET /api/clouds/aws/services/parameters/resources",
+    "ingestionTime" : 1794676320408,
+    "sequence" : 182
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676341880::eb99000a-2eab-4325-8cd3-6b7b9e70c89b" : {
+    "eventId" : "eb99000a-2eab-4325-8cd3-6b7b9e70c89b",
+    "timestamp" : 1794676341880,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676341880,
+    "sequence" : 300
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326905::713ce7b6-777d-47ff-ac06-2c8ccbdc53b0" : {
+    "eventId" : "713ce7b6-777d-47ff-ac06-2c8ccbdc53b0",
+    "timestamp" : 1794676326905,
+    "message" : "--> GET /api/clouds/aws/services/database/schema \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676326905,
+    "sequence" : 291
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676317681::800e734e-f3c4-47bc-a378-207e87489ee0" : {
+    "eventId" : "800e734e-f3c4-47bc-a378-207e87489ee0",
+    "timestamp" : 1794676317681,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources?search=",
+    "ingestionTime" : 1794676317681,
+    "sequence" : 98
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305243::47c49829-c5f7-419f-adc8-008012216259" : {
+    "eventId" : "47c49829-c5f7-419f-adc8-008012216259",
+    "timestamp" : 1794676305243,
+    "message" : "<-- GET /api/clouds/aws/services/kms/resources",
+    "ingestionTime" : 1794676305243,
+    "sequence" : 82
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320363::1cf6b10f-8bf6-4950-9ec0-4fa8316ac582" : {
+    "eventId" : "1cf6b10f-8bf6-4950-9ec0-4fa8316ac582",
+    "timestamp" : 1794676320363,
+    "message" : "<-- GET /api/clouds/aws/services/email/resources",
+    "ingestionTime" : 1794676320363,
+    "sequence" : 165
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320316::f9a0064b-71c9-4bab-bf7c-26a7dbe64841" : {
+    "eventId" : "f9a0064b-71c9-4bab-bf7c-26a7dbe64841",
+    "timestamp" : 1794676320316,
+    "message" : "--> GET /api/clouds/aws/services/sagemaker/resources \u001B[32m200\u001B[0m 14ms",
+    "ingestionTime" : 1794676320316,
+    "sequence" : 148
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323482::69e2d113-889a-4ded-813d-65a436b5dc80" : {
+    "eventId" : "69e2d113-889a-4ded-813d-65a436b5dc80",
+    "timestamp" : 1794676323482,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323482,
+    "sequence" : 227
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323191::1bf462f9-5b89-40d8-8bd0-e7e925c6f113" : {
+    "eventId" : "1bf462f9-5b89-40d8-8bd0-e7e925c6f113",
+    "timestamp" : 1794676323191,
+    "message" : "<-- GET /assets/floci-black-BZXfF1vs.svg",
+    "ingestionTime" : 1794676323191,
+    "sequence" : 219
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355458::b81e5269-a96c-4026-85fc-75994d39afe1" : {
+    "eventId" : "b81e5269-a96c-4026-85fc-75994d39afe1",
+    "timestamp" : 1794676355458,
+    "message" : "<-- GET /api/clouds/aws/services/sagemaker/resources",
+    "ingestionTime" : 1794676355458,
+    "sequence" : 309
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305070::363eb1e5-fd42-4da1-b0dd-c1eae12f22cd" : {
+    "eventId" : "363eb1e5-fd42-4da1-b0dd-c1eae12f22cd",
+    "timestamp" : 1794676305070,
+    "message" : "--> GET /api/clouds/aws/services/storage/resources \u001B[32m200\u001B[0m 14ms",
+    "ingestionTime" : 1794676305070,
+    "sequence" : 44
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326910::61b8681d-d122-47ca-9725-697b94a84c6a" : {
+    "eventId" : "61b8681d-d122-47ca-9725-697b94a84c6a",
+    "timestamp" : 1794676326910,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676326910,
+    "sequence" : 292
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304882::8e23ce24-84a0-4fa0-bb2c-517007c125dc" : {
+    "eventId" : "8e23ce24-84a0-4fa0-bb2c-517007c125dc",
+    "timestamp" : 1794676304882,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676304882,
+    "sequence" : 12
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324314::73830408-2708-442a-a386-ef131fe83d36" : {
+    "eventId" : "73830408-2708-442a-a386-ef131fe83d36",
+    "timestamp" : 1794676324314,
+    "message" : "--> GET /api/clouds/aws/services/workflows/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324314,
+    "sequence" : 275
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305259::3a917118-150e-48a4-a361-dcdef38145c7" : {
+    "eventId" : "3a917118-150e-48a4-a361-dcdef38145c7",
+    "timestamp" : 1794676305259,
+    "message" : "<-- GET /assets/floci-black-BZXfF1vs.svg",
+    "ingestionTime" : 1794676305259,
+    "sequence" : 88
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305030::eac753ef-5647-4d27-a688-0a7d048ee495" : {
+    "eventId" : "eac753ef-5647-4d27-a688-0a7d048ee495",
+    "timestamp" : 1794676305030,
+    "message" : "<-- GET /api/clouds/aws/services/k8s/resources",
+    "ingestionTime" : 1794676305030,
+    "sequence" : 37
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326900::35d08f54-dd4b-4f52-b861-278560178e04" : {
+    "eventId" : "35d08f54-dd4b-4f52-b861-278560178e04",
+    "timestamp" : 1794676326900,
+    "message" : "<-- GET /api/clouds/aws/services/database/schema",
+    "ingestionTime" : 1794676326900,
+    "sequence" : 290
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320171::743c7d51-34fc-485b-ae35-aa879af1da97" : {
+    "eventId" : "743c7d51-34fc-485b-ae35-aa879af1da97",
+    "timestamp" : 1794676320171,
+    "message" : "<-- GET /assets/react-vendor-Dt4LK9cA.js",
+    "ingestionTime" : 1794676320171,
+    "sequence" : 110
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304940::65380155-63e9-4fca-85bb-dda9e2fcda20" : {
+    "eventId" : "65380155-63e9-4fca-85bb-dda9e2fcda20",
+    "timestamp" : 1794676304940,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676304940,
+    "sequence" : 20
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676317672::e19ece23-6a97-4de9-9983-eeabf124ce83" : {
+    "eventId" : "e19ece23-6a97-4de9-9983-eeabf124ce83",
+    "timestamp" : 1794676317672,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/schema",
+    "ingestionTime" : 1794676317672,
+    "sequence" : 96
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355564::a189618e-8cda-4496-bd8d-c663e973c010" : {
+    "eventId" : "a189618e-8cda-4496-bd8d-c663e973c010",
+    "timestamp" : 1794676355564,
+    "message" : "--> GET /api/clouds/aws/services/sns/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676355564,
+    "sequence" : 336
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305206::12010f51-92fd-4b8b-8664-6cc3d14e3565" : {
+    "eventId" : "12010f51-92fd-4b8b-8664-6cc3d14e3565",
+    "timestamp" : 1794676305206,
+    "message" : "--> GET /api/clouds/aws/services/email/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676305206,
+    "sequence" : 69
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355444::94068982-b599-4944-a708-932afcf05336" : {
+    "eventId" : "94068982-b599-4944-a708-932afcf05336",
+    "timestamp" : 1794676355444,
+    "message" : "<-- GET /api/clouds/aws/services/k8s/resources",
+    "ingestionTime" : 1794676355444,
+    "sequence" : 306
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323490::034ae1d3-83eb-410e-b59d-8e6d71ad2b96" : {
+    "eventId" : "034ae1d3-83eb-410e-b59d-8e6d71ad2b96",
+    "timestamp" : 1794676323490,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676323490,
+    "sequence" : 229
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320423::6d7438d7-e903-4f31-861d-e80d93b3fe0f" : {
+    "eventId" : "6d7438d7-e903-4f31-861d-e80d93b3fe0f",
+    "timestamp" : 1794676320423,
+    "message" : "--> GET /assets/floci-black-BZXfF1vs.svg \u001B[32m200\u001B[0m 12ms",
+    "ingestionTime" : 1794676320423,
+    "sequence" : 188
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305135::3618e160-05dd-43c3-8aee-321cff98fe19" : {
+    "eventId" : "3618e160-05dd-43c3-8aee-321cff98fe19",
+    "timestamp" : 1794676305135,
+    "message" : "<-- GET /api/clouds/aws/services/loadbalancing/resources",
+    "ingestionTime" : 1794676305135,
+    "sequence" : 51
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676317685::96f33cec-bf26-49da-8692-3ffc281b04ee" : {
+    "eventId" : "96f33cec-bf26-49da-8692-3ffc281b04ee",
+    "timestamp" : 1794676317685,
+    "message" : "--> GET /api/clouds/aws/services/nosql/resources?search= \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676317685,
+    "sequence" : 99
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355452::bdc17cbc-f3b5-424c-b244-662f67b3fbb4" : {
+    "eventId" : "bdc17cbc-f3b5-424c-b244-662f67b3fbb4",
+    "timestamp" : 1794676355452,
+    "message" : "<-- GET /api/clouds/aws/services/containers/resources",
+    "ingestionTime" : 1794676355452,
+    "sequence" : 308
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304904::00ac78ec-93d7-4170-9da6-5de260a725b3" : {
+    "eventId" : "00ac78ec-93d7-4170-9da6-5de260a725b3",
+    "timestamp" : 1794676304904,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676304904,
+    "sequence" : 18
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355639::07bc5e4b-5d18-4c60-bf33-0ec09b7974e8" : {
+    "eventId" : "07bc5e4b-5d18-4c60-bf33-0ec09b7974e8",
+    "timestamp" : 1794676355639,
+    "message" : "--> GET /api/clouds/aws/services/parameters/resources \u001B[32m200\u001B[0m 14ms",
+    "ingestionTime" : 1794676355639,
+    "sequence" : 358
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324284::87ad2c40-e9b3-442d-874e-706c4f4329ac" : {
+    "eventId" : "87ad2c40-e9b3-442d-874e-706c4f4329ac",
+    "timestamp" : 1794676324284,
+    "message" : "--> GET /api/clouds/aws/services/sns/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324284,
+    "sequence" : 266
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323157::83333453-844e-4ced-b601-1c3d7c09ec42" : {
+    "eventId" : "83333453-844e-4ced-b601-1c3d7c09ec42",
+    "timestamp" : 1794676323157,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676323157,
+    "sequence" : 208
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320394::ac9ded05-fb99-47e7-a117-e3ff6ca6f0df" : {
+    "eventId" : "ac9ded05-fb99-47e7-a117-e3ff6ca6f0df",
+    "timestamp" : 1794676320394,
+    "message" : "<-- GET /api/clouds/aws/services/secrets/resources",
+    "ingestionTime" : 1794676320394,
+    "sequence" : 177
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676302916::96d41367-e65f-4b26-8b93-c64489faed08" : {
+    "eventId" : "96d41367-e65f-4b26-8b93-c64489faed08",
+    "timestamp" : 1794676302916,
+    "message" : "Started development server: http://localhost:4500",
+    "ingestionTime" : 1794676302916,
+    "sequence" : 1
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320239::26577182-ed68-414d-8740-d0d1926972a9" : {
+    "eventId" : "26577182-ed68-414d-8740-d0d1926972a9",
+    "timestamp" : 1794676320239,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320239,
+    "sequence" : 123
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355505::e4e73212-78fa-4a67-ac3c-cb54317cb47d" : {
+    "eventId" : "e4e73212-78fa-4a67-ac3c-cb54317cb47d",
+    "timestamp" : 1794676355505,
+    "message" : "<-- GET /api/clouds/aws/services/loadbalancing/resources",
+    "ingestionTime" : 1794676355505,
+    "sequence" : 320
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324224::40904ade-01bf-48db-b34a-c572f6a96a66" : {
+    "eventId" : "40904ade-01bf-48db-b34a-c572f6a96a66",
+    "timestamp" : 1794676324224,
+    "message" : "<-- GET /api/clouds/aws/services/networking/resources",
+    "ingestionTime" : 1794676324224,
+    "sequence" : 248
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305016::44d7d1b2-00c7-479d-97e8-2ab90d53112e" : {
+    "eventId" : "44d7d1b2-00c7-479d-97e8-2ab90d53112e",
+    "timestamp" : 1794676305016,
+    "message" : "<-- GET /api/clouds/aws/services/compute/resources",
+    "ingestionTime" : 1794676305016,
+    "sequence" : 36
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324300::1f4ead63-7b84-42d7-ac87-6a11fd3fe237" : {
+    "eventId" : "1f4ead63-7b84-42d7-ac87-6a11fd3fe237",
+    "timestamp" : 1794676324300,
+    "message" : "<-- GET /api/clouds/aws/services/configuration/resources",
+    "ingestionTime" : 1794676324300,
+    "sequence" : 271
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355587::87abb8cb-be6d-4bc3-a0f4-95514e885d6f" : {
+    "eventId" : "87abb8cb-be6d-4bc3-a0f4-95514e885d6f",
+    "timestamp" : 1794676355587,
+    "message" : "--> GET /api/clouds/aws/services/workflows/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676355588,
+    "sequence" : 343
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324345::070d3430-c50d-474c-bcda-3e742ffd48a8" : {
+    "eventId" : "070d3430-c50d-474c-bcda-3e742ffd48a8",
+    "timestamp" : 1794676324345,
+    "message" : "<-- GET /api/clouds/aws/services/cloudwatch/resources",
+    "ingestionTime" : 1794676324345,
+    "sequence" : 285
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305246::c0326339-2c63-427a-925a-91a95958eb10" : {
+    "eventId" : "c0326339-2c63-427a-925a-91a95958eb10",
+    "timestamp" : 1794676305246,
+    "message" : "<-- GET /api/clouds/aws/services/logs/resources",
+    "ingestionTime" : 1794676305246,
+    "sequence" : 83
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305261::4725edd8-002a-47f8-b953-0489899d1d0f" : {
+    "eventId" : "4725edd8-002a-47f8-b953-0489899d1d0f",
+    "timestamp" : 1794676305261,
+    "message" : "--> GET /assets/floci-black-BZXfF1vs.svg \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676305261,
+    "sequence" : 89
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676378463::15a361f8-6ea1-43e5-a1b1-ba2bdc736c86" : {
+    "eventId" : "15a361f8-6ea1-43e5-a1b1-ba2bdc736c86",
+    "timestamp" : 1794676378463,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676378463,
+    "sequence" : 368
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323097::e54cfa06-d9d0-4153-8308-416922d91736" : {
+    "eventId" : "e54cfa06-d9d0-4153-8308-416922d91736",
+    "timestamp" : 1794676323097,
+    "message" : "--> GET /cloud-explorer/aws/nosql \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676323097,
+    "sequence" : 197
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676341885::b2fd211e-e8f6-4005-a2ed-3600745d3cb6" : {
+    "eventId" : "b2fd211e-e8f6-4005-a2ed-3600745d3cb6",
+    "timestamp" : 1794676341885,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676341885,
+    "sequence" : 301
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324341::fb525914-28f9-46e7-849c-aa142124c32e" : {
+    "eventId" : "fb525914-28f9-46e7-849c-aa142124c32e",
+    "timestamp" : 1794676324341,
+    "message" : "<-- GET /api/clouds/aws/services/logs/resources",
+    "ingestionTime" : 1794676324341,
+    "sequence" : 284
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355616::b91756c3-64b2-48b8-8e26-b8e80bf7ada8" : {
+    "eventId" : "b91756c3-64b2-48b8-8e26-b8e80bf7ada8",
+    "timestamp" : 1794676355616,
+    "message" : "<-- GET /api/clouds/aws/services/secrets/resources",
+    "ingestionTime" : 1794676355616,
+    "sequence" : 351
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323162::cf2c52fd-ef29-401c-9155-a93d7c154289" : {
+    "eventId" : "cf2c52fd-ef29-401c-9155-a93d7c154289",
+    "timestamp" : 1794676323162,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323162,
+    "sequence" : 209
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320341::fb35abb2-a988-4a25-9fa5-85c18bf4ae91" : {
+    "eventId" : "fb35abb2-a988-4a25-9fa5-85c18bf4ae91",
+    "timestamp" : 1794676320341,
+    "message" : "<-- GET /api/clouds/aws/services/messaging/resources",
+    "ingestionTime" : 1794676320341,
+    "sequence" : 157
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305264::5b71e645-fe15-4c16-a4b5-e47889f653c9" : {
+    "eventId" : "5b71e645-fe15-4c16-a4b5-e47889f653c9",
+    "timestamp" : 1794676305264,
+    "message" : "--> GET /api/clouds/aws/services/logs/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676305264,
+    "sequence" : 90
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676332847::f4b07a76-6749-44d2-a681-c9d12c906d95" : {
+    "eventId" : "f4b07a76-6749-44d2-a681-c9d12c906d95",
+    "timestamp" : 1794676332847,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676332847,
+    "sequence" : 296
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320384::b5d7abb8-ff5c-466a-b9c4-c0b1b1fffebc" : {
+    "eventId" : "b5d7abb8-ff5c-466a-b9c4-c0b1b1fffebc",
+    "timestamp" : 1794676320384,
+    "message" : "<-- GET /api/clouds/aws/services/configuration/resources",
+    "ingestionTime" : 1794676320384,
+    "sequence" : 173
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305203::f6d27f43-a06d-4135-8088-9232e13f5c08" : {
+    "eventId" : "f6d27f43-a06d-4135-8088-9232e13f5c08",
+    "timestamp" : 1794676305203,
+    "message" : "<-- GET /api/clouds/aws/services/workflows/resources",
+    "ingestionTime" : 1794676305203,
+    "sequence" : 68
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323130::0f5ef8a5-70c4-4046-aec8-f692e966b24c" : {
+    "eventId" : "0f5ef8a5-70c4-4046-aec8-f692e966b24c",
+    "timestamp" : 1794676323130,
+    "message" : "<-- GET /assets/query-vendor-P3kLlwZf.js",
+    "ingestionTime" : 1794676323130,
+    "sequence" : 202
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320247::1fcf11de-188d-4a2b-b99f-f19c4274c678" : {
+    "eventId" : "1fcf11de-188d-4a2b-b99f-f19c4274c678",
+    "timestamp" : 1794676320247,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320247,
+    "sequence" : 125
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304975::bda46ed6-78bc-4b47-9fc1-3bf72e228f60" : {
+    "eventId" : "bda46ed6-78bc-4b47-9fc1-3bf72e228f60",
+    "timestamp" : 1794676304975,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676304975,
+    "sequence" : 29
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355534::44f972cb-21fa-4192-83e0-ffd0e20ed36d" : {
+    "eventId" : "44f972cb-21fa-4192-83e0-ffd0e20ed36d",
+    "timestamp" : 1794676355534,
+    "message" : "<-- GET /api/clouds/aws/services/dns/resources",
+    "ingestionTime" : 1794676355534,
+    "sequence" : 327
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355545::e4725931-4e2d-4f9a-b72b-8a7759f31252" : {
+    "eventId" : "e4725931-4e2d-4f9a-b72b-8a7759f31252",
+    "timestamp" : 1794676355545,
+    "message" : "<-- GET /api/clouds/aws/services/apigateway/resources",
+    "ingestionTime" : 1794676355545,
+    "sequence" : 330
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324191::e121ffc7-09c0-4fba-a45e-b5032e82f88a" : {
+    "eventId" : "e121ffc7-09c0-4fba-a45e-b5032e82f88a",
+    "timestamp" : 1794676324191,
+    "message" : "--> GET /api/clouds/aws/services/compute/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676324191,
+    "sequence" : 241
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320311::4b918162-49c0-4c2b-b24f-9fbea85f9f66" : {
+    "eventId" : "4b918162-49c0-4c2b-b24f-9fbea85f9f66",
+    "timestamp" : 1794676320311,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources",
+    "ingestionTime" : 1794676320311,
+    "sequence" : 146
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355473::12dc809e-a197-4ed1-83dd-d23a2f477650" : {
+    "eventId" : "12dc809e-a197-4ed1-83dd-d23a2f477650",
+    "timestamp" : 1794676355473,
+    "message" : "--> GET /api/clouds/aws/services/k8s/resources \u001B[32m200\u001B[0m 7ms",
+    "ingestionTime" : 1794676355473,
+    "sequence" : 312
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676321933::15911c6c-bb45-4d0e-b90e-f09a3161bef7" : {
+    "eventId" : "15911c6c-bb45-4d0e-b90e-f09a3161bef7",
+    "timestamp" : 1794676321933,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/schema",
+    "ingestionTime" : 1794676321933,
+    "sequence" : 192
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324196::2040bc82-6573-4db8-813e-e84ec582751c" : {
+    "eventId" : "2040bc82-6573-4db8-813e-e84ec582751c",
+    "timestamp" : 1794676324196,
+    "message" : "--> GET /api/clouds/aws/services/k8s/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676324196,
+    "sequence" : 242
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355635::3fb04395-db8c-48d3-8fe6-410f1dab9a13" : {
+    "eventId" : "3fb04395-db8c-48d3-8fe6-410f1dab9a13",
+    "timestamp" : 1794676355635,
+    "message" : "<-- GET /api/clouds/aws/services/cloudwatch/resources",
+    "ingestionTime" : 1794676355635,
+    "sequence" : 357
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355501::e99e6569-41cc-4aaa-adb5-0862bf77fdf0" : {
+    "eventId" : "e99e6569-41cc-4aaa-adb5-0862bf77fdf0",
+    "timestamp" : 1794676355501,
+    "message" : "<-- GET /api/clouds/aws/services/networking/resources",
+    "ingestionTime" : 1794676355501,
+    "sequence" : 319
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324290::0a0503db-e8ce-4d5f-aa58-6c5db795890c" : {
+    "eventId" : "0a0503db-e8ce-4d5f-aa58-6c5db795890c",
+    "timestamp" : 1794676324290,
+    "message" : "--> GET /api/clouds/aws/services/email/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676324290,
+    "sequence" : 268
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305229::631fb05c-8e14-4894-824f-6a82cee439d1" : {
+    "eventId" : "631fb05c-8e14-4894-824f-6a82cee439d1",
+    "timestamp" : 1794676305229,
+    "message" : "--> GET /api/clouds/aws/services/events/resources \u001B[32m200\u001B[0m 21ms",
+    "ingestionTime" : 1794676305229,
+    "sequence" : 77
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355629::32825b75-e3ca-4523-9a1b-47e522fbca9a" : {
+    "eventId" : "32825b75-e3ca-4523-9a1b-47e522fbca9a",
+    "timestamp" : 1794676355629,
+    "message" : "<-- GET /api/clouds/aws/services/parameters/resources",
+    "ingestionTime" : 1794676355629,
+    "sequence" : 355
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323493::43a17d85-94dc-4465-9959-2ff789ea44ca" : {
+    "eventId" : "43a17d85-94dc-4465-9959-2ff789ea44ca",
+    "timestamp" : 1794676323493,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676323493,
+    "sequence" : 230
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305162::c347ebfa-8831-4745-89b4-77d50f46c7da" : {
+    "eventId" : "c347ebfa-8831-4745-89b4-77d50f46c7da",
+    "timestamp" : 1794676305162,
+    "message" : "--> GET /api/clouds/aws/services/cdn/resources \u001B[32m200\u001B[0m 47ms",
+    "ingestionTime" : 1794676305162,
+    "sequence" : 57
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323496::bbad85f8-2e75-4b1e-b60e-0069c4ed3cd8" : {
+    "eventId" : "bbad85f8-2e75-4b1e-b60e-0069c4ed3cd8",
+    "timestamp" : 1794676323496,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323496,
+    "sequence" : 231
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320229::c9782dfb-f81e-44c6-bf5a-a60f2b217a72" : {
+    "eventId" : "c9782dfb-f81e-44c6-bf5a-a60f2b217a72",
+    "timestamp" : 1794676320229,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320230,
+    "sequence" : 121
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304978::6a5b22cf-2a4c-40e9-a514-517d27012ab3" : {
+    "eventId" : "6a5b22cf-2a4c-40e9-a514-517d27012ab3",
+    "timestamp" : 1794676304978,
+    "message" : "<-- GET /assets/api-B4Y_O5pj.js",
+    "ingestionTime" : 1794676304978,
+    "sequence" : 30
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304900::f41d8c47-c879-4f5c-a023-cbb1c6151778" : {
+    "eventId" : "f41d8c47-c879-4f5c-a023-cbb1c6151778",
+    "timestamp" : 1794676304900,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304901,
+    "sequence" : 17
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355598::3ee8c88f-077e-4171-851a-5ef3cdd0e5af" : {
+    "eventId" : "3ee8c88f-077e-4171-851a-5ef3cdd0e5af",
+    "timestamp" : 1794676355598,
+    "message" : "<-- GET /api/clouds/aws/services/identity/resources",
+    "ingestionTime" : 1794676355599,
+    "sequence" : 346
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355584::a75b0c4d-fbf3-4811-bc72-f816c2c066f7" : {
+    "eventId" : "a75b0c4d-fbf3-4811-bc72-f816c2c066f7",
+    "timestamp" : 1794676355584,
+    "message" : "--> GET /api/clouds/aws/services/streams/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676355584,
+    "sequence" : 342
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304863::9b0e3af5-2da8-4d52-9c96-dcf47c7344ca" : {
+    "eventId" : "9b0e3af5-2da8-4d52-9c96-dcf47c7344ca",
+    "timestamp" : 1794676304863,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676304863,
+    "sequence" : 8
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320295::daa1cdac-2079-4f4f-ba40-7ad61615607f" : {
+    "eventId" : "daa1cdac-2079-4f4f-ba40-7ad61615607f",
+    "timestamp" : 1794676320295,
+    "message" : "--> GET /api/clouds/aws/services/serverless/resources \u001B[32m200\u001B[0m 8ms",
+    "ingestionTime" : 1794676320295,
+    "sequence" : 140
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320293::5be4426c-b2bd-44b4-9b11-1599286c7794" : {
+    "eventId" : "5be4426c-b2bd-44b4-9b11-1599286c7794",
+    "timestamp" : 1794676320293,
+    "message" : "<-- GET /api/clouds/aws/services/sagemaker/resources",
+    "ingestionTime" : 1794676320293,
+    "sequence" : 139
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324275::8c937d4c-5c14-4cdb-a40e-766e902519a8" : {
+    "eventId" : "8c937d4c-5c14-4cdb-a40e-766e902519a8",
+    "timestamp" : 1794676324275,
+    "message" : "<-- GET /api/clouds/aws/services/email/resources",
+    "ingestionTime" : 1794676324275,
+    "sequence" : 263
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320373::84a6c046-2b7b-4c6f-afaf-5bfb721326ca" : {
+    "eventId" : "84a6c046-2b7b-4c6f-afaf-5bfb721326ca",
+    "timestamp" : 1794676320373,
+    "message" : "<-- GET /api/clouds/aws/services/workflows/resources",
+    "ingestionTime" : 1794676320373,
+    "sequence" : 169
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355462::78427c72-cf25-45f4-8d03-572b7a19a01c" : {
+    "eventId" : "78427c72-cf25-45f4-8d03-572b7a19a01c",
+    "timestamp" : 1794676355462,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676355462,
+    "sequence" : 310
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355497::a76e9919-463e-4607-b421-d0ee39f42f30" : {
+    "eventId" : "a76e9919-463e-4607-b421-d0ee39f42f30",
+    "timestamp" : 1794676355497,
+    "message" : "<-- GET /api/clouds/aws/services/nosql/resources",
+    "ingestionTime" : 1794676355497,
+    "sequence" : 318
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326913::d14597e6-3d88-4690-9596-9ed10fcc222c" : {
+    "eventId" : "d14597e6-3d88-4690-9596-9ed10fcc222c",
+    "timestamp" : 1794676326913,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676326913,
+    "sequence" : 293
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320152::4b4b24fe-a41c-450f-a804-8a3b8cf5da88" : {
+    "eventId" : "4b4b24fe-a41c-450f-a804-8a3b8cf5da88",
+    "timestamp" : 1794676320152,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320152,
+    "sequence" : 107
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324316::30678bcd-0acb-45bf-8645-b21114d898f4" : {
+    "eventId" : "30678bcd-0acb-45bf-8645-b21114d898f4",
+    "timestamp" : 1794676324316,
+    "message" : "--> GET /api/clouds/aws/services/configuration/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676324317,
+    "sequence" : 276
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320282::327bf9d5-e129-450f-956f-d4ea6ee0ffd6" : {
+    "eventId" : "327bf9d5-e129-450f-956f-d4ea6ee0ffd6",
+    "timestamp" : 1794676320282,
+    "message" : "<-- GET /api/clouds/aws/services/serverless/resources",
+    "ingestionTime" : 1794676320282,
+    "sequence" : 135
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355531::91c23250-a7cf-4662-ba68-fe5fae10b825" : {
+    "eventId" : "91c23250-a7cf-4662-ba68-fe5fae10b825",
+    "timestamp" : 1794676355531,
+    "message" : "--> GET /api/clouds/aws/services/loadbalancing/resources \u001B[32m200\u001B[0m 5ms",
+    "ingestionTime" : 1794676355531,
+    "sequence" : 326
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304981::430f7d14-3f94-4ee3-b88b-93c1fafecbe7" : {
+    "eventId" : "430f7d14-3f94-4ee3-b88b-93c1fafecbe7",
+    "timestamp" : 1794676304981,
+    "message" : "--> GET /assets/api-B4Y_O5pj.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304981,
+    "sequence" : 31
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323119::fa5b507a-03fe-4e40-b6ee-48f5a8a7ba64" : {
+    "eventId" : "fa5b507a-03fe-4e40-b6ee-48f5a8a7ba64",
+    "timestamp" : 1794676323119,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323119,
+    "sequence" : 200
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323144::07ccd936-1689-42bc-9fcf-d61bda07a527" : {
+    "eventId" : "07ccd936-1689-42bc-9fcf-d61bda07a527",
+    "timestamp" : 1794676323144,
+    "message" : "--> GET /assets/query-vendor-P3kLlwZf.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676323144,
+    "sequence" : 205
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305180::e9bb31dd-1c2c-4353-a5b9-37c484b918ad" : {
+    "eventId" : "e9bb31dd-1c2c-4353-a5b9-37c484b918ad",
+    "timestamp" : 1794676305180,
+    "message" : "<-- GET /api/clouds/aws/services/streams/resources",
+    "ingestionTime" : 1794676305180,
+    "sequence" : 62
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304835::d236f848-9312-4aad-b8eb-fd113124ac11" : {
+    "eventId" : "d236f848-9312-4aad-b8eb-fd113124ac11",
+    "timestamp" : 1794676304835,
+    "message" : "<-- GET /",
+    "ingestionTime" : 1794676304835,
+    "sequence" : 4
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320405::50c75d77-1744-4d80-92bc-a0226143e85f" : {
+    "eventId" : "50c75d77-1744-4d80-92bc-a0226143e85f",
+    "timestamp" : 1794676320405,
+    "message" : "--> GET /api/clouds/aws/services/secrets/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676320405,
+    "sequence" : 181
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355591::a011c792-6531-455e-8dfd-ece03e65324e" : {
+    "eventId" : "a011c792-6531-455e-8dfd-ece03e65324e",
+    "timestamp" : 1794676355591,
+    "message" : "<-- GET /api/clouds/aws/services/iac/resources",
+    "ingestionTime" : 1794676355591,
+    "sequence" : 344
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676360946::e35f417f-0218-4a6d-a724-a65ab1d22bdd" : {
+    "eventId" : "e35f417f-0218-4a6d-a724-a65ab1d22bdd",
+    "timestamp" : 1794676360946,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676360946,
+    "sequence" : 362
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305219::f001a419-8c97-47b3-b0eb-1e0da1ad7986" : {
+    "eventId" : "f001a419-8c97-47b3-b0eb-1e0da1ad7986",
+    "timestamp" : 1794676305219,
+    "message" : "<-- GET /api/clouds/aws/services/configuration/resources",
+    "ingestionTime" : 1794676305219,
+    "sequence" : 73
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355522::34b0b7a0-0fa9-4f6f-aeec-cbf30d97bff6" : {
+    "eventId" : "34b0b7a0-0fa9-4f6f-aeec-cbf30d97bff6",
+    "timestamp" : 1794676355522,
+    "message" : "--> GET /api/clouds/aws/services/networking/resources \u001B[32m200\u001B[0m 2ms",
+    "ingestionTime" : 1794676355522,
+    "sequence" : 324
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304857::ba44e23b-a5d1-4ae0-ac6b-3e44e2eb7e40" : {
+    "eventId" : "ba44e23b-a5d1-4ae0-ac6b-3e44e2eb7e40",
+    "timestamp" : 1794676304857,
+    "message" : "--> GET /assets/index-5X5NyFea.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304857,
+    "sequence" : 7
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355650::4553cbc0-29c4-4b84-83f4-4131878e99db" : {
+    "eventId" : "4553cbc0-29c4-4b84-83f4-4131878e99db",
+    "timestamp" : 1794676355650,
+    "message" : "--> GET /api/clouds/aws/services/kms/resources \u001B[32m200\u001B[0m 21ms",
+    "ingestionTime" : 1794676355650,
+    "sequence" : 361
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320371::faf6b9f5-bd63-498e-9988-5ec9b76d4e0e" : {
+    "eventId" : "faf6b9f5-bd63-498e-9988-5ec9b76d4e0e",
+    "timestamp" : 1794676320371,
+    "message" : "--> GET /api/clouds/aws/services/events/resources \u001B[32m200\u001B[0m 3ms",
+    "ingestionTime" : 1794676320371,
+    "sequence" : 168
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676323114::859460c4-2dab-4a4e-8c19-77516aabad8d" : {
+    "eventId" : "859460c4-2dab-4a4e-8c19-77516aabad8d",
+    "timestamp" : 1794676323114,
+    "message" : "<-- GET /assets/rolldown-runtime-CbXtAM7H.js",
+    "ingestionTime" : 1794676323114,
+    "sequence" : 199
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355561::331b407b-4eab-42e2-837e-efe54112218e" : {
+    "eventId" : "331b407b-4eab-42e2-837e-efe54112218e",
+    "timestamp" : 1794676355561,
+    "message" : "--> GET /api/clouds/aws/services/apigateway/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676355561,
+    "sequence" : 335
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676346935::47cc4af8-0559-48ed-9fda-c70243049811" : {
+    "eventId" : "47cc4af8-0559-48ed-9fda-c70243049811",
+    "timestamp" : 1794676346935,
+    "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 1ms",
+    "ingestionTime" : 1794676346935,
+    "sequence" : 303
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676326917::e0881d63-dd91-4fc2-bcd8-b89784c45cf3" : {
+    "eventId" : "e0881d63-dd91-4fc2-bcd8-b89784c45cf3",
+    "timestamp" : 1794676326917,
+    "message" : "<-- GET /api/clouds/aws/services/database/resources?search=",
+    "ingestionTime" : 1794676326917,
+    "sequence" : 294
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676315820::74912f2a-b539-48e4-95ff-a77f1ea2a0b3" : {
+    "eventId" : "74912f2a-b539-48e4-95ff-a77f1ea2a0b3",
+    "timestamp" : 1794676315820,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676315820,
+    "sequence" : 94
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305037::a6359cd1-c50c-47a1-a652-9e9fb7e36cb1" : {
+    "eventId" : "a6359cd1-c50c-47a1-a652-9e9fb7e36cb1",
+    "timestamp" : 1794676305037,
+    "message" : "<-- GET /api/clouds/aws/services/containers/resources",
+    "ingestionTime" : 1794676305037,
+    "sequence" : 39
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304867::0062acc7-596c-42cc-a1cf-9afad9d2285f" : {
+    "eventId" : "0062acc7-596c-42cc-a1cf-9afad9d2285f",
+    "timestamp" : 1794676304867,
+    "message" : "--> GET /assets/rolldown-runtime-CbXtAM7H.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676304867,
+    "sequence" : 9
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305059::c0b9ea5f-f6d6-461a-9f91-f9ee706a73df" : {
+    "eventId" : "c0b9ea5f-f6d6-461a-9f91-f9ee706a73df",
+    "timestamp" : 1794676305059,
+    "message" : "--> GET /api/clouds/aws/services/k8s/resources \u001B[32m200\u001B[0m 29ms",
+    "ingestionTime" : 1794676305059,
+    "sequence" : 42
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305188::1dba4983-cb6b-4c12-9c7b-c4e20fd605b6" : {
+    "eventId" : "1dba4983-cb6b-4c12-9c7b-c4e20fd605b6",
+    "timestamp" : 1794676305188,
+    "message" : "--> GET /api/clouds/aws/services/dns/resources \u001B[32m200\u001B[0m 58ms",
+    "ingestionTime" : 1794676305188,
+    "sequence" : 64
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320335::253083a6-4d9d-4fc1-aba1-8911e3af053d" : {
+    "eventId" : "253083a6-4d9d-4fc1-aba1-8911e3af053d",
+    "timestamp" : 1794676320335,
+    "message" : "<-- GET /api/clouds/aws/services/dns/resources",
+    "ingestionTime" : 1794676320335,
+    "sequence" : 155
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676304819::3f2847b0-f600-4934-82cf-e4e40c96ecd8" : {
+    "eventId" : "3f2847b0-f600-4934-82cf-e4e40c96ecd8",
+    "timestamp" : 1794676304819,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676304819,
+    "sequence" : 2
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320288::074feb83-260f-435b-b26e-ba63f83cfc93" : {
+    "eventId" : "074feb83-260f-435b-b26e-ba63f83cfc93",
+    "timestamp" : 1794676320288,
+    "message" : "<-- GET /api/clouds/aws/services/containers/resources",
+    "ingestionTime" : 1794676320288,
+    "sequence" : 137
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320330::789bc187-9e4e-4cc1-9d1c-b7b2ef458797" : {
+    "eventId" : "789bc187-9e4e-4cc1-9d1c-b7b2ef458797",
+    "timestamp" : 1794676320330,
+    "message" : "--> GET /api/clouds/aws/services/networking/resources \u001B[32m200\u001B[0m 6ms",
+    "ingestionTime" : 1794676320330,
+    "sequence" : 153
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324281::8f5004b5-b1eb-4115-8b98-46d37204a07e" : {
+    "eventId" : "8f5004b5-b1eb-4115-8b98-46d37204a07e",
+    "timestamp" : 1794676324281,
+    "message" : "--> GET /api/clouds/aws/services/messaging/resources \u001B[32m200\u001B[0m 4ms",
+    "ingestionTime" : 1794676324281,
+    "sequence" : 265
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676324228::6cfec9b9-45c1-4c02-a9c3-472fd6650cc8" : {
+    "eventId" : "6cfec9b9-45c1-4c02-a9c3-472fd6650cc8",
+    "timestamp" : 1794676324228,
+    "message" : "<-- GET /api/clouds/aws/services/loadbalancing/resources",
+    "ingestionTime" : 1794676324228,
+    "sequence" : 249
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320376::c1bd0741-1ac1-40c0-ab98-9dcfddb351d9" : {
+    "eventId" : "c1bd0741-1ac1-40c0-ab98-9dcfddb351d9",
+    "timestamp" : 1794676320376,
+    "message" : "<-- GET /api/clouds/aws/services/iac/resources",
+    "ingestionTime" : 1794676320376,
+    "sequence" : 170
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320255::18d31372-306c-4eb1-8abe-a838a3275575" : {
+    "eventId" : "18d31372-306c-4eb1-8abe-a838a3275575",
+    "timestamp" : 1794676320255,
+    "message" : "--> GET /assets/ui-vendor-BK6_BAfi.js \u001B[32m200\u001B[0m 0ms",
+    "ingestionTime" : 1794676320255,
+    "sequence" : 127
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676320314::6949e4e0-2190-4c16-bd59-bf8d803825dc" : {
+    "eventId" : "6949e4e0-2190-4c16-bd59-bf8d803825dc",
+    "timestamp" : 1794676320314,
+    "message" : "<-- GET /api/clouds/aws/services/networking/resources",
+    "ingestionTime" : 1794676320314,
+    "sequence" : 147
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676305165::1f9a9792-dbe3-4a7b-b851-4e1d87239a03" : {
+    "eventId" : "1f9a9792-dbe3-4a7b-b851-4e1d87239a03",
+    "timestamp" : 1794676305165,
+    "message" : "--> GET /api/clouds/aws/services/loadbalancing/resources \u001B[32m200\u001B[0m 50ms",
+    "ingestionTime" : 1794676305165,
+    "sequence" : 58
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676355595::a7e91a1d-e233-4577-9896-b6b1d7dabd08" : {
+    "eventId" : "a7e91a1d-e233-4577-9896-b6b1d7dabd08",
+    "timestamp" : 1794676355595,
+    "message" : "<-- GET /api/clouds/aws/services/configuration/resources",
+    "ingestionTime" : 1794676355595,
+    "sequence" : 345
+  },
+  "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545::001794676337785::5d1bf783-566a-490d-9696-a770a27186a0" : {
+    "eventId" : "5d1bf783-566a-490d-9696-a770a27186a0",
+    "timestamp" : 1794676337785,
+    "message" : "<-- GET /api/clouds/aws/status",
+    "ingestionTime" : 1794676337785,
+    "sequence" : 298
+  }
+}
