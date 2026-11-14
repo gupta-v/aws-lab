@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaibhav's AI Engineer Roadmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: each phase is a winding S-shaped track (left→right, then right→left).
+   Yellow day nodes sit on the curve; tap one to open its numbered submodules (4.1, 4.2 …). */
+:root{
+  --bg:#eef0ee;
+  --surface:#ffffff;
+  --ink:#16191d;
+  --muted:#5d646d;
+  --line:#2f5bd3;
+  --node:#ffd43b;
+  --node-ink:#16191d;
+  --rule:#cfd4d2;
+  --done:#1f9d63;
+  --proj:#ff8a3d;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111317; --surface:#1a1d23; --ink:#e9ecef; --muted:#9aa3ad; --line:#6f93ff;
+    --node:#ffd43b; --node-ink:#16191d; --rule:#2c3139; --done:#3ccf8e; --proj:#ff9d5c; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111317; --surface:#1a1d23; --ink:#e9ecef; --muted:#9aa3ad; --line:#6f93ff;
+  --node:#ffd43b; --node-ink:#16191d; --rule:#2c3139; --done:#3ccf8e; --proj:#ff9d5c; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:var(--line)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--line);outline-offset:2px;border-radius:6px}
+code{font-family:var(--mono);font-size:.86em;background:var(--bg);padding:1px 5px;border-radius:4px;word-break:break-word}
+.wrap{max-width:1120px;margin:0 auto;padding:40px 20px 80px}
+
+header.top{display:grid;gap:16px;margin-bottom:12px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,5vw,52px);line-height:1.02;margin:0;text-wrap:balance}
+.sub{color:var(--muted);max-width:66ch;margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:10px}
+.stat{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:10px 14px;display:grid;gap:2px;min-width:130px}
+.stat b{font-family:var(--display);font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.progress{height:10px;background:var(--rule);border-radius:99px;overflow:hidden}
+.progress i{display:block;height:100%;width:0;background:var(--done);transition:width .3s}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.sw{width:22px;height:14px;border-radius:4px;border:2px solid var(--node-ink);display:inline-block}
+.sw.s-node{background:var(--node)}
+.sw.s-proj{background:var(--proj)}
+.sw.s-done{background:var(--done);border-color:var(--done)}
+.sw.s-read{border-style:dashed;background:transparent;border-color:var(--muted)}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.sync{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;color:var(--muted);background:var(--surface);border:1px solid var(--rule);border-radius:99px;padding:5px 12px}
+.sync i{width:9px;height:9px;border-radius:50%;background:var(--muted)}
+.sync[data-kind="ok"] i{background:var(--done)}
+.sync[data-kind="saving"] i{background:var(--node)}
+.sync[data-kind="off"] i{background:var(--proj)}
+.btn{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:6px 12px;font-size:14px;cursor:pointer}
+.btn:hover{border-color:var(--ink)}
+.jump{display:flex;flex-wrap:wrap;gap:6px}
+.jump a{font-size:13px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:99px;padding:3px 10px}
+.jump a:hover{border-color:var(--line)}
+
+/* phases */
+section.phase{margin-top:52px;scroll-margin-top:16px}
+.phase-head{display:grid;gap:6px;margin-bottom:14px;max-width:760px}
+.phase-tag{justify-self:start;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--ink);color:var(--bg);padding:3px 10px;border-radius:99px}
+.phase-tag.proj{background:var(--proj);color:#16191d}
+.phase-head h2{font-family:var(--display);font-weight:800;font-size:clamp(24px,3.2vw,34px);margin:0;text-wrap:balance}
+.phase-head p{margin:0;color:var(--muted)}
+.phase-meta{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+.snake{position:relative;width:100%}
+.snake > svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.snake > svg path{fill:none;stroke:var(--line);stroke-width:3;stroke-linecap:round}
+.snake > svg path.dash{stroke-dasharray:2 7;stroke-width:3}
+
+.node{position:absolute;transform:translate(-50%,-50%);background:var(--node);color:var(--node-ink);border:2px solid var(--node-ink);border-radius:12px;padding:10px 12px;display:grid;gap:5px;text-align:left;cursor:pointer;box-shadow:0 3px 0 var(--node-ink);transition:transform .12s, box-shadow .12s}
+.node:hover{transform:translate(-50%,calc(-50% - 2px));box-shadow:0 5px 0 var(--node-ink)}
+.node.proj{background:var(--proj)}
+.node.review{background:var(--surface);color:var(--ink);border-style:dashed;box-shadow:none;border-color:var(--muted)}
+.node .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.node .day{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.node .t{font-weight:600;font-size:15px;line-height:1.25;text-wrap:balance}
+.node .dots{display:flex;flex-wrap:wrap;gap:4px}
+.node .dot{font-family:var(--mono);font-size:10.5px;padding:0 5px;border-radius:4px;border:1.5px solid currentColor;opacity:.75;font-variant-numeric:tabular-nums}
+.node .dot.on{background:var(--done);border-color:var(--done);color:#fff;opacity:1}
+.node .ring{width:26px;height:26px;flex:none}
+.node .ring circle{fill:none;stroke-width:4}
+.node .ring .bgc{stroke:rgba(0,0,0,.15)}
+.node .ring .fg{stroke:var(--done);stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%}
+.node.is-done{background:var(--done);border-color:var(--done);color:#fff;box-shadow:0 3px 0 #0d5c39}
+.node.is-done .dot{border-color:#fff;opacity:1}
+.node.is-done .ring .bgc{stroke:rgba(255,255,255,.35)}
+.node.is-done .ring .fg{stroke:#fff}
+.node.is-next{outline:3px solid var(--line);outline-offset:3px}
+
+.outcome{margin:18px 0 0;max-width:760px;background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--line);border-radius:8px;padding:12px 16px;font-size:14.5px}
+.outcome b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:2px}
+
+.have-grid{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--done);color:#fff;border-radius:7px;padding:4px 10px;font-size:13.5px}
+
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:6px 0 22px}
+.path{background:var(--surface);border:2px solid var(--rule);border-radius:12px;padding:14px;text-align:left;cursor:pointer;display:grid;gap:6px;align-content:start}
+.path:hover{border-color:var(--ink)}
+.path[aria-pressed="true"]{border-color:var(--proj);box-shadow:0 0 0 3px color-mix(in srgb,var(--proj) 35%,transparent)}
+.path .pl{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.path b{font-size:16px}
+.path .badge{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;background:var(--proj);color:#16191d;padding:1px 7px;border-radius:99px}
+.path span.d{font-size:14px;color:var(--muted)}
+.path ul{margin:0;padding-left:18px;font-size:13.5px;display:grid;gap:2px}
+
+footer{margin-top:56px;color:var(--muted);font-size:13px}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,12,15,.45);opacity:0;pointer-events:none;transition:opacity .2s;z-index:20}
+.scrim.open{opacity:1;pointer-events:auto}
+aside.drawer{position:fixed;top:0;right:0;height:100%;width:min(580px,100%);background:var(--surface);color:var(--ink);z-index:21;transform:translateX(102%);transition:transform .25s ease;display:flex;flex-direction:column;border-left:1px solid var(--rule)}
+aside.drawer.open{transform:none}
+.d-head{padding:18px 22px 14px;border-bottom:1px solid var(--rule);display:grid;gap:8px}
+.d-row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.d-head h3{font-family:var(--display);font-weight:800;font-size:26px;line-height:1.1;margin:0;text-wrap:balance}
+.d-meta{font-size:13px;color:var(--muted)}
+.d-nav{display:flex;gap:6px}
+.icon{background:none;border:1px solid var(--rule);border-radius:8px;min-width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1;padding:0 8px}
+.icon:hover{border-color:var(--ink)}
+.icon:disabled{opacity:.35;cursor:default}
+.d-body{padding:16px 22px 48px;overflow-y:auto;display:grid;gap:18px;align-content:start}
+.d-body h4{margin:0 0 6px;font-family:var(--mono);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.d-body p{margin:0}
+.d-body ul{margin:0;padding-left:20px;display:grid;gap:4px}
+.donewhen{background:var(--bg);border-left:4px solid var(--done);padding:10px 12px;border-radius:6px}
+.pathnote{background:var(--bg);border-left:4px solid var(--proj);padding:10px 12px;border-radius:6px}
+.qs li{font-style:italic}
+
+.subs{display:grid;gap:8px}
+.sm{border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+.sm.on{border-color:var(--done)}
+.sm-h{display:grid;grid-template-columns:auto auto 1fr auto;gap:10px;align-items:center;padding:10px 12px}
+.sm-h input{width:18px;height:18px;accent-color:var(--done);margin:0;cursor:pointer}
+.sm-n{font-family:var(--mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.sm-t{background:none;border:0;text-align:left;font-weight:600;cursor:pointer;padding:0}
+.sm.on .sm-t{color:var(--muted);text-decoration:line-through}
+.sm-x{background:none;border:0;cursor:pointer;font-size:14px;color:var(--muted);width:28px;height:28px;border-radius:6px}
+.sm-x:hover{background:var(--bg)}
+.sm-b{display:none;padding:0 14px 14px 52px;gap:10px;font-size:14.5px}
+.sm.open .sm-b{display:grid}
+.sm.open .sm-x{transform:rotate(180deg)}
+.sm-b ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.sm-b .r{font-size:13.5px}
+
+@media (max-width:640px){
+  .sm-b{padding-left:14px}
+  .node .t{font-size:14px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Personal roadmap · 38 days · 2–3 h a day</div>
+    <h1>AI Engineer → Cloud, LLMOps, Fine-tuning &amp; MLOps</h1>
+    <p class="sub">31 learning days split into numbered submodules, then a 7-day project sprint where everything comes together. Tap any day on the path to open its submodules. Tick each one off as you go, and the day turns green when all of them are done.</p>
+    <div class="stats">
+      <div class="stat"><b id="s-done">0 / 0</b><span>submodules done</span></div>
+      <div class="stat"><b id="s-days">0 / 38</b><span>days complete</span></div>
+      <div class="stat"><b id="s-next">Day 1</b><span>up next</span></div>
+      <div class="stat"><b>~95 h</b><span>total time budget</span></div>
+    </div>
+    <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+    <div class="legend">
+      <span><i class="sw s-node"></i>Learning day</span>
+      <span><i class="sw s-read"></i>Review day</span>
+      <span><i class="sw s-proj"></i>Project sprint day</span>
+      <span><i class="sw s-done"></i>Done</span>
+    </div>
+    <nav class="jump" id="jump" aria-label="Jump to phase"></nav>
+    <div class="toolbar"><span class="sync" id="sync" data-kind="wait" role="status"><i></i><span>Connecting to sync…</span></span><button class="btn" id="reset" type="button">Clear my progress</button></div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>Progress syncs through your Claude account, so open this page signed in on your phone or laptop and it picks up where you left off. It is private to you. If sync is unavailable, progress is kept in this browser until it reconnects.</footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" aria-hidden="true">
+  <div class="d-head">
+    <div class="d-row">
+      <span class="eyebrow" id="d-eyebrow"></span>
+      <div class="d-nav">
+        <button class="icon" id="d-prev" type="button" aria-label="Previous day">←</button>
+        <button class="icon" id="d-next" type="button" aria-label="Next day">→</button>
+        <button class="icon" id="d-close" type="button" aria-label="Close">×</button>
+      </div>
+    </div>
+    <h3 id="d-title"></h3>
+    <div class="d-meta" id="d-meta"></div>
+  </div>
+  <div class="d-body" id="d-body"></div>
+</aside>
+
+<script>
+/* ---------- resources ---------- */
+const R = {
+  floci:["Floci on GitHub","https://github.com/floci-io/floci"],
+  flociSite:["floci.io","https://floci.io"],
+  skill:["AWS Cloud Practitioner Essentials (AWS Skill Builder)","https://skillbuilder.aws"],
+  shared:["AWS shared responsibility model","https://aws.amazon.com/compliance/shared-responsibility-model/"],
+  boto3:["boto3 documentation","https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"],
+  s3:["Amazon S3 user guide","https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"],
+  ddb:["DynamoDB developer guide","https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"],
+  ddbbp:["DynamoDB best practices (data modelling)","https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html"],
+  lambda:["AWS Lambda developer guide","https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"],
+  lambdaImg:["Lambda container images","https://docs.aws.amazon.com/lambda/latest/dg/images-create.html"],
+  sqs:["Amazon SQS developer guide","https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"],
+  eb:["Amazon EventBridge user guide","https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"],
+  iam:["IAM best practices","https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html"],
+  iampol:["IAM policy reference","https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html"],
+  secrets:["AWS Secrets Manager","https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html"],
+  vpc:["Amazon VPC: how it works","https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html"],
+  apigw:["API Gateway: HTTP vs REST APIs","https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html"],
+  ecs:["Amazon ECS on Fargate","https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html"],
+  cw:["Amazon CloudWatch user guide","https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"],
+  tf:["Terraform: Get started with AWS","https://developer.hashicorp.com/terraform/tutorials/aws-get-started"],
+  tfmod:["Terraform modules tutorial","https://developer.hashicorp.com/terraform/tutorials/modules"],
+  tfstate:["Terraform S3 backend","https://developer.hashicorp.com/terraform/language/backend/s3"],
+  docker:["Docker multi-stage builds","https://docs.docker.com/build/building/multi-stage/"],
+  uvdocker:["Using uv in Docker","https://docs.astral.sh/uv/guides/integration/docker/"],
+  compose:["Docker Compose docs","https://docs.docker.com/compose/"],
+  gha:["GitHub Actions docs","https://docs.github.com/en/actions"],
+  ghaSvc:["GitHub Actions service containers","https://docs.github.com/en/actions/use-cases-and-examples/using-containerized-services/about-service-containers"],
+  oidc:["GitHub OIDC with AWS","https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services"],
+  budgets:["AWS Budgets guide","https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html"],
+  mangum:["Mangum (FastAPI on Lambda)","https://pypi.org/project/mangum/"],
+  fsdl:["Full Stack Deep Learning: LLM Bootcamp","https://fullstackdeeplearning.com/llm-bootcamp/"],
+  huyen:["Chip Huyen: AI Engineering / Designing ML Systems","https://huyenchip.com/books/"],
+  litellm:["LiteLLM docs","https://docs.litellm.ai"],
+  langsmith:["LangSmith docs","https://docs.smith.langchain.com"],
+  langfuse:["Langfuse docs","https://langfuse.com/docs"],
+  ragas:["Ragas (RAG evaluation metrics)","https://docs.ragas.io"],
+  owasp:["OWASP Top 10 for LLM Applications","https://genai.owasp.org/llm-top-10/"],
+  pydantic:["Pydantic docs","https://docs.pydantic.dev"],
+  otel:["OpenTelemetry: observability primer","https://opentelemetry.io/docs/concepts/observability-primer/"],
+  pt:["PyTorch: Learn the Basics","https://pytorch.org/tutorials/beginner/basics/intro.html"],
+  ptamp:["PyTorch automatic mixed precision","https://pytorch.org/docs/stable/amp.html"],
+  karpathy:["Karpathy: Neural Networks Zero to Hero","https://karpathy.ai/zero-to-hero.html"],
+  hfcourse:["Hugging Face LLM Course","https://huggingface.co/learn/llm-course"],
+  chattpl:["Hugging Face chat templates","https://huggingface.co/docs/transformers/main/en/chat_templating"],
+  illus:["The Illustrated Transformer (Jay Alammar)","https://jalammar.github.io/illustrated-transformer/"],
+  peft:["Hugging Face PEFT (LoRA)","https://huggingface.co/docs/peft"],
+  trl:["Hugging Face TRL (SFT, DPO)","https://huggingface.co/docs/trl"],
+  unsloth:["Unsloth docs (fast LoRA on Colab)","https://docs.unsloth.ai"],
+  hub:["Hugging Face model cards","https://huggingface.co/docs/hub/model-cards"],
+  mlflow:["MLflow docs","https://mlflow.org/docs/latest/"],
+  wandb:["Weights & Biases docs","https://docs.wandb.ai"],
+  mwml:["Made With ML (end-to-end MLOps)","https://madewithml.com"],
+  gmlops:["Google: MLOps maturity levels","https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"],
+  ollama:["Ollama","https://ollama.com"],
+  vllm:["vLLM docs","https://docs.vllm.ai"],
+  llamacpp:["llama.cpp (GGUF, quantization)","https://github.com/ggml-org/llama.cpp"],
+  dvc:["DVC docs","https://dvc.org/doc"],
+  prefect:["Prefect docs","https://docs.prefect.io"],
+  evidently:["Evidently docs (drift)","https://docs.evidentlyai.com"],
+  feast:["Feast docs (feature store)","https://docs.feast.dev"],
+  k8s:["Kubernetes basics tutorial","https://kubernetes.io/docs/tutorials/kubernetes-basics/"],
+  hpa:["Kubernetes Horizontal Pod Autoscaling","https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"],
+  sysd:["System design primer","https://github.com/donnemartin/system-design-primer"],
+  mermaid:["Mermaid diagram syntax","https://mermaid.js.org/intro/"],
+  locust:["Locust (load testing in Python)","https://docs.locust.io"]
+};
+
+const HAVE = ["LangGraph multi-agent graphs","MCP servers","FastAPI + async Python","Docker","PostgreSQL + Redis","Langfuse / LangSmith tracing","Layered evals","LLM-as-judge harness","OAuth2, JWT/JWKS, HMAC privacy","pytest + uv","PyTorch / scikit-learn basics","RAG + FAISS"];
+
+/* sub: [title, explain, steps[], resKeys[]] */
+const PHASES = [
+{id:"cloud", tag:"Phase 1 · Days 1–8", title:"Cloud foundations on Floci",
+ goal:"Learn the AWS services an AI backend actually uses. You'll practise through code on a local emulator, so there's no bill and nothing you can break.",
+ outcome:"You can explain and use S3, DynamoDB, Lambda, SQS, IAM, API Gateway and CloudWatch, and you have built a small event-driven pipeline from memory.",
+ days:[
+ {t:"How the cloud works + Floci setup", intro:"Get the mental model first, then get a working local cloud on your laptop.",
+  done:"`aws s3 ls` against Floci lists a bucket you created, and you can explain regions vs AZs.",
+  qs:["What's the difference between a region and an availability zone?","Under the shared responsibility model, what is AWS responsible for and what are you responsible for?"],
+  subs:[
+   ["Cloud mental model","Regions, availability zones, edge locations and the shared responsibility model. These words come up in every cloud interview.",["Watch the first modules of Cloud Practitioner Essentials","Write a 5-line summary in your own words"],["skill","shared"]],
+   ["The AWS service map","Group services by job: compute (Lambda, ECS, EC2), storage (S3), databases (DynamoDB, RDS), messaging (SQS, SNS, EventBridge), identity (IAM).",["Draw the map on paper, with one example use for each service in an AI app"],[]],
+   ["Install Floci + AWS CLI","Floci gives you a local AWS on port 4566. Any AWS CLI or SDK call can point at it.",["Install Docker, the AWS CLI and the Floci CLI","Run `floci start`, then `eval $(floci env)`","Run `floci doctor` if something fails"],["flociSite","floci"]],
+   ["First bucket + floci-ui","Prove the loop works end to end.",["`aws s3 mb s3://scratch`, then upload any file","Open floci-ui and find the bucket and the object"],["floci"]]
+  ]},
+ {t:"S3 deep dive with boto3", intro:"Object storage is where agent reports, uploads, datasets and model artifacts live.",
+  done:"A Python module uploads, lists, downloads and creates presigned URLs against Floci.",
+  qs:["What problem does a presigned URL solve?","When would you turn on bucket versioning?"],
+  subs:[
+   ["boto3 sessions, clients, endpoints","A client is a thin API wrapper, and the endpoint decides where calls go. Setting `AWS_ENDPOINT_URL` switches between Floci and real AWS without changing code.",["Create a `get_s3()` helper that reads the endpoint from env"],["boto3"]],
+   ["Upload, download, list","The everyday S3 operations, plus multipart upload for large files.",["Write `upload_file`, `download_file` and `list_prefix` helpers","Upload 20 files under `reports/2026/` and list by prefix"],["s3"]],
+   ["Presigned URLs","Short-lived links that let a browser download or upload without your AWS credentials.",["Generate a 5-minute download link and open it with curl"],["s3"]],
+   ["Versioning, lifecycle, storage classes","How teams keep old versions and cut storage cost automatically.",["Read the S3 lifecycle page and write a rule that would move old reports to cheaper storage"],["s3"]]
+  ]},
+ {t:"DynamoDB data modelling", intro:"A serverless key-value and document database. It's ideal for job status and session state.",
+  done:"A jobs table answers 'get job by id' and 'list a user's jobs by date' with no scans.",
+  qs:["How do you choose a partition key, and what is a hot partition?","Query vs Scan: why should you avoid Scan?"],
+  subs:[
+   ["Keys and access patterns","In DynamoDB you design the table around your queries. List the queries first, then choose the partition and sort keys.",["List 3 access patterns for a research-jobs table","Pick PK = `user_id` and SK = `created_at#job_id`, and justify the choice"],["ddbbp"]],
+   ["CRUD, Query vs Scan","Put, get, update and delete. Query reads one partition; Scan reads the whole table.",["Insert 50 items, then query one user's jobs within a date range"],["ddb"]],
+   ["Global secondary indexes","Add a second access pattern without duplicating data by hand.",["Add a GSI on `status` and query all pending jobs"],["ddb"]],
+   ["Conditional writes","Only write if a condition holds. This is the basis for idempotent workers later.",["Write a status update that only succeeds if status is still `pending`"],["ddb"]]
+  ]},
+ {t:"Lambda: serverless compute", intro:"Functions that run on events. Good for API handlers and short to medium jobs.",
+  done:"A Lambda deployed to Floci both as a zip and as a container image, with logs you can read.",
+  qs:["What is a cold start and how do you reduce it?","What are Lambda's main limits (timeout, memory, payload)?"],
+  subs:[
+   ["Execution model","Handlers, events, cold vs warm starts, the 15-minute limit and how memory affects CPU.",["Read the Lambda concepts page and note the limits"],["lambda"]],
+   ["Zip deploy to Floci","Package a handler and invoke it from the CLI.",["Write `handler(event, context)` and deploy it with the AWS CLI","Invoke it and read the response"],["lambda"]],
+   ["Config: env vars, timeouts, memory","The settings that decide cost and reliability.",["Add an env var, set the timeout to 30 s and trigger a timeout on purpose"],["lambda"]],
+   ["Container images","Package Python with heavy dependencies (LangGraph, etc.) as a Docker image instead of a zip.",["Build a Lambda container image from the AWS base image and deploy it to Floci"],["lambdaImg"]]
+  ]},
+ {t:"SQS + event-driven design", intro:"Queues decouple your API from slow work. That's the backbone of any agent backend.",
+  done:"Messages trigger your Lambda in batches, and failures land in a dead-letter queue.",
+  qs:["SQS gives at-least-once delivery. What does that mean for your code?","What is visibility timeout and how do you set it?"],
+  subs:[
+   ["Queues and delivery semantics","Standard vs FIFO queues, at-least-once delivery, visibility timeout, long polling.",["Send and receive messages from the CLI","Let one sit past its visibility timeout and watch it reappear"],["sqs"]],
+   ["SQS → Lambda trigger","Lambda polls the queue for you and passes messages in batches.",["Connect the queue to yesterday's Lambda with a batch size of 5"],["sqs","lambda"]],
+   ["Dead-letter queues + redrive","Messages that keep failing move aside so they can't block the queue.",["Make the Lambda fail on a 'poison' message","Configure a DLQ with maxReceiveCount = 3 and redrive after a fix"],["sqs"]],
+   ["Fan-out: SNS and EventBridge","One event, many consumers. Know when each tool fits.",["Read the EventBridge overview; write 3 lines comparing SQS, SNS and EventBridge"],["eb"]]
+  ]},
+ {t:"IAM and secrets", intro:"Your cybersecurity degree is an advantage here. Interviewers will probe this topic.",
+  done:"Your Lambda runs with a least-privilege role under IAM enforcement and reads its API key from Secrets Manager.",
+  qs:["Explain least privilege with an example.","Why use Secrets Manager instead of plain environment variables?"],
+  subs:[
+   ["Policy anatomy","Effect, Action, Resource, Condition. Learn how to read any policy.",["Read three AWS managed policies and explain each in one sentence"],["iampol"]],
+   ["Roles and trust policies","A role is an identity that a service assumes. The trust policy says who can assume it.",["Write an execution role for your Lambda with a trust policy for lambda.amazonaws.com"],["iam"]],
+   ["Least privilege on Floci","Turn on enforcement and fix what breaks.",["Restart Floci with `FLOCI_SERVICES_IAM_ENFORCEMENT_ENABLED=true`","Grant only the exact SQS, S3 and DynamoDB actions the function needs"],["iam","floci"]],
+   ["Secrets Manager vs Parameter Store","Where API keys belong, how rotation works, and how to cache secrets in Lambda.",["Store your Groq key, read it at cold start and cache it"],["secrets"]]
+  ]},
+ {t:"API Gateway, networking, containers, logs", intro:"The pieces around your functions: entry points, networks, alternatives and observability.",
+  done:"You can sketch where API Gateway, VPC, ECS and CloudWatch fit, and you have read your Lambda logs and metrics.",
+  qs:["Lambda vs ECS Fargate for a 10-minute agent job: which would you pick and why?","What does a security group do?"],
+  subs:[
+   ["VPC basics","Subnets (public vs private), route tables, NAT and security groups, at the concept level.",["Read the VPC overview and draw a two-subnet diagram"],["vpc"]],
+   ["API Gateway","HTTP vs REST APIs, routes, integrations with Lambda.",["Put an HTTP API in front of your Lambda on Floci and curl it"],["apigw"]],
+   ["ECR + ECS Fargate vs Lambda","Containers that run long, or always on, versus functions that run on demand.",["Write a decision table: duration, cost, cold start, GPU, scaling"],["ecs"]],
+   ["CloudWatch logs, metrics, alarms","Where your print statements go, and how to alert on errors.",["Find your Lambda's logs; read the Errors and Duration metrics","Write an alarm definition for error rate"],["cw"]]
+  ]},
+ {t:"Review: build it from memory", review:true, intro:"Consolidate the week by building without tutorials.",
+  done:"The pipeline works without you copying from earlier code, and your cheat sheet fits on one page.",
+  qs:["Walk me through an event-driven pipeline you built on AWS."],
+  subs:[
+   ["Mini pipeline","Upload to S3 → event → SQS → Lambda → metadata in DynamoDB.",["Build it with boto3 and the CLI only, no copy-paste"],[]],
+   ["One-page cheat sheet","Each service: what it is, when to use it, one gotcha.",["Write it in your notes repo"],[]],
+   ["Self-quiz","Answer the interview questions from Days 1–7 out loud.",["Record yourself answering 5 questions and listen back"],[]]
+  ]}
+ ]},
+{id:"iac", tag:"Phase 2 · Days 9–13", title:"Infrastructure as code + CI/CD",
+ goal:"Everything as code: Terraform for infrastructure, Docker for apps, GitHub Actions for tests and deploys, and one safe trip to real AWS.",
+ outcome:"Resume-ready: Terraform, Docker Compose, GitHub Actions with OIDC deploys to AWS, and CI that tests AWS code against a local emulator.",
+ days:[
+ {t:"Terraform fundamentals", intro:"Declarative infrastructure. Floci lets you apply and destroy without cost.",
+  done:"Terraform creates and destroys a bucket, queue and table on Floci with a clean plan.",
+  qs:["What is Terraform state and why keep it remote?","What does `terraform plan` protect you from?"],
+  subs:[
+   ["HCL, providers, resources","The language and the building blocks.",["Do the first HashiCorp AWS tutorial"],["tf"]],
+   ["The core workflow and state","init → plan → apply → destroy. State is how Terraform knows what exists.",["Inspect `terraform.tfstate` after an apply and find your bucket"],["tf"]],
+   ["Point the provider at Floci","Set custom endpoints and test credentials so the same code can target real AWS later.",["Configure the provider endpoints for s3, sqs, dynamodb, lambda and iam"],["tf","floci"]],
+   ["Data sources and outputs","Read existing things and expose values to other tools.",["Output the queue URL and table ARN"],["tf"]]
+  ]},
+ {t:"Terraform for real projects", intro:"Structure that scales beyond one file.",
+  done:"The Day 8 pipeline comes up from `terraform apply` using your own module.",
+  qs:["When do you split code into modules?","How do you manage dev vs prod with Terraform?"],
+  subs:[
+   ["Variables, tfvars, locals","Parameterise names, environments and sizes.",["Add `env` and `project` variables and a `dev.tfvars`"],["tf"]],
+   ["Modules","Reusable building blocks, like functions for infrastructure.",["Create a `queue_worker` module: SQS + DLQ + Lambda + role"],["tfmod"]],
+   ["Remote state + locking","Shared state in S3 so a team, or CI, can't corrupt it.",["Configure an S3 backend against Floci"],["tfstate"]],
+   ["Rebuild the Day 8 pipeline","Your first full stack as code.",["Destroy and re-apply twice to prove it's repeatable"],[]]
+  ]},
+ {t:"Docker for AI apps", intro:"Small, reproducible images and a one-command local stack.",
+  done:"`docker compose up` starts your API, Redis, Postgres and Floci together.",
+  qs:["How do multi-stage builds reduce image size?","Why order Dockerfile layers carefully?"],
+  subs:[
+   ["Multi-stage builds with uv","Build dependencies in one stage, ship a slim runtime.",["Write a multi-stage Dockerfile for a FastAPI app with uv"],["docker","uvdocker"]],
+   ["Layer caching and image size","Copy the lockfile before the source; use .dockerignore.",["Compare image sizes before and after the changes"],["docker"]],
+   ["Compose the local stack","App + Floci + Redis + Postgres on one network.",["Write `compose.yaml` with all four services"],["compose"]],
+   ["Health checks and config","Containers that report readiness, and config through env vars.",["Add a `/health` endpoint and Compose health checks"],["compose"]]
+  ]},
+ {t:"GitHub Actions CI", intro:"Every push gets tested automatically, including AWS code.",
+  done:"A PR runs lint, tests against Floci, and builds the Docker image.",
+  qs:["How do you test code that talks to AWS in CI without touching real AWS?","How do you speed up slow CI?"],
+  subs:[
+   ["Workflows, jobs, caching","Triggers, matrices and dependency caching.",["Create `ci.yml` that runs on pull requests"],["gha"]],
+   ["Lint + tests","ruff and pytest as required checks.",["Add both and make one fail on purpose"],["gha"]],
+   ["Floci as a service container","A real local AWS inside CI.",["Run Floci as a service and point the tests at it"],["ghaSvc","floci"]],
+   ["Build the image","Make sure the Dockerfile builds on every PR.",["Add a docker build step with layer caching"],["gha"]]
+  ]},
+ {t:"CD + first real AWS deploy", intro:"Safe account setup, keyless deploys, then a small real deployment.",
+  done:"Merging to main deploys the pipeline to real AWS through OIDC. You then destroy it, with a budget alarm in place.",
+  qs:["Why use OIDC instead of storing AWS keys in GitHub secrets?","How do you keep cloud costs under control?"],
+  subs:[
+   ["Account hygiene","MFA on root, an admin IAM identity, a budget alarm before anything else.",["Check AWS's current free-tier / credit terms","Create a Budget alarm at about $5"],["budgets","iam"]],
+   ["OIDC from GitHub to AWS","Short-lived credentials, with no long-lived keys anywhere.",["Create the OIDC provider and a deploy role limited to your repo"],["oidc"]],
+   ["Plan on PR, apply on main","The standard Terraform delivery flow.",["Post `terraform plan` output on PRs; apply after merge"],["gha","tf"]],
+   ["Deploy, verify, destroy","Prove it works on real AWS, then stop paying.",["Run the pipeline on real AWS, check CloudWatch logs, run `terraform destroy`"],["cw"]]
+  ]}
+ ]},
+{id:"llmops", tag:"Phase 3 · Days 14–21", title:"LLMOps: reliable LLM systems",
+ goal:"The production layer around LLM apps: gateways, cost, evals, CI gates, guardrails and observability. You already have a head start from Tracky.",
+ outcome:"You can design and explain an LLM app's ops layer end to end, and you have built each piece once.",
+ days:[
+ {t:"The LLMOps landscape", intro:"Big picture first, then map what you already do onto it.",
+  done:"A one-page diagram of the LLM app lifecycle, with your Tracky work marked on it.",
+  qs:["How is LLMOps different from classic MLOps?","What are the stages of an LLM app's lifecycle?"],
+  subs:[
+   ["MLOps vs LLMOps","Training pipelines vs prompts, retrieval, evals and API cost.",["Watch an FSDL LLM Bootcamp lecture on deployment and ops"],["fsdl"]],
+   ["The LLM app lifecycle","Prompt → evaluate → deploy → monitor → improve.",["Read the evaluation and deployment chapters of AI Engineering"],["huyen"]],
+   ["Map your Tracky work","You already do routing evals, judges, tracing and PII hashing.",["Mark each Tracky piece on the lifecycle diagram and note the gaps"],[]]
+  ]},
+ {t:"LLM gateway with LiteLLM", intro:"One layer in front of every model call.",
+  done:"With the primary provider broken, your app still answers through a fallback.",
+  qs:["How do you handle a model provider outage?","Proxy server vs SDK: when would you use each?"],
+  subs:[
+   ["Unified API: SDK vs proxy","One OpenAI-style interface for Groq, Gemini, OpenAI and Ollama.",["Replace direct client calls in one project with LiteLLM"],["litellm"]],
+   ["Fallbacks, retries, timeouts","Resilience when a provider is slow or down.",["Configure Groq → Gemini fallback with backoff","Break the Groq key and confirm the fallback"],["litellm"]],
+   ["Rate limits and budgets","Per-key spend caps and request limits.",["Run the LiteLLM proxy with a virtual key and a small budget"],["litellm"]],
+   ["Load balancing","Spread traffic across deployments or providers.",["Configure two deployments of the same model and watch the routing"],["litellm"]]
+  ]},
+ {t:"Cost, caching and latency", intro:"The numbers that decide whether an LLM feature is viable.",
+  done:"You can state cost per request and p95 latency for your app, and caching visibly cuts both.",
+  qs:["When can caching LLM responses go wrong?","What is time-to-first-token and why does it matter?"],
+  subs:[
+   ["Token economics","Input vs output tokens, context length and cost per request.",["Log tokens and cost for 50 requests and compute the average"],["litellm"]],
+   ["Exact vs semantic cache","A Redis key cache vs embedding-similarity cache, and when each is safe.",["Enable a Redis cache; measure the hit rate and latency"],["litellm"]],
+   ["Streaming and latency metrics","TTFT, total latency, p50 vs p95.",["Stream responses and measure TTFT vs total time"],[]],
+   ["Concurrency and batching","asyncio.gather, semaphores and provider rate limits.",["Run 30 requests concurrently with a semaphore of 5"],[]]
+  ]},
+ {t:"Evaluation deep dive", intro:"Your strongest area. Now formalise it in public.",
+  done:"An eval set with deterministic and judge scorers, and a judge whose agreement with your own labels is measured.",
+  qs:["How do you know an LLM judge is reliable?","Which metrics would you use for a RAG system?"],
+  subs:[
+   ["Golden datasets and slices","Representative cases, edge cases and per-slice scores.",["Write 30 cases tagged by category"],["langsmith"]],
+   ["Deterministic scorers","Schema validity, citations present, regex and length checks. They're cheap and reliable.",["Write 4 code-based scorers"],[]],
+   ["Judge design and calibration","Rubrics, pairwise vs absolute scoring, and agreement with human labels.",["Hand-label 20 outputs and measure judge agreement"],["langsmith"]],
+   ["RAG metrics","Faithfulness, answer relevance, context precision and recall.",["Run Ragas-style metrics on KIRA"],["ragas"]]
+  ]},
+ {t:"Evals in CI + experiments", intro:"Turn evals into a safety net and a way to compare versions.",
+  done:"A PR with a worse prompt is blocked automatically by CI.",
+  qs:["How do you stop prompt changes from causing regressions?","How do you keep eval runs in CI cheap?"],
+  subs:[
+   ["Regression thresholds","Compare against a stored baseline; fail if a score drops.",["Store the baseline JSON and write a compare script"],[]],
+   ["Eval job in GitHub Actions","Run only when prompt or graph files change.",["Add a path-filtered eval job that fails the PR"],["gha"]],
+   ["Keeping CI cheap","Small smoke set on PRs, full set nightly, cached responses.",["Split into a smoke set (10) and a full set (30)"],[]],
+   ["Online evals and A/B tests","Score a sample of production traces; compare prompt versions.",["Run a judge over 20 logged traces and compare two prompt variants"],["langfuse"]]
+  ]},
+ {t:"Guardrails and LLM security", intro:"Agents that read the web or user files are exposed to injected instructions.",
+  done:"Adversarial cases are in your eval set and pass.",
+  qs:["Name three defences against prompt injection.","How do you handle invalid structured output from an LLM?"],
+  subs:[
+   ["OWASP Top 10 for LLMs","The standard list of LLM app risks.",["Read it and pick the 4 that apply to your projects"],["owasp"]],
+   ["Prompt injection defences","Direct vs indirect injection, separating instructions from data, least-privilege tools.",["Add an injection check on retrieved content","Write 3 adversarial eval cases"],["owasp"]],
+   ["Structured output validation","Pydantic schemas, retries on failure, constrained decoding.",["Validate final outputs and retry once with the error message"],["pydantic"]],
+   ["PII protection","Redaction, hashing and keeping identifiers out of prompts and traces. You already built this at Tracky.",["Write up your HMAC approach as a short design note for interviews"],[]]
+  ]},
+ {t:"Observability + prompt management", intro:"Know when quality, cost or speed drift, and be able to roll back.",
+  done:"A dashboard shows latency, cost, tokens and errors, and you know which prompt version is live.",
+  qs:["What would you monitor and alert on for an LLM app?","How do you roll back a bad prompt?"],
+  subs:[
+   ["Tracing for agents","Spans per node and tool call; traces, metrics and logs.",["Read the OpenTelemetry primer; check your traces show every graph node"],["otel","langsmith"]],
+   ["Dashboards and alerts","p95 latency, error rate, cost per request, token usage.",["Build the dashboard and write 3 alert rules with thresholds"],["langfuse"]],
+   ["Prompt versioning","A prompt registry or versioned files, labels and rollback.",["Move prompts into Langfuse prompt management or versioned files"],["langfuse"]],
+   ["Feedback loops","Thumbs up/down, user corrections, turning failures into eval cases.",["Add a feedback endpoint that logs a score against the trace"],["langfuse"]]
+  ]},
+ {t:"Review: LLMOps on KIRA", review:true, intro:"Apply the whole phase quickly to a second project.",
+  done:"KIRA has a gateway, an eval script and one guardrail, and you have an LLMOps cheat sheet.",
+  qs:["Walk me through the ops layer you would put around a new LLM feature."],
+  subs:[
+   ["Speed-run on KIRA","Gateway + 10-case eval + output validation in one session.",["Timebox each piece to 40 minutes"],[]],
+   ["LLMOps cheat sheet","One page: the layers, the tools, the metrics.",["Write it in your notes repo"],[]],
+   ["Mock questions","Answer the Days 14–20 questions out loud.",["Record and review"],[]]
+  ]}
+ ]},
+{id:"ft", tag:"Phase 4 · Days 22–26", title:"PyTorch + fine-tuning",
+ goal:"Understand training from the ground up, then fine-tune a small LLM with LoRA and prove it helped.",
+ outcome:"Resume-ready: LoRA fine-tuned a ~1B model for structured extraction (valid JSON X% → Y%) and published it on the Hugging Face Hub.",
+ days:[
+ {t:"PyTorch fundamentals", intro:"The building blocks that every trainer hides from you.",
+  done:"You can build and train a small network on tensors without a tutorial open.",
+  qs:["What does `loss.backward()` do?","What is a computational graph?"],
+  subs:[
+   ["Tensors, shapes, devices","Creation, broadcasting, reshaping, moving to GPU.",["Do the PyTorch tensors tutorial; fix 3 shape errors on purpose"],["pt"]],
+   ["Autograd","How gradients are tracked and computed.",["Compute gradients of a small function by hand, then check them with autograd"],["pt","karpathy"]],
+   ["nn.Module, losses, optimizers","Models as modules; cross-entropy; SGD vs AdamW.",["Build a 2-layer MLP and pick a loss and optimizer"],["pt"]]
+  ]},
+ {t:"Training loops + data", intro:"Write one loop yourself so you can explain it in an interview.",
+  done:"A hand-written loop with validation, early stopping and a loss plot.",
+  qs:["Why use `model.eval()` and `torch.no_grad()` during validation?","How do you spot and fix overfitting?"],
+  subs:[
+   ["Dataset and DataLoader","Batching, shuffling, collate functions.",["Write a custom Dataset for a small CSV"],["pt"]],
+   ["Train/validate loop by hand","zero_grad → forward → loss → backward → step, with no Trainer.",["Write the loop and plot train vs val loss"],["pt"]],
+   ["Overfitting and schedules","Regularisation, early stopping, learning-rate schedules.",["Add early stopping and a cosine LR schedule"],[]],
+   ["GPU + mixed precision","Colab GPUs, autocast, memory basics.",["Run on a Colab T4 with AMP and compare speed"],["ptamp"]]
+  ]},
+ {t:"Transformers + Hugging Face", intro:"How the models you call every day actually run.",
+  done:"You load and run a small open model, control generation, and can estimate its memory needs.",
+  qs:["What do temperature and top-p do?","How much GPU memory does a 1B model need in fp16?"],
+  subs:[
+   ["Tokenizers and attention intuition","Tokens, embeddings, self-attention at a whiteboard level.",["Read The Illustrated Transformer; tokenize 3 sentences"],["illus","hfcourse"]],
+   ["Loading models and generating","`AutoModelForCausalLM`, generation parameters.",["Run a small instruct model and vary temperature and top-p"],["hfcourse"]],
+   ["Chat templates","Why fine-tuning data must match the model's chat format.",["Apply the chat template to a conversation and print the raw text"],["chattpl"]],
+   ["Memory maths","Parameters × bytes per parameter, plus activations and the KV cache.",["Estimate memory for 0.5B, 1.5B and 7B in fp16 and 4-bit"],[]]
+  ]},
+ {t:"Fine-tuning with LoRA / QLoRA", intro:"Teach a small model to reliably do one narrow task.",
+  done:"A LoRA run finishes on Colab and is logged with its config and loss curve.",
+  qs:["When would you fine-tune instead of using RAG or better prompts?","What do LoRA rank and alpha control?"],
+  subs:[
+   ["Fine-tune vs RAG vs prompting","Fine-tuning changes behaviour and format. RAG adds knowledge. Prompting comes first.",["Write a decision table you could use in interviews"],["huyen"]],
+   ["SFT data and synthetic data","Instruction format, quality over quantity, train/test split. Use public or synthetic data only.",["Generate 300–1000 text → JSON examples and hold out 15%"],["trl"]],
+   ["LoRA and QLoRA","Low-rank adapters; rank, alpha, target modules; 4-bit base weights.",["Read the PEFT LoRA guide and choose your settings"],["peft"]],
+   ["Train on Colab","Use TRL's SFTTrainer or Unsloth on a free GPU.",["Fine-tune a ~0.5–1.5B instruct model and save the adapter"],["trl","unsloth"]]
+  ]},
+ {t:"Evaluate + publish the fine-tune", intro:"Prove the fine-tune was worth it, using your evaluation skills.",
+  done:"You have a number like 'valid JSON 60% → 95%' and a public model card.",
+  qs:["How do you avoid fooling yourself when evaluating a fine-tune?","What is catastrophic forgetting?"],
+  subs:[
+   ["Base vs fine-tuned evaluation","Held-out set; valid-JSON rate, field accuracy, judge spot checks.",["Run both models on the test set and record the scores"],[]],
+   ["Overfitting and forgetting checks","Make sure general ability didn't collapse.",["Run 10 general prompts on both models and compare"],[]],
+   ["Merge and publish","Merge the adapter, write a model card, push to the Hub.",["Push the adapter and card with results and limits"],["hub","peft"]],
+   ["Preference tuning (concept)","What DPO and RLHF add after SFT.",["Read the TRL DPO overview; write 5 lines"],["trl"]]
+  ]}
+ ]},
+{id:"mlops", tag:"Phase 5 · Days 27–31", title:"MLOps",
+ goal:"Track, version, serve and monitor models. Know the wider MLOps tooling well enough to discuss it confidently.",
+ outcome:"Resume-ready: MLflow tracking and registry, quantized serving with benchmarks, and working knowledge of DVC, Prefect, Evidently and Kubernetes.",
+ days:[
+ {t:"MLOps foundations + MLflow tracking", intro:"Reproducible experiments are the base of MLOps.",
+  done:"Your Day 25 runs and a couple of variants are compared side by side in MLflow.",
+  qs:["What are the MLOps maturity levels?","What do you log for every training run?"],
+  subs:[
+   ["ML lifecycle and maturity","From manual notebooks to automated CI/CD/CT.",["Read Google's MLOps levels article; place Tracky on it"],["gmlops","mwml"]],
+   ["MLflow tracking","Params, metrics, artifacts, autologging.",["Run a local MLflow server and log a run"],["mlflow"]],
+   ["Compare fine-tune runs","Re-run with 2 LoRA ranks and compare in the UI.",["Pick the best run and write down why"],["mlflow"]],
+   ["W&B side by side","Same run logged to W&B, so you can compare the tools honestly.",["Add `report_to='wandb'` to one run"],["wandb"]]
+  ]},
+ {t:"Model registry + packaging", intro:"From 'a run' to 'the model in production'.",
+  done:"Your best model is registered with a champion alias and can be loaded by name.",
+  qs:["What is a model registry for?","How would you promote a model safely?"],
+  subs:[
+   ["Registry, versions, aliases","Register, version, set `champion` and `challenger` aliases.",["Register two versions; point champion at the better one"],["mlflow"]],
+   ["Signatures and pyfunc","A standard interface so any service can load the model.",["Log the model with an input/output signature"],["mlflow"]],
+   ["Promotion in CI","Promote only if evals beat the current champion.",["Write a script that compares metrics and moves the alias"],["mlflow"]]
+  ]},
+ {t:"Serving + inference optimisation", intro:"Make models fast and cheap to run.",
+  done:"A latency and throughput table for your model before and after quantization.",
+  qs:["What do you lose and gain with quantization?","Why does continuous batching (vLLM) improve throughput?"],
+  subs:[
+   ["Serving patterns","Batch vs online vs streaming; sync vs async APIs.",["Write when you would use each, with one example"],[]],
+   ["Quantization","fp16 → int8/int4, GGUF, quality trade-offs.",["Quantize your merged model to GGUF"],["llamacpp"]],
+   ["Ollama vs vLLM","Local single-user vs high-throughput serving with continuous batching.",["Serve with Ollama behind FastAPI; read the vLLM architecture overview"],["ollama","vllm"]],
+   ["Benchmark","Latency (p50/p95) and requests per second.",["Load test with Locust and record a table"],["locust"]]
+  ]},
+ {t:"Data, pipelines + monitoring", intro:"Short hands-on labs, so you've touched each tool once.",
+  done:"A tiny DVC-tracked dataset, a Prefect flow, and an Evidently drift report.",
+  qs:["Data drift vs concept drift: what's the difference?","Why version data as well as code?"],
+  subs:[
+   ["DVC data versioning","Track datasets like Git tracks code.",["Track your SFT dataset with DVC, change it and switch versions"],["dvc"]],
+   ["Orchestration with Prefect","Turn a script into a scheduled, retryable flow.",["Wrap generate → train → evaluate as a Prefect flow"],["prefect"]],
+   ["Drift with Evidently","Compare reference vs current data distributions.",["Generate a drift report on two dataset versions"],["evidently"]],
+   ["Feature stores (concept)","Keeping training and serving features consistent.",["Read the Feast overview; write 5 lines"],["feast"]]
+  ]},
+ {t:"Kubernetes + system design review", review:true, intro:"Enough Kubernetes to talk about scaling, then a full design rehearsal.",
+  done:"You can whiteboard an LLM service for 10k users, including scaling, cost, evals and monitoring.",
+  qs:["Design an LLM-powered service for 10k daily users.","How would you autoscale a model server?"],
+  subs:[
+   ["Kubernetes basics","Pods, deployments, services, config.",["Do the Kubernetes basics tutorial"],["k8s"]],
+   ["Scaling models","HPA, GPU nodes, queue-based autoscaling, at the concept level.",["Read the HPA page; sketch GPU autoscaling"],["hpa"]],
+   ["System design rehearsal","Requirements → architecture → data → scaling → evals → monitoring → cost.",["Do one full design out loud in 45 minutes"],["sysd","huyen"]],
+   ["Roadmap review","Re-read every cheat sheet before the project sprint.",["List your 3 weakest topics and review them"],[]]
+  ]}
+ ]},
+{id:"project", tag:"Project sprint · Days 32–38", title:"Build the capstone", proj:true,
+ goal:"Seven days to bring everything together in one project you can demo. Pick a path below. The days are the same whichever you choose.",
+ outcome:"One deployed, tested, monitored project with a fine-tuned component, plus a README, a demo video and a post about it.",
+ days:[
+ {t:"Scope + design", intro:"Decide what you're building before writing code.",
+  done:"A one-page design doc with an architecture diagram, success metrics and an eval set drafted.",
+  qs:["How did you scope this project and decide what to leave out?"],
+  subs:[
+   ["Pick your path","Choose A, B or C above. You can change it until today ends.",["Select a path card at the top of this section"],[]],
+   ["Design doc + diagram","Problem, users, architecture, data flow, risks.",["Write it and draw the architecture in Mermaid"],["mermaid"]],
+   ["Metrics and eval set first","Decide what 'good' means before building.",["Write 20 eval cases and the target scores"],[]]
+  ]},
+ {t:"Core service", intro:"The application itself, running locally.",
+  done:"The core flow works end to end on your laptop with Docker Compose and Floci.",
+  qs:["Walk me through a request from start to finish."],
+  subs:[
+   ["Async API","FastAPI with submit and status endpoints.",["Implement the endpoints with Pydantic models"],[]],
+   ["Queue worker","SQS-driven worker with idempotent status updates.",["Implement the worker with conditional writes"],[]],
+   ["Local stack","Compose: API, worker, Redis, Floci.",["One command starts everything"],["compose"]]
+  ]},
+ {t:"Infrastructure + CI/CD", intro:"Make it reproducible and protected.",
+  done:"Terraform defines the stack, and CI runs tests plus the eval gate on every PR.",
+  qs:["How do you test infrastructure code?"],
+  subs:[
+   ["Terraform the stack","Reuse your Phase 2 modules.",["Apply and destroy on Floci"],["tfmod"]],
+   ["CI pipeline","Lint, tests against Floci, image build.",["Reuse your Phase 2 workflow"],["ghaSvc"]],
+   ["Eval gate","Block PRs that lower quality.",["Wire in the eval set from Day 32"],["gha"]]
+  ]},
+ {t:"LLMOps layer", intro:"Everything from Phase 3, applied properly.",
+  done:"Gateway, caching, guardrails and a dashboard are all live locally.",
+  qs:["What does your LLMOps layer protect against?"],
+  subs:[
+   ["Gateway + cache","LiteLLM with fallback, budgets and a Redis cache.",["Prove the fallback by breaking one provider"],["litellm"]],
+   ["Guardrails","Input limits, injection checks, output validation.",["Add 3 adversarial eval cases"],["owasp"]],
+   ["Observability","Traces, dashboard, versioned prompts.",["Screenshot the dashboard for the README"],["langfuse"]]
+  ]},
+ {t:"Model layer", intro:"Plug your Phase 4 fine-tune into one sub-task.",
+  done:"The fine-tuned model handles one step, with a measured comparison against the API model and a fallback.",
+  qs:["Why did you use a fine-tuned model for this step, and was it worth it?"],
+  subs:[
+   ["Plug in the fine-tune","Serve it with Ollama locally for one narrow step (extraction or formatting).",["Route that step through LiteLLM to your Ollama model"],["ollama","litellm"]],
+   ["Registry-driven loading","Load the champion model from MLflow, with fallback to the API model.",["Switch the champion and confirm the app follows"],["mlflow"]],
+   ["Cost and quality comparison","Fine-tune vs API model on your eval set.",["Record quality, latency and cost in a table"],[]]
+  ]},
+ {t:"Ship it", intro:"Deploy to real AWS, capture proof, tear down.",
+  done:"The app runs on real AWS through your CD pipeline, a demo is recorded, and nothing is left running.",
+  qs:["What broke when you deployed, and how did you fix it?"],
+  subs:[
+   ["Deploy via CD","Merge to main, then OIDC → terraform apply. For the cloud demo, use the API-model path; GPU hosting for the fine-tune is out of budget.",["Confirm the budget alarm first"],["oidc","budgets"]],
+   ["Demo + light load test","2-minute video; a small Locust run.",["Record the demo and save the p95 numbers"],["locust"]],
+   ["Teardown","Destroy and check billing.",["`terraform destroy` and check the console is empty"],[]]
+  ]},
+ {t:"Tell the story", intro:"The work only counts once people can see it.",
+  done:"README, post and resume v12 are done, and you've rehearsed a mock interview about the project.",
+  qs:["Tell me about the most complex project you've built."],
+  subs:[
+   ["README with results","Diagram, how to run on Floci, results tables, demo link.",["Have a friend read it in 60 seconds and ask what they understood"],[]],
+   ["Write a post","A LinkedIn or blog post: problem, architecture, one lesson.",["Publish it and link it from the README"],[]],
+   ["Resume + mock interview","Add the skills line and 3 bullets with real numbers.",["Run a mock interview with Claude"],[]]
+  ]}
+ ]}
+];
+
+const PATHS = {
+  A:{name:"Upgrade the Deep Research agent", badge:"Recommended", desc:"Turn it into a cloud research service.",
+     pts:["Async research jobs on AWS (API → SQS → worker)","Fine-tune extracts citations and claims into strict JSON","RAG-style evals: groundedness, citation validity"]},
+  B:{name:"Upgrade KIRA, the AI tutor", badge:"", desc:"Make KIRA a hosted learning service.",
+     pts:["PDF upload to S3, background embedding jobs","Fine-tune generates quiz questions in a fixed JSON format","Faithfulness and context-precision evals on the RAG"]},
+  C:{name:"New: JobFit agent", badge:"New project", desc:"Useful for your own job search too.",
+     pts:["Ingest public job posts; agent scores fit against a resume","Fine-tune extracts job posts into a structured schema","Evals on extraction accuracy and fit-score consistency"]}
+};
+
+/* ---------- build index ---------- */
+let n = 0;
+const DAYS = [];
+PHASES.forEach(p => p.days.forEach(d => { n++; d.n = n; d.phase = p; d.subs = d.subs.map((s,i)=>({id:`${n}.${i+1}`, t:s[0], x:s[1], steps:s[2], res:s[3]})); DAYS.push(d); }));
+const TOTAL_SUBS = DAYS.reduce((a,d)=>a+d.subs.length,0);
+
+/* ---------- state ---------- */
+const KEY = "vg-roadmap-v2";
+let state = {subs:{}, path:"A", at:0};
+try{ const s = JSON.parse(localStorage.getItem(KEY)||"null"); if(s && s.subs) state = Object.assign(state, s); }catch(e){}
+const saveLocal = () => { try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} };
+
+/* ---------- cross-device sync (your Claude account) ---------- */
+let syncRef = null, writing = false, pending = false, lastSent = "", syncTimer = null, loadTimer = null;
+const body = () => JSON.stringify({subs:state.subs, path:state.path, at:state.at});
+function setSync(kind, text){
+  const el = document.getElementById("sync"); if(!el) return;
+  el.dataset.kind = kind; el.querySelector("span").textContent = text;
+}
+async function flush(){
+  if(!syncRef) return;
+  if(writing){ pending = true; return; }
+  const b = body(); if(b === lastSent) return;
+  writing = true; setSync("saving","Saving…");
+  try{ await syncRef.set(JSON.parse(b)); lastSent = b; setSync("ok","Synced across your devices"); }
+  catch(e){ setSync("off", e && e.code==="quota_exceeded" ? "Sync storage is full. Saved on this device only" : "Couldn't sync. Saved on this device only"); }
+  writing = false;
+  if(pending){ pending = false; flush(); }
+}
+function save(){
+  state.at = Date.now(); saveLocal();
+  if(syncRef){ clearTimeout(syncTimer); syncTimer = setTimeout(flush, 700); }
+}
+async function startSync(){
+  setSync("wait","Connecting to sync…");
+  try{
+    const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+    const uid = db && user ? await user.id() : null;
+    if(!db || !uid){ setSync("off","Saved on this device only (sign in to Claude to sync)"); return; }
+    syncRef = db.doc("data/users/" + uid + "/roadmap");
+    loadTimer = setTimeout(()=>setSync("off","Sync not reachable yet. Saved on this device"), 10000);
+    let first = true;
+    syncRef.onSnapshot(snap=>{
+      if(snap.metadata.fromCache && !snap.exists) return;
+      if(!snap.metadata.fromCache){ clearTimeout(loadTimer); }
+      const remote = snap.exists ? snap.data() : null;
+      if(first && !snap.metadata.fromCache){
+        first = false;
+        if(!remote || (remote.at||0) < (state.at||0)){ flush(); return; }
+      }
+      if(remote && JSON.stringify({subs:remote.subs||{}, path:remote.path||"A", at:remote.at||0}) !== body() && (remote.at||0) >= (state.at||0)){
+        state = {subs:Object.assign({}, remote.subs||{}), path:remote.path||"A", at:remote.at||0};
+        lastSent = body(); saveLocal(); render();
+        if(cur && drawer.classList.contains("open")) openDay(cur.n);
+      }
+      if(!snap.metadata.fromCache) setSync("ok","Synced across your devices");
+    }, ()=>{ clearTimeout(loadTimer); setSync("off","Sync stopped. Saved on this device only"); });
+  }catch(e){ setSync("off","Saved on this device only"); }
+}
+const dayCount = d => d.subs.filter(s=>state.subs[s.id]).length;
+const dayDone = d => dayCount(d) === d.subs.length;
+
+/* ---------- helpers ---------- */
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = s => esc(s).replace(/`([^`]+)`/g, "<code>$1</code>");
+const resLinks = keys => keys.filter(k=>R[k]).map(k=>`<a href="${R[k][1]}" target="_blank" rel="noopener">${esc(R[k][0])}</a>`).join(" · ");
+
+/* ---------- render ---------- */
+function render(){
+  const app = document.getElementById("app");
+  let h = `<section class="phase" id="start"><div class="phase-head"><span class="phase-tag">Start here</span><h2>Already on your resume</h2><p>You aren't starting from zero. The roadmap builds on what you already ship at Tracky.</p></div><div class="have-grid">${HAVE.map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div></section>`;
+  PHASES.forEach(p=>{
+    const done = p.days.filter(dayDone).length;
+    h += `<section class="phase" id="${p.id}"><div class="phase-head"><span class="phase-tag${p.proj?" proj":""}">${esc(p.tag)}</span><h2>${esc(p.title)}</h2><p>${esc(p.goal)}</p><span class="phase-meta">${done} of ${p.days.length} days complete</span></div>`;
+    if(p.proj){
+      h += `<div class="paths" role="group" aria-label="Choose your project path">${Object.entries(PATHS).map(([k,v])=>`<button type="button" class="path" data-path="${k}" aria-pressed="${state.path===k}"><div class="pl"><b>${k}. ${esc(v.name)}</b>${v.badge?`<span class="badge">${esc(v.badge)}</span>`:""}</div><span class="d">${esc(v.desc)}</span><ul>${v.pts.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></button>`).join("")}</div>`;
+    }
+    h += `<div class="snake" data-phase="${p.id}"><svg aria-hidden="true"></svg>${p.days.map(d=>nodeHTML(d,p)).join("")}</div>`;
+    h += `<div class="outcome"><b>By the end of this phase</b>${esc(p.outcome)}</div></section>`;
+  });
+  app.innerHTML = h;
+  document.getElementById("jump").innerHTML = [["start","Start"]].concat(PHASES.map(p=>[p.id,p.title])).map(([id,t])=>`<a href="#${id}">${esc(t)}</a>`).join("");
+  layout();
+  stats();
+}
+
+function nodeHTML(d,p){
+  const c = dayCount(d), tot = d.subs.length, done = c===tot;
+  const C = 2*Math.PI*10, off = C*(1-c/tot);
+  const cls = ["node"]; if(p.proj) cls.push("proj"); if(d.review && !done) cls.push("review"); if(done) cls.push("is-done");
+  return `<div class="${cls.join(" ")}" data-day="${d.n}" role="button" tabindex="0" aria-label="Day ${d.n}: ${esc(d.t)}. ${c} of ${tot} submodules done. Open">
+    <div class="top"><span class="day">Day ${d.n}${p.proj?` · Project ${d.n-31}`:d.review?" · Review":""}</span>
+    <svg class="ring" viewBox="0 0 26 26" aria-hidden="true"><circle class="bgc" cx="13" cy="13" r="10"/><circle class="fg" cx="13" cy="13" r="10" stroke-dasharray="${C.toFixed(2)}" stroke-dashoffset="${off.toFixed(2)}"/></svg></div>
+    <span class="t">${esc(d.t)}</span>
+    <div class="dots">${d.subs.map(s=>`<span class="dot${state.subs[s.id]?" on":""}">${s.id}</span>`).join("")}</div>
+  </div>`;
+}
+
+/* S-shaped layout */
+function layout(){
+  document.querySelectorAll(".snake").forEach(sn=>{
+    const W = sn.clientWidth;
+    const cols = W>=900 ? 4 : W>=620 ? 3 : 2;
+    const nodes = [...sn.querySelectorAll(".node")];
+    const colW = W/cols;
+    const nodeW = Math.min(240, colW-24);
+    nodes.forEach(nd=>{ nd.style.width = nodeW+"px"; });
+    const maxH = Math.max(...nodes.map(nd=>nd.offsetHeight));
+    const rowGap = cols===2 ? 56 : 70;
+    const rowH = maxH + rowGap;
+    const pts = nodes.map((nd,i)=>{
+      const r = Math.floor(i/cols); let c = i%cols; if(r%2) c = cols-1-c;
+      const x = colW*c + colW/2, y = r*rowH + maxH/2 + 6;
+      nd.style.left = x+"px"; nd.style.top = y+"px";
+      return {x,y,r};
+    });
+    const rows = Math.ceil(nodes.length/cols);
+    sn.style.height = (rows*rowH - rowGap + 18)+"px";
+    let d = `M ${pts[0].x} ${pts[0].y}`;
+    for(let i=1;i<pts.length;i++){
+      const a=pts[i-1], b=pts[i];
+      if(a.r===b.r){ d += ` L ${b.x} ${b.y}`; }
+      else{
+        const right = a.x > W/2;
+        const bulge = Math.min(colW/2 - 6, 70) * (right?1:-1);
+        d += ` C ${a.x+bulge*1.6} ${a.y}, ${b.x+bulge*1.6} ${b.y}, ${b.x} ${b.y}`;
+      }
+    }
+    sn.querySelector(":scope > svg").innerHTML = `<path d="${d}"/>`;
+  });
+  markNext();
+}
+function markNext(){
+  document.querySelectorAll(".node.is-next").forEach(x=>x.classList.remove("is-next"));
+  const nx = DAYS.find(d=>!dayDone(d));
+  if(nx){ const el=document.querySelector(`.node[data-day="${nx.n}"]`); if(el) el.classList.add("is-next"); }
+}
+function stats(){
+  const done = Object.keys(state.subs).filter(k=>state.subs[k]).length;
+  document.getElementById("s-done").textContent = `${done} / ${TOTAL_SUBS}`;
+  document.getElementById("s-days").textContent = `${DAYS.filter(dayDone).length} / ${DAYS.length}`;
+  const nx = DAYS.find(d=>!dayDone(d));
+  document.getElementById("s-next").textContent = nx ? `Day ${nx.n}` : "Finished";
+  document.getElementById("bar").style.width = Math.round(done/TOTAL_SUBS*100)+"%";
+}
+function refreshNode(d){
+  const el = document.querySelector(`.node[data-day="${d.n}"]`);
+  if(el){ el.outerHTML = nodeHTML(d, d.phase); }
+  const sec = document.getElementById(d.phase.id);
+  if(sec) sec.querySelector(".phase-meta").textContent = `${d.phase.days.filter(dayDone).length} of ${d.phase.days.length} days complete`;
+  layout(); stats();
+}
+
+/* ---------- drawer ---------- */
+const drawer = document.getElementById("drawer"), scrim = document.getElementById("scrim");
+let cur = null, lastFocus = null;
+function openDay(num, focusSub){
+  const d = DAYS[num-1]; if(!d) return; cur = d;
+  const p = d.phase;
+  document.getElementById("d-eyebrow").textContent = `${p.tag.split(" · ")[0]} · Day ${d.n}${p.proj?` · Project ${d.n-31}`:""}`;
+  document.getElementById("d-title").textContent = d.t;
+  document.getElementById("d-meta").textContent = `${d.subs.length} submodules · about 2–3 h · ${dayCount(d)} done`;
+  document.getElementById("d-prev").disabled = d.n===1;
+  document.getElementById("d-next").disabled = d.n===DAYS.length;
+  const path = PATHS[state.path];
+  document.getElementById("d-body").innerHTML = `
+    <p>${fmt(d.intro)}</p>
+    ${p.proj?`<div class="pathnote"><h4>Your path</h4><p><b>${state.path}. ${esc(path.name)}</b>: ${esc(path.pts.join("; "))}.</p></div>`:""}
+    <div><h4>Submodules: tap to expand</h4><div class="subs">${d.subs.map(s=>subHTML(s)).join("")}</div></div>
+    <div class="donewhen"><h4>Done when</h4><p>${fmt(d.done)}</p></div>
+    <div><h4>Interview questions to practise</h4><ul class="qs">${d.qs.map(q=>`<li>${esc(q)}</li>`).join("")}</ul></div>`;
+  if(!drawer.classList.contains("open")){
+    lastFocus = document.activeElement;
+    drawer.classList.add("open"); scrim.classList.add("open"); drawer.setAttribute("aria-hidden","false");
+  }
+  document.getElementById("d-body").scrollTop = 0;
+  const first = focusSub ? document.querySelector(`.sm[data-sub="${focusSub}"]`) : document.querySelector(".sm:not(.on)");
+  if(first){ first.classList.add("open"); first.querySelector(".sm-t").setAttribute("aria-expanded","true"); }
+  document.getElementById("d-close").focus();
+}
+function subHTML(s){
+  const on = !!state.subs[s.id];
+  return `<div class="sm${on?" on":""}" data-sub="${s.id}">
+    <div class="sm-h">
+      <input type="checkbox" id="c-${s.id.replace(".","-")}" data-check="${s.id}" ${on?"checked":""} aria-label="Mark ${s.id} done">
+      <span class="sm-n">${s.id}</span>
+      <button type="button" class="sm-t" data-exp="${s.id}" aria-expanded="false">${esc(s.t)}</button>
+      <button type="button" class="sm-x" data-exp="${s.id}" aria-label="Expand ${s.id}">▾</button>
+    </div>
+    <div class="sm-b">
+      <p>${fmt(s.x)}</p>
+      ${s.steps.length?`<div><h4>Do this</h4><ol>${s.steps.map(x=>`<li>${fmt(x)}</li>`).join("")}</ol></div>`:""}
+      ${s.res.length?`<div class="r"><h4>Resources</h4>${resLinks(s.res)}</div>`:""}
+    </div>
+  </div>`;
+}
+function hide(){
+  drawer.classList.remove("open"); scrim.classList.remove("open"); drawer.setAttribute("aria-hidden","true");
+  if(lastFocus && document.body.contains(lastFocus)) lastFocus.focus();
+}
+
+document.addEventListener("click", e=>{
+  const nd = e.target.closest(".node[data-day]"); if(nd){ openDay(+nd.dataset.day); return; }
+  const pa = e.target.closest("[data-path]"); if(pa){ state.path = pa.dataset.path; save(); document.querySelectorAll("[data-path]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.path===state.path)); return; }
+  const ex = e.target.closest("[data-exp]");
+  if(ex){ const sm = ex.closest(".sm"); const o = sm.classList.toggle("open"); sm.querySelector(".sm-t").setAttribute("aria-expanded", o); return; }
+});
+document.getElementById("d-body").addEventListener("change", e=>{
+  const id = e.target.dataset.check; if(!id || !cur) return;
+  if(e.target.checked) state.subs[id]=true; else delete state.subs[id];
+  save();
+  e.target.closest(".sm").classList.toggle("on", e.target.checked);
+  document.getElementById("d-meta").textContent = `${cur.subs.length} submodules · about 2–3 h · ${dayCount(cur)} done`;
+  refreshNode(cur);
+});
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape" && drawer.classList.contains("open")) hide();
+  const nd = e.target.closest && e.target.closest(".node[data-day]");
+  if(nd && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); openDay(+nd.dataset.day); }
+});
+scrim.addEventListener("click", hide);
+document.getElementById("d-close").addEventListener("click", hide);
+document.getElementById("d-prev").addEventListener("click", ()=>cur && openDay(cur.n-1));
+document.getElementById("d-next").addEventListener("click", ()=>cur && openDay(cur.n+1));
+
+const resetBtn = document.getElementById("reset"); let armed=false, armT;
+resetBtn.addEventListener("click", ()=>{
+  if(!armed){ armed=true; resetBtn.textContent="Click again to clear everything"; armT=setTimeout(()=>{armed=false;resetBtn.textContent="Clear my progress";},4000); return; }
+  clearTimeout(armT); armed=false; resetBtn.textContent="Clear my progress";
+  state={subs:{}, path:"A", at:0}; save(); render();
+});
+
+let rt; window.addEventListener("resize", ()=>{ clearTimeout(rt); rt=setTimeout(layout,120); });
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
+render();
+if(window.claude && typeof window.claude.use==="function") startSync(); else setSync("off","Saved on this device only");
+</script>
+</body>
+</html>

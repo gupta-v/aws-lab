@@ -1,13 +1,15 @@
 # aws-lab
 
-Local AWS labs (Floci emulator) for the 38-day AI Cloud Ops roadmap.
+Local AWS labs (Floci emulator) for the 38-day [AI Cloud Ops roadmap](https://ai-cloud-ops-roadmap.vercel.app/).
 
 ```
 utils/         shared helpers (s3_utils, ddb_utils)
 setup/         start emulator + seed resources
 labs/<service>/   s3/, ddb/, ... one folder per AWS service
-floci-data/    emulator persistence (gitignored)
+floci-data/    emulator persistence (committed, syncs between workstations)
 ```
+
+Progress: [docs/roadmap.md](docs/roadmap.md).
 
 Run everything from repo root as modules:
 

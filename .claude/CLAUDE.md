@@ -7,7 +7,7 @@ Local AWS labs against Floci emulator, for 38-day AI Cloud Ops roadmap. Python >
 - `utils/` shared helpers (`s3_utils.py`, `ddb_utils.py`). Reuse, don't re-create boto3 clients in labs.
 - `setup/` start emulator + seed resources (`floci.py`, `s3_lab.py`, `ddb_lab.py`).
 - `labs/<service>/` one folder per AWS service (`s3/`, `ddb/`).
-- `floci-data/` emulator persistence, gitignored.
+- `floci-data/` emulator persistence, committed on purpose (syncs state across 2 workstations). Stop Floci before commit/pull.
 
 ## Run
 
