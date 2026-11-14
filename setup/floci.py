@@ -14,6 +14,8 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import httpx
 
 import utils  # noqa: F401  (loads .env)
