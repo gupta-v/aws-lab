@@ -1,1 +1,83 @@
-{ }
+{
+  "000000000000/ap-south-1::research-jobs" : {
+    "tableName" : "research-jobs",
+    "keySchema" : [ {
+      "attributeName" : "user_id",
+      "keyType" : "HASH"
+    }, {
+      "attributeName" : "job_id",
+      "keyType" : "RANGE"
+    } ],
+    "attributeDefinitions" : [ {
+      "attributeName" : "user_id",
+      "attributeType" : "S"
+    }, {
+      "attributeName" : "job_id",
+      "attributeType" : "S"
+    }, {
+      "attributeName" : "status",
+      "attributeType" : "S"
+    } ],
+    "tableStatus" : "ACTIVE",
+    "creationDateTime" : "2026-11-14T19:09:26.460687708Z",
+    "itemCount" : 50,
+    "tableSizeBytes" : 0,
+    "provisionedThroughput" : {
+      "readCapacityUnits" : 0,
+      "writeCapacityUnits" : 0,
+      "lastIncreaseDateTime" : null,
+      "lastDecreaseDateTime" : null,
+      "numberOfDecreasesToday" : 0
+    },
+    "tableArn" : "arn:aws:dynamodb:ap-south-1:000000000000:table/research-jobs",
+    "tags" : { },
+    "globalSecondaryIndexes" : [ {
+      "indexName" : "status-index",
+      "keySchema" : [ {
+        "attributeName" : "status",
+        "keyType" : "HASH"
+      }, {
+        "attributeName" : "job_id",
+        "keyType" : "RANGE"
+      } ],
+      "indexArn" : "arn:aws:dynamodb:ap-south-1:000000000000:table/research-jobs/index/status-index",
+      "projectionType" : "ALL",
+      "provisionedThroughput" : {
+        "readCapacityUnits" : 0,
+        "writeCapacityUnits" : 0,
+        "lastIncreaseDateTime" : null,
+        "lastDecreaseDateTime" : null,
+        "numberOfDecreasesToday" : 0
+      },
+      "itemCount" : 0,
+      "indexSizeBytes" : 0,
+      "nonKeyAttributes" : [ ],
+      "onDemandMaxReadRequestUnits" : null,
+      "onDemandMaxWriteRequestUnits" : null
+    } ],
+    "localSecondaryIndexes" : [ ],
+    "vectorIndexes" : [ ],
+    "billingMode" : "PAY_PER_REQUEST",
+    "ttlAttributeName" : null,
+    "ttlEnabled" : false,
+    "pointInTimeRecoveryEnabled" : false,
+    "pointInTimeRecoveryRecoveryPeriodInDays" : 35,
+    "pointInTimeRecoveryStartDateTime" : null,
+    "deletionProtectionEnabled" : false,
+    "streamEnabled" : false,
+    "streamArn" : null,
+    "streamViewType" : null,
+    "sseEnabled" : false,
+    "sseType" : null,
+    "kmsMasterKeyArn" : null,
+    "kinesisStreamingDestinations" : [ ],
+    "tableId" : "6e29a441-e4d6-4744-9e97-a55f6d039eff",
+    "tableClass" : null,
+    "onDemandMaxReadRequestUnits" : null,
+    "onDemandMaxWriteRequestUnits" : null,
+    "replicaRegions" : [ ],
+    "globalTableHomeRegion" : null,
+    "resourcePolicy" : null,
+    "resourcePolicyRevisionId" : null
+  }
+}

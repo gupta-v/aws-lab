@@ -44,10 +44,10 @@ else:
     print("Table already seeded, skipping insert")
 
 # QUERY 1: newest 5 for one user
-print("\nNewest 5 for u-vaibhav:")
-for j in list_user_jobs(ddb, "u-vaibhav", limit=5):
+print("\nNewest 5 for u-asha:")
+for j in list_user_jobs(ddb, "u-asha", limit=5):
     print(" ", j["job_id"], j["status"])
 
 # QUERY 2: date range
-nov = list_user_jobs(ddb, "u-vaibhav", start="20261101", end="20261130")
-print("\nu-vaibhav jobs in November:", len(nov))
+nov = list_user_jobs(ddb, "u-asha", start="20261101", end="20261130")
+print("\nu-asha jobs in November:", len(nov))

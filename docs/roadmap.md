@@ -198,13 +198,13 @@ In DynamoDB you design the table around your queries. List the queries first, th
 
 Put, get, update and delete. Query reads one partition; Scan reads the whole table.
 
-- [ ] Insert 50 items, then query one user's jobs within a date range
+- [x] Insert 50 items, then query one user's jobs within a date range
 
 **3.3 Global secondary indexes**
 
 Add a second access pattern without duplicating data by hand.
 
-- [ ] Add a GSI on `status` and query all pending jobs
+- [x] Add a GSI on `status` and query all pending jobs
 
 **3.4 Conditional writes**
 

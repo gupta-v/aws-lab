@@ -47,3 +47,14 @@ def list_user_jobs(ddb, user_id, newest_first=True, limit=None,
     if limit:
         kwargs["Limit"] = limit
     return [from_ddb(i) for i in ddb.query(**kwargs)["Items"]]
+
+def list_by_status(ddb, status, newest_first=True, limit=None, table=TABLE):
+    """Query the GSI: ONE status drawer across ALL users."""
+    kwargs = dict(TableName=table, IndexName="status-index",
+                  KeyConditionExpression="#s = :s",
+                  ExpressionAttributeNames={"#s": "status"},
+                  ExpressionAttributeValues=to_ddb({":s": status}),
+                  ScanIndexForward=not newest_first)
+    if limit:
+        kwargs["Limit"] = limit
+    return [from_ddb(i) for i in ddb.query(**kwargs)["Items"]]

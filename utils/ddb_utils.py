@@ -1,6 +1,7 @@
 import uuid
 from datetime import datetime, timezone
 import os
+import time
 import boto3
 from boto3.dynamodb.types import TypeSerializer, TypeDeserializer
 
@@ -49,3 +50,31 @@ _ser, _de = TypeSerializer(), TypeDeserializer()
 
 def to_ddb(d):   return {k: _ser.serialize(v) for k, v in d.items()}
 def from_ddb(i): return {k: _de.deserialize(v) for k, v in i.items()}
+
+STATUS_INDEX = "status-index"
+
+def add_status_index(ddb, name=TABLE, index=STATUS_INDEX):
+    """Add a GSI: PK = status (which drawer), SK = job_id (newest first). Safe to re-run."""
+    t = ddb.describe_table(TableName=name)["Table"]
+    if any(g["IndexName"] == index for g in t.get("GlobalSecondaryIndexes", [])):
+        return False
+    ddb.update_table(
+        TableName=name,
+        AttributeDefinitions=[                                   # types of the NEW key fields
+            {"AttributeName": "status", "AttributeType": "S"},
+            {"AttributeName": "job_id", "AttributeType": "S"},
+        ],
+        GlobalSecondaryIndexUpdates=[{"Create": {
+            "IndexName": index,
+            "KeySchema": [
+                {"AttributeName": "status", "KeyType": "HASH"},
+                {"AttributeName": "job_id", "KeyType": "RANGE"},
+            ],
+            "Projection": {"ProjectionType": "ALL"},             # copy whole items into the index
+        }}],
+    )
+    while True:                                                  # index builds in the background
+        gsis = ddb.describe_table(TableName=name)["Table"].get("GlobalSecondaryIndexes", [])
+        if any(g["IndexName"] == index and g["IndexStatus"] == "ACTIVE" for g in gsis):
+            return True
+        time.sleep(1)
