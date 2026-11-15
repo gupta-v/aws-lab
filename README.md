@@ -9,7 +9,7 @@ labs/<service>/   s3/, ddb/, ... one folder per AWS service; CRUD functions are 
 floci-data/    emulator persistence (committed, syncs between workstations)
 ```
 
-Progress: [docs/roadmap.md](docs/roadmap.md).
+Progress: [docs/roadmap/roadmap.md](docs/roadmap/roadmap.md).
 
 Run everything from repo root by file path:
 

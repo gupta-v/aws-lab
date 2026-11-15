@@ -1,6 +1,6 @@
 # 🗺️ AI Cloud Ops Roadmap
 
-[Live roadmap](https://ai-cloud-ops-roadmap.vercel.app/) · [Offline copy](<Vaibhav's AI Engineer Roadmap.html>) · 38 days, 2-3 h/day
+[Live roadmap](https://ai-cloud-ops-roadmap.vercel.app/) · [Offline copy](roadmap.html) · 38 days, 2-3 h/day
 
 ```
 Progress  █░░░░░░░░░░░░░░░░░░░  2 / 38 days  (5%)
@@ -210,7 +210,7 @@ Add a second access pattern without duplicating data by hand.
 
 Only write if a condition holds. This is the basis for idempotent workers later.
 
-- [ ] Write a status update that only succeeds if status is still `pending`
+- [x] Write a status update that only succeeds if status is still `pending`
 
 </details>
 
