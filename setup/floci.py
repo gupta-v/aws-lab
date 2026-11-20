@@ -21,7 +21,7 @@ import httpx
 import utils  # noqa: F401  (loads .env)
 
 ENDPOINT = os.getenv("AWS_ENDPOINT_URL", "http://localhost:4566")
-REGION = os.getenv("AWS_DEFAULT_REGION", "us-east-1")
+REGION = os.getenv("AWS_DEFAULT_REGION", "ap-south-1")
 PERSIST_DIR = Path(__file__).parent.parent / "floci-data"
 UI_NAME = "floci-ui"
 FLOCI_UI_DEFAULT_NAME = "floci-aws-ui"   # the UI container Floci starts itself

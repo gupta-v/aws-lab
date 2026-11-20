@@ -10,7 +10,7 @@ import uuid
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from report_worker.handler import handler
+from calculator.handler import handler
 
 
 class FakeContext:
@@ -26,6 +26,6 @@ class FakeContext:
 
 
 if __name__ == "__main__":
-    event = {"user_id": "u1", "job_id": "job-001"}
+    event = {"user_id": "u1", "job_id": "job-001", "input_a": 10, "input_b": 0, "operation": "div"}
     for _ in range(3):
         print(handler(event, FakeContext()))

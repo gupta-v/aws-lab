@@ -8,5 +8,45 @@
     "lastIngestionTime" : 1794676378468,
     "uploadSequenceToken" : "33a94b4a-dc9b-48f2-bbb0-1c4dc03f0edd",
     "storedBytes" : 29294
+  },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]18f5c9a6" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/20/[$LATEST]18f5c9a6",
+    "createdTime" : 1795170505786,
+    "firstEventTimestamp" : 1795170505919,
+    "lastEventTimestamp" : 1795170505936,
+    "lastIngestionTime" : 1795170505936,
+    "uploadSequenceToken" : "c25a3143-46f4-4a82-8045-77efdfb5b076",
+    "storedBytes" : 150
+  },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]704c3e5d" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/20/[$LATEST]704c3e5d",
+    "createdTime" : 1795170505738,
+    "firstEventTimestamp" : 1795170505874,
+    "lastEventTimestamp" : 1795170505893,
+    "lastIngestionTime" : 1795170505893,
+    "uploadSequenceToken" : "6a4915b8-a3c2-4cda-b9dc-e28b87503f83",
+    "storedBytes" : 150
+  },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]bc414f3f" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/20/[$LATEST]bc414f3f",
+    "createdTime" : 1795170505816,
+    "firstEventTimestamp" : 1795170505947,
+    "lastEventTimestamp" : 1795170505962,
+    "lastIngestionTime" : 1795170505962,
+    "uploadSequenceToken" : "5a5e6ee8-b97f-4fb0-8361-148b3b54be31",
+    "storedBytes" : 150
+  },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]cd10d459" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/20/[$LATEST]cd10d459",
+    "createdTime" : 1795170717776,
+    "firstEventTimestamp" : 1795170717819,
+    "lastEventTimestamp" : 1795170717825,
+    "lastIngestionTime" : 1795170717825,
+    "uploadSequenceToken" : "1b34ff7d-093a-4e60-a5ad-6acc9152713c",
+    "storedBytes" : 150
   }
 }

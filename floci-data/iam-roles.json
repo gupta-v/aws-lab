@@ -1,1 +1,32 @@
-{ }
+{
+  "000000000000/calc-lambda-role" : {
+    "roleId" : "AROAWM323HGDOT01N6ZA",
+    "roleName" : "calc-lambda-role",
+    "path" : "/",
+    "arn" : "arn:aws:iam::000000000000:role/calc-lambda-role",
+    "assumeRolePolicyDocument" : "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [{\n    \"Effect\": \"Allow\",\n    \"Principal\": { \"Service\": \"lambda.amazonaws.com\" },\n    \"Action\": \"sts:AssumeRole\"\n  }]\n}",
+    "description" : null,
+    "maxSessionDuration" : 3600,
+    "createDate" : "2026-11-20T10:07:18.793886524Z",
+    "tags" : { },
+    "attachedPolicyArns" : [ ],
+    "inlinePolicies" : { },
+    "permissionsBoundaryArn" : null,
+    "serviceLinkedRole" : false
+  },
+  "000000000000/lambda-role" : {
+    "roleId" : "AROA3MSVKCJTNQPKY275",
+    "roleName" : "lambda-role",
+    "path" : "/",
+    "arn" : "arn:aws:iam::000000000000:role/lambda-role",
+    "assumeRolePolicyDocument" : "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [{\n    \"Effect\": \"Allow\",\n    \"Principal\": { \"Service\": \"lambda.amazonaws.com\" },\n    \"Action\": \"sts:AssumeRole\"\n  }]\n}",
+    "description" : null,
+    "maxSessionDuration" : 3600,
+    "createDate" : "2026-11-19T05:16:33.260622831Z",
+    "tags" : { },
+    "attachedPolicyArns" : [ ],
+    "inlinePolicies" : { },
+    "permissionsBoundaryArn" : null,
+    "serviceLinkedRole" : false
+  }
+}
