@@ -17,7 +17,7 @@ class FakeContext:
     """The few context attributes our handler uses."""
     def __init__(self, timeout_s=3, memory_mb=128):
         self.aws_request_id = str(uuid.uuid4())
-        self.function_name = "report-worker"
+        self.function_name = "report-calculator"
         self.memory_limit_in_mb = memory_mb
         self._deadline = time.time() + timeout_s
 
@@ -26,6 +26,6 @@ class FakeContext:
 
 
 if __name__ == "__main__":
-    event = {"user_id": "u1", "job_id": "job-001", "input_a": 10, "input_b": 0, "operation": "div"}
+    event = {"user_id": "u1", "job_id": "job-001", "input_a": 10, "input_b": 3, "operation": "mul"}
     for _ in range(3):
         print(handler(event, FakeContext()))

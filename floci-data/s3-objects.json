@@ -2426,13 +2426,13 @@
     "sseKmsKeyId" : null,
     "sseCustomerAlgorithm" : null,
     "sseCustomerKeyMd5" : null,
-    "size" : 987,
-    "lastModified" : "2026-11-23T10:09:14.628Z",
+    "size" : 1197,
+    "lastModified" : "2026-11-23T12:43:07.309Z",
     "storageClass" : "STANDARD",
     "checksum" : {
       "checksumCRC32" : null,
       "checksumCRC32C" : null,
-      "checksumCRC64NVME" : "t1uY73f5T3s=",
+      "checksumCRC64NVME" : "hw9NsDcMRH8=",
       "checksumSHA1" : null,
       "checksumSHA256" : null,
       "checksumType" : "FULL_OBJECT"
@@ -2446,9 +2446,9 @@
     "legalHoldStatus" : null,
     "acl" : null,
     "ownerAccountId" : "000000000000",
-    "eventSequencer" : "00000660EEC937DC4F",
+    "eventSequencer" : "00000660F0EF876600",
     "latest" : true,
-    "etag" : "\"fb93bb0e302a02a96b97d51f6b11da93\""
+    "etag" : "\"d20a276739881aeab66d2cbd2c8074ef\""
   },
   "000000000000/my-bucket/notes/plan.md#v#1aecfd5a-8c26-4d86-bc0f-ef059224126b" : {
     "bucketName" : "my-bucket",

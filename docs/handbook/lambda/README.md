@@ -6,6 +6,7 @@ Theory and mental models for AWS Lambda (Day 4: serverless compute). Each chapte
 |---|---------|---------------------|
 | 1 | [Execution model](01-execution-model.md) | What is a handler? Cold vs warm starts, limits, memory vs CPU. |
 | 2 | [Zip deploy to Floci](02-zip-deploy.md) | How do I package, deploy, invoke, and read the result (and errors)? |
+| 3 | [Config: env vars, timeouts, memory](03-config.md) | What settings decide cost and reliability, and what does a timeout look like? |
 
 ## Roadmap mapping
 
@@ -13,6 +14,7 @@ Theory and mental models for AWS Lambda (Day 4: serverless compute). Each chapte
 |--------------|---------|
 | 4.1 Execution model | 1 |
 | 4.2 Zip deploy to Floci | 2 |
+| 4.3 Config: env vars, timeouts, memory | 3 |
 
 ## Code index
 

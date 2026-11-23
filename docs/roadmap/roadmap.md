@@ -12,7 +12,7 @@ Progress  █░░░░░░░░░░░░░░░░░░░  2 / 38 d
 
 | Phase | Days | Done |
 |---|---|---|
-| ☁️ Phase 1: Cloud foundations on Floci | 1–8 | 2 / 8 |
+| ☁️ Phase 1: Cloud foundations on Floci | 1–8 | 3 / 8 |
 | 🏗️ Phase 2: Infrastructure as code + CI/CD | 9–13 | 0 / 5 |
 | 🔍 Phase 3: LLMOps: reliable LLM systems | 14–21 | 0 / 8 |
 | 🔥 Phase 4: PyTorch + fine-tuning | 22–26 | 0 / 5 |
@@ -27,8 +27,8 @@ flowchart LR
     direction TB
     D1["1 · How the cloud works + Floci setup"]:::done
     D2["2 · S3 deep dive with boto3"]:::done
-    D3["3 · DynamoDB data modelling"]:::next
-    D4["4 · Lambda: serverless compute"]:::todo
+    D3["3 · DynamoDB data modelling"]:::done
+    D4["4 · Lambda: serverless compute"]:::next
     D5["5 · SQS + event-driven design"]:::todo
     D6["6 · IAM and secrets"]:::todo
     D7["7 · API Gateway, networking, containers, logs"]:::todo
@@ -185,7 +185,7 @@ How teams keep old versions and cut storage cost automatically.
 </details>
 
 <details>
-<summary>🔜 <b>Day 3</b>: DynamoDB data modelling</summary>
+<summary>✅ <b>Day 3</b>: DynamoDB data modelling</summary>
 
 **3.1 Keys and access patterns**
 
@@ -215,7 +215,7 @@ Only write if a condition holds. This is the basis for idempotent workers later.
 </details>
 
 <details>
-<summary>⬜ <b>Day 4</b>: Lambda: serverless compute</summary>
+<summary>🔜 <b>Day 4</b>: Lambda: serverless compute</summary>
 
 **4.1 Execution model**
 
@@ -234,7 +234,7 @@ Package a handler and invoke it from the CLI.
 
 The settings that decide cost and reliability.
 
-- [ ] Add an env var, set the timeout to 30 s and trigger a timeout on purpose
+- [x] Add an env var, set the timeout to 30 s and trigger a timeout on purpose
 
 **4.4 Container images**
 
