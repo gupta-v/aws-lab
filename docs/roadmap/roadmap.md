@@ -221,14 +221,14 @@ Only write if a condition holds. This is the basis for idempotent workers later.
 
 Handlers, events, cold vs warm starts, the 15-minute limit and how memory affects CPU.
 
-- [ ] Read the Lambda concepts page and note the limits
+- [x] Read the Lambda concepts page and note the limits
 
 **4.2 Zip deploy to Floci**
 
 Package a handler and invoke it from the CLI.
 
-- [ ] Write `handler(event, context)` and deploy it with the AWS CLI
-- [ ] Invoke it and read the response
+- [x] Write `handler(event, context)` and deploy it with the AWS CLI
+- [x] Invoke it and read the response
 
 **4.3 Config: env vars, timeouts, memory**
 

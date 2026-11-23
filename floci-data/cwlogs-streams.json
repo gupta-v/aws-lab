@@ -1,4 +1,14 @@
 {
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/23/[$LATEST]1038eb7a" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/23/[$LATEST]1038eb7a",
+    "createdTime" : 1795428557095,
+    "firstEventTimestamp" : 1795428557151,
+    "lastEventTimestamp" : 1795428557160,
+    "lastIngestionTime" : 1795428557160,
+    "uploadSequenceToken" : "63791c7b-447d-4d1f-a8f0-f0551dbcfebd",
+    "storedBytes" : 150
+  },
   "000000000000/us-east-1::/floci/ui::2026/11/14/cf9a6545" : {
     "logGroupName" : "/floci/ui",
     "logStreamName" : "2026/11/14/cf9a6545",
@@ -19,6 +29,16 @@
     "uploadSequenceToken" : "c25a3143-46f4-4a82-8045-77efdfb5b076",
     "storedBytes" : 150
   },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/23/[$LATEST]b5e9c4d3" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/23/[$LATEST]b5e9c4d3",
+    "createdTime" : 1795428554549,
+    "firstEventTimestamp" : 1795428554594,
+    "lastEventTimestamp" : 1795428554608,
+    "lastIngestionTime" : 1795428554608,
+    "uploadSequenceToken" : "5c89b55f-d614-40e0-9ad4-9ab39a6c577a",
+    "storedBytes" : 520
+  },
   "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]704c3e5d" : {
     "logGroupName" : "/aws/lambda/calculator-worker",
     "logStreamName" : "2026/11/20/[$LATEST]704c3e5d",
@@ -38,6 +58,16 @@
     "lastIngestionTime" : 1795170505962,
     "uploadSequenceToken" : "5a5e6ee8-b97f-4fb0-8361-148b3b54be31",
     "storedBytes" : 150
+  },
+  "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/23/[$LATEST]2e1fc8d5" : {
+    "logGroupName" : "/aws/lambda/calculator-worker",
+    "logStreamName" : "2026/11/23/[$LATEST]2e1fc8d5",
+    "createdTime" : 1795428524007,
+    "firstEventTimestamp" : 1795428524124,
+    "lastEventTimestamp" : 1795428524190,
+    "lastIngestionTime" : 1795428524190,
+    "uploadSequenceToken" : "ca1621e9-9100-4f8b-a663-25f58ee02778",
+    "storedBytes" : 338
   },
   "000000000000/ap-south-1::/aws/lambda/calculator-worker::2026/11/20/[$LATEST]cd10d459" : {
     "logGroupName" : "/aws/lambda/calculator-worker",
