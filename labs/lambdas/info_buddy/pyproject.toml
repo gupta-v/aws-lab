@@ -1,0 +1,15 @@
+[project]
+name = "info-buddy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ddgs>=9.16.1",
+    "fastapi>=0.165.0",
+    "httpx>=0.28.1",
+    "langchain>=1.5.2",
+    "langchain-groq>=1.2.1",
+    "mangum>=0.22.0",
+    "uvicorn>=0.54.0",
+]

@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /chat",
+  "rawPath": "/chat",
+  "rawQueryString": "",
+  "headers": { "content-type": "application/json" },
+  "requestContext": {
+    "http": { "method": "POST", "path": "/chat", "sourceIp": "127.0.0.1" }
+  },
+  "body": "{\"message\": \"weather in Pune?\"}",
+  "isBase64Encoded": false
+}

@@ -1,4 +1,77 @@
 {
+  "000000000000/lambda::ap-south-1::info-buddy::$LATEST" : {
+    "functionName" : "info-buddy",
+    "functionArn" : "arn:aws:lambda:ap-south-1:000000000000:function:info-buddy",
+    "accountId" : "000000000000",
+    "runtime" : null,
+    "role" : "arn:aws:iam::000000000000:role/lambda-role",
+    "handler" : null,
+    "description" : null,
+    "timeout" : 60,
+    "memorySize" : 512,
+    "state" : "Active",
+    "stateReason" : null,
+    "stateReasonCode" : null,
+    "codeSizeBytes" : 0,
+    "packageType" : "Image",
+    "imageUri" : "000000000000.dkr.ecr.ap-south-1.amazonaws.com/info-buddy:v2",
+    "imageConfigCommand" : null,
+    "imageConfigEntryPoint" : null,
+    "imageConfigWorkingDirectory" : null,
+    "codeLocalPath" : null,
+    "s3Bucket" : null,
+    "s3Key" : null,
+    "environment" : {
+      "GROQ_API_KEY" : "REDACTED"
+    },
+    "tags" : { },
+    "policies" : [ {
+      "Sid" : "url-public",
+      "Effect" : "Allow",
+      "Principal" : "*",
+      "Action" : "lambda:InvokeFunctionUrl",
+      "Resource" : "arn:aws:lambda:ap-south-1:000000000000:function:info-buddy",
+      "Condition" : {
+        "StringEquals" : {
+          "lambda:FunctionUrlAuthType" : "NONE"
+        }
+      }
+    } ],
+    "lastModified" : 1795504469027,
+    "revisionId" : "49ad6aec-d0e2-4b5f-9120-7a47103f6069",
+    "sourceRevisionId" : null,
+    "version" : "$LATEST",
+    "urlConfig" : {
+      "FunctionUrl" : "http://6357856716023c56adce5001edbbc8db.lambda-url.ap-south-1.localhost:4566/",
+      "FunctionArn" : "arn:aws:lambda:ap-south-1:000000000000:function:info-buddy",
+      "AuthType" : "NONE",
+      "InvokeMode" : "BUFFERED",
+      "CreationTime" : "2026-11-24T07:06:06.335787398Z",
+      "LastModifiedTime" : "2026-11-24T07:06:06.335787398Z",
+      "Cors" : null
+    },
+    "reservedConcurrentExecutions" : null,
+    "architectures" : null,
+    "ephemeralStorageSize" : 512,
+    "tracingMode" : "PassThrough",
+    "deadLetterTargetArn" : null,
+    "layers" : [ ],
+    "kmsKeyArn" : null,
+    "vpcConfig" : null,
+    "vpcId" : null,
+    "snapStartApplyOn" : "None",
+    "logFormat" : "Text",
+    "applicationLogLevel" : null,
+    "systemLogLevel" : null,
+    "logGroup" : null,
+    "fileSystemConfigs" : [ ],
+    "codeSha256" : null,
+    "codeSigningConfigArn" : null,
+    "durableExecutionTimeout" : null,
+    "durableRetentionPeriodInDays" : null,
+    "durableKmsKeyArn" : null,
+    "hotReloadHostPath" : null
+  },
   "000000000000/lambda::ap-south-1::calculator-worker::$LATEST" : {
     "functionName" : "calculator-worker",
     "functionArn" : "arn:aws:lambda:ap-south-1:000000000000:function:calculator-worker",

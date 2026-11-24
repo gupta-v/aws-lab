@@ -8,6 +8,15 @@
     "kmsKeyId" : null,
     "tags" : { }
   },
+  "000000000000/ap-south-1::/aws/lambda/info-buddy" : {
+    "logGroupName" : "/aws/lambda/info-buddy",
+    "logGroupClass" : "STANDARD",
+    "createdTime" : 1795501860852,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
   "000000000000/ap-south-1::/aws/lambda/calculator-worker" : {
     "logGroupName" : "/aws/lambda/calculator-worker",
     "logGroupClass" : "STANDARD",

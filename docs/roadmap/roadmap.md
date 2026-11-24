@@ -12,7 +12,7 @@ Progress  █░░░░░░░░░░░░░░░░░░░  2 / 38 d
 
 | Phase | Days | Done |
 |---|---|---|
-| ☁️ Phase 1: Cloud foundations on Floci | 1–8 | 3 / 8 |
+| ☁️ Phase 1: Cloud foundations on Floci | 1–8 | 4 / 8 |
 | 🏗️ Phase 2: Infrastructure as code + CI/CD | 9–13 | 0 / 5 |
 | 🔍 Phase 3: LLMOps: reliable LLM systems | 14–21 | 0 / 8 |
 | 🔥 Phase 4: PyTorch + fine-tuning | 22–26 | 0 / 5 |
@@ -28,8 +28,8 @@ flowchart LR
     D1["1 · How the cloud works + Floci setup"]:::done
     D2["2 · S3 deep dive with boto3"]:::done
     D3["3 · DynamoDB data modelling"]:::done
-    D4["4 · Lambda: serverless compute"]:::next
-    D5["5 · SQS + event-driven design"]:::todo
+    D4["4 · Lambda: serverless compute"]:::done
+    D5["5 · SQS + event-driven design"]:::next
     D6["6 · IAM and secrets"]:::todo
     D7["7 · API Gateway, networking, containers, logs"]:::todo
     D8["8 · Review: build it from memory"]:::todo
@@ -215,7 +215,7 @@ Only write if a condition holds. This is the basis for idempotent workers later.
 </details>
 
 <details>
-<summary>🔜 <b>Day 4</b>: Lambda: serverless compute</summary>
+<summary>✅ <b>Day 4</b>: Lambda: serverless compute</summary>
 
 **4.1 Execution model**
 
@@ -240,12 +240,12 @@ The settings that decide cost and reliability.
 
 Package Python with heavy dependencies (LangGraph, etc.) as a Docker image instead of a zip.
 
-- [ ] Build a Lambda container image from the AWS base image and deploy it to Floci
+- [x] Build a Lambda container image from the AWS base image and deploy it to Floci
 
 </details>
 
 <details>
-<summary>⬜ <b>Day 5</b>: SQS + event-driven design</summary>
+<summary>🔜 <b>Day 5</b>: SQS + event-driven design</summary>
 
 **5.1 Queues and delivery semantics**
 
