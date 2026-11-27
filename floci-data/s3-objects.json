@@ -14,6 +14,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.272Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "UirA4g==",
       "checksumCRC32C" : null,
@@ -50,6 +52,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.458Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "LJu8Xw==",
       "checksumCRC32C" : null,
@@ -86,6 +90,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.307Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "JS3wdA==",
       "checksumCRC32C" : null,
@@ -122,6 +128,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.194Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "u0ll1w==",
       "checksumCRC32C" : null,
@@ -158,6 +166,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.814Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "1EH1Gw==",
       "checksumCRC32C" : null,
@@ -194,6 +204,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.919Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "u0ll1w==",
       "checksumCRC32C" : null,
@@ -230,6 +242,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:49.063Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "Q5Mskw==",
       "checksumCRC32C" : null,
@@ -266,6 +280,8 @@
     "size" : 16,
     "lastModified" : "2026-11-14T19:06:48.727Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "gXYBSQ==",
       "checksumCRC32C" : null,
@@ -302,6 +318,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.983Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "vCShzg==",
       "checksumCRC32C" : null,
@@ -338,6 +356,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.814Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "1EH1Gw==",
       "checksumCRC32C" : null,
@@ -374,6 +394,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.146Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "IkA0bQ==",
       "checksumCRC32C" : null,
@@ -410,6 +432,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.847Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "pCsBlA==",
       "checksumCRC32C" : null,
@@ -446,6 +470,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.146Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "IkA0bQ==",
       "checksumCRC32C" : null,
@@ -482,6 +508,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.773Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "o0bFjQ==",
       "checksumCRC32C" : null,
@@ -518,6 +546,8 @@
     "size" : 9,
     "lastModified" : "2026-11-14T17:36:16.173Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "T7qung==",
       "checksumCRC32C" : null,
@@ -554,6 +584,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.923Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "SiVguA==",
       "checksumCRC32C" : null,
@@ -590,6 +622,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:16.153Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "xmAtDQ==",
       "checksumCRC32C" : null,
@@ -626,6 +660,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.876Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "Q5Mskw==",
       "checksumCRC32C" : null,
@@ -662,6 +698,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.194Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "u0ll1w==",
       "checksumCRC32C" : null,
@@ -698,6 +736,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.385Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "yyORWA==",
       "checksumCRC32C" : null,
@@ -734,6 +774,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.341Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "vCShzg==",
       "checksumCRC32C" : null,
@@ -770,6 +812,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.850Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "o0bFjQ==",
       "checksumCRC32C" : null,
@@ -806,6 +850,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.905Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "IkA0bQ==",
       "checksumCRC32C" : null,
@@ -842,6 +888,8 @@
     "size" : 679,
     "lastModified" : "2026-11-19T05:16:42.849Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : null,
       "checksumCRC32C" : null,
@@ -878,6 +926,8 @@
     "size" : 20971520,
     "lastModified" : "2026-11-14T17:35:02.972Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "9yxP6w==-3",
       "checksumCRC32C" : null,
@@ -953,6 +1003,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.764Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "TUikoQ==",
       "checksumCRC32C" : null,
@@ -989,6 +1041,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:49.030Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "NJQcBQ==",
       "checksumCRC32C" : null,
@@ -1025,6 +1079,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.956Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "0ywxAg==",
       "checksumCRC32C" : null,
@@ -1061,6 +1117,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.968Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "JS3wdA==",
       "checksumCRC32C" : null,
@@ -1097,6 +1155,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:15.026Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "LJu8Xw==",
       "checksumCRC32C" : null,
@@ -1133,6 +1193,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.831Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "0ywxAg==",
       "checksumCRC32C" : null,
@@ -1169,6 +1231,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.417Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "W5yMyQ==",
       "checksumCRC32C" : null,
@@ -1205,6 +1269,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.850Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "o0bFjQ==",
       "checksumCRC32C" : null,
@@ -1241,6 +1307,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:49.063Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "Q5Mskw==",
       "checksumCRC32C" : null,
@@ -1277,6 +1345,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.759Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "1EH1Gw==",
       "checksumCRC32C" : null,
@@ -1313,6 +1383,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.098Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "VUcE+w==",
       "checksumCRC32C" : null,
@@ -1349,6 +1421,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.239Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "zE5VQQ==",
       "checksumCRC32C" : null,
@@ -1385,6 +1459,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.888Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "PSJQLg==",
       "checksumCRC32C" : null,
@@ -1421,6 +1497,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.385Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "yyORWA==",
       "checksumCRC32C" : null,
@@ -1457,6 +1535,8 @@
     "size" : 16,
     "lastModified" : "2026-11-14T17:36:14.728Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "gXYBSQ==",
       "checksumCRC32C" : null,
@@ -1493,6 +1573,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.950Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "UirA4g==",
       "checksumCRC32C" : null,
@@ -1529,6 +1611,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.888Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "PSJQLg==",
       "checksumCRC32C" : null,
@@ -1565,6 +1649,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.341Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "vCShzg==",
       "checksumCRC32C" : null,
@@ -1601,6 +1687,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.891Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "VUcE+w==",
       "checksumCRC32C" : null,
@@ -1637,6 +1725,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.098Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "VUcE+w==",
       "checksumCRC32C" : null,
@@ -1673,6 +1763,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.739Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "TUikoQ==",
       "checksumCRC32C" : null,
@@ -1709,6 +1801,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.307Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "JS3wdA==",
       "checksumCRC32C" : null,
@@ -1745,6 +1839,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.990Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "pCsBlA==",
       "checksumCRC32C" : null,
@@ -1781,6 +1877,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.239Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "zE5VQQ==",
       "checksumCRC32C" : null,
@@ -1817,6 +1915,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:15.012Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "W5yMyQ==",
       "checksumCRC32C" : null,
@@ -1853,6 +1953,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.487Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "fmpXOA==",
       "checksumCRC32C" : null,
@@ -1889,6 +1991,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.809Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "SiVguA==",
       "checksumCRC32C" : null,
@@ -1925,6 +2029,8 @@
     "size" : 16,
     "lastModified" : "2026-11-14T19:06:48.727Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "gXYBSQ==",
       "checksumCRC32C" : null,
@@ -1961,6 +2067,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.956Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "0ywxAg==",
       "checksumCRC32C" : null,
@@ -1997,6 +2105,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.417Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "W5yMyQ==",
       "checksumCRC32C" : null,
@@ -2033,6 +2143,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.487Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "fmpXOA==",
       "checksumCRC32C" : null,
@@ -2069,6 +2181,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.272Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "UirA4g==",
       "checksumCRC32C" : null,
@@ -2105,6 +2219,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.935Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "zE5VQQ==",
       "checksumCRC32C" : null,
@@ -2141,6 +2257,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.923Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "SiVguA==",
       "checksumCRC32C" : null,
@@ -2177,6 +2295,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T19:06:49.458Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "LJu8Xw==",
       "checksumCRC32C" : null,
@@ -2213,6 +2333,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.764Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "TUikoQ==",
       "checksumCRC32C" : null,
@@ -2249,6 +2371,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:49.030Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "NJQcBQ==",
       "checksumCRC32C" : null,
@@ -2285,6 +2409,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T19:06:48.990Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "pCsBlA==",
       "checksumCRC32C" : null,
@@ -2321,6 +2447,8 @@
     "size" : 15,
     "lastModified" : "2026-11-14T17:36:16.123Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "Fndm7A==",
       "checksumCRC32C" : null,
@@ -2357,6 +2485,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:15.043Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "fmpXOA==",
       "checksumCRC32C" : null,
@@ -2393,6 +2523,8 @@
     "size" : 11,
     "lastModified" : "2026-11-14T17:36:14.998Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "yyORWA==",
       "checksumCRC32C" : null,
@@ -2429,6 +2561,8 @@
     "size" : 1197,
     "lastModified" : "2026-11-23T12:43:07.309Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : null,
       "checksumCRC32C" : null,
@@ -2465,6 +2599,8 @@
     "size" : 9,
     "lastModified" : "2026-11-14T17:36:16.173Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "T7qung==",
       "checksumCRC32C" : null,
@@ -2501,6 +2637,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.861Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "NJQcBQ==",
       "checksumCRC32C" : null,
@@ -2537,6 +2675,8 @@
     "size" : 10,
     "lastModified" : "2026-11-14T17:36:14.786Z",
     "storageClass" : "STANDARD",
+    "restoreCompletionAt" : null,
+    "restoreExpiryAt" : null,
     "checksum" : {
       "checksumCRC32" : "PSJQLg==",
       "checksumCRC32C" : null,

@@ -9,6 +9,7 @@ What it does:
   2. Replaces Floci's UI container with one that uses YOUR region (from AWS_DEFAULT_REGION)
 """
 import os
+import shutil
 import subprocess
 import sys
 import time
@@ -51,7 +52,19 @@ def start_floci():
         return
     PERSIST_DIR.mkdir(exist_ok=True)
     print(f"  starting with persistence in {PERSIST_DIR} …")
-    run(["floci", "start", "--persist", str(PERSIST_DIR)])
+    if shutil.which("floci"):
+        run(["floci", "start", "--persist", str(PERSIST_DIR)])
+    else:
+        print("  (floci CLI not on PATH, falling back to docker run)")
+        if "floci" in run(["docker", "ps", "-a", "--format", "{{.Names}}"]).splitlines():
+            run(["docker", "rm", "-f", "floci"])
+        run([
+            "docker", "run", "-d", "--name", "floci", "-p", "4566:4566",
+            "-v", "/var/run/docker.sock:/var/run/docker.sock",
+            "-v", f"{PERSIST_DIR}:/app/data",
+            "-e", "FLOCI_STORAGE_MODE=hybrid",  # default is memory: files are ignored without this
+            "floci/floci:latest",
+        ])
     for _ in range(30):
         if floci_is_up():
             print(f"  ✓ ready at {ENDPOINT}")

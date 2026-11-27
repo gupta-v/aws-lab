@@ -29,6 +29,8 @@
       "lastDecreaseDateTime" : null,
       "numberOfDecreasesToday" : 0
     },
+    "warmReadUnitsPerSecond" : 12000,
+    "warmWriteUnitsPerSecond" : 4000,
     "tableArn" : "arn:aws:dynamodb:ap-south-1:000000000000:table/research-jobs",
     "tags" : { },
     "globalSecondaryIndexes" : [ {
@@ -53,7 +55,8 @@
       "indexSizeBytes" : 0,
       "nonKeyAttributes" : [ ],
       "onDemandMaxReadRequestUnits" : null,
-      "onDemandMaxWriteRequestUnits" : null
+      "onDemandMaxWriteRequestUnits" : null,
+      "contributorInsights" : null
     } ],
     "localSecondaryIndexes" : [ ],
     "vectorIndexes" : [ ],
@@ -78,6 +81,7 @@
     "replicaRegions" : [ ],
     "globalTableHomeRegion" : null,
     "resourcePolicy" : null,
-    "resourcePolicyRevisionId" : null
+    "resourcePolicyRevisionId" : null,
+    "contributorInsights" : null
   }
 }

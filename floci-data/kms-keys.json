@@ -27,7 +27,8 @@
     "backingKeys" : {
       "299477f3-1c39-49e7-ba42-033753e246e9" : "lejGurF7cRVQ9u7zZ3I+FuUJm4CvMVeaMIP/CqRsbk4="
     },
-    "currentBackingKeyId" : "299477f3-1c39-49e7-ba42-033753e246e9"
+    "currentBackingKeyId" : "299477f3-1c39-49e7-ba42-033753e246e9",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::5fd96dcb-7ebd-4842-a776-836a1782da4a" : {
     "keyId" : "5fd96dcb-7ebd-4842-a776-836a1782da4a",
@@ -57,37 +58,8 @@
     "backingKeys" : {
       "736d67e9-24c0-4f48-b1db-6fd2ed4da189" : "dSWx4RfLGlaEaBgfcsiwnPpuHftJGruN22uSE7WAjfc="
     },
-    "currentBackingKeyId" : "736d67e9-24c0-4f48-b1db-6fd2ed4da189"
-  },
-  "000000000000/ap-south-1::2170d307-5a74-444b-b42a-94fb8388df25" : {
-    "keyId" : "2170d307-5a74-444b-b42a-94fb8388df25",
-    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/2170d307-5a74-444b-b42a-94fb8388df25",
-    "description" : "Default master key that protects my ECR images when no other key is defined",
-    "enabled" : true,
-    "keyState" : "Enabled",
-    "origin" : "AWS_KMS",
-    "keyManager" : "AWS",
-    "expirationModel" : null,
-    "validTo" : 0,
-    "importParameters" : null,
-    "keyMaterialId" : null,
-    "keyUsage" : "ENCRYPT_DECRYPT",
-    "keySpec" : "SYMMETRIC_DEFAULT",
-    "multiRegion" : false,
-    "multiRegionKeyType" : null,
-    "multiRegionPrimaryRegion" : null,
-    "creationDate" : 1794676389,
-    "deletionDate" : 0,
-    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
-    "keyRotationEnabled" : true,
-    "tags" : { },
-    "privateKeyEncoded" : null,
-    "publicKeyEncoded" : null,
-    "onDemandRotationCount" : 0,
-    "backingKeys" : {
-      "adfd717d-4aed-4ec2-b087-10b883793276" : "HAcZ/xTdN/A1aHkH6m7B/921Jl13nvacq5EmFQ6wzKU="
-    },
-    "currentBackingKeyId" : "adfd717d-4aed-4ec2-b087-10b883793276"
+    "currentBackingKeyId" : "736d67e9-24c0-4f48-b1db-6fd2ed4da189",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::c99e44a5-2bc2-4bdf-84eb-a586cfb523dc" : {
     "keyId" : "c99e44a5-2bc2-4bdf-84eb-a586cfb523dc",
@@ -117,7 +89,39 @@
     "backingKeys" : {
       "5e8ad45b-fe62-418c-984a-503ecb713497" : "DamC393RvXofW8P7hU1bnWh5RsgX1D3BVKUQgy5cZnk="
     },
-    "currentBackingKeyId" : "5e8ad45b-fe62-418c-984a-503ecb713497"
+    "currentBackingKeyId" : "5e8ad45b-fe62-418c-984a-503ecb713497",
+    "backingKeyRotationDates" : { }
+  },
+  "000000000000/ap-south-1::2170d307-5a74-444b-b42a-94fb8388df25" : {
+    "keyId" : "2170d307-5a74-444b-b42a-94fb8388df25",
+    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/2170d307-5a74-444b-b42a-94fb8388df25",
+    "description" : "Default master key that protects my ECR images when no other key is defined",
+    "enabled" : true,
+    "keyState" : "Enabled",
+    "origin" : "AWS_KMS",
+    "keyManager" : "AWS",
+    "expirationModel" : null,
+    "validTo" : 0,
+    "importParameters" : null,
+    "keyMaterialId" : null,
+    "keyUsage" : "ENCRYPT_DECRYPT",
+    "keySpec" : "SYMMETRIC_DEFAULT",
+    "multiRegion" : false,
+    "multiRegionKeyType" : null,
+    "multiRegionPrimaryRegion" : null,
+    "creationDate" : 1794676389,
+    "deletionDate" : 0,
+    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
+    "keyRotationEnabled" : true,
+    "tags" : { },
+    "privateKeyEncoded" : null,
+    "publicKeyEncoded" : null,
+    "onDemandRotationCount" : 0,
+    "backingKeys" : {
+      "adfd717d-4aed-4ec2-b087-10b883793276" : "HAcZ/xTdN/A1aHkH6m7B/921Jl13nvacq5EmFQ6wzKU="
+    },
+    "currentBackingKeyId" : "adfd717d-4aed-4ec2-b087-10b883793276",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::a060cf37-753a-4c6c-b046-ac9851fa4fbd" : {
     "keyId" : "a060cf37-753a-4c6c-b046-ac9851fa4fbd",
@@ -147,7 +151,8 @@
     "backingKeys" : {
       "684dac13-7316-48bc-984c-81bffde23d7a" : "0LM5zOJRpqEX4xpEoaUT0geMBnc72CeAFzJsx+joKXc="
     },
-    "currentBackingKeyId" : "684dac13-7316-48bc-984c-81bffde23d7a"
+    "currentBackingKeyId" : "684dac13-7316-48bc-984c-81bffde23d7a",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::6ec73faf-3be6-40b1-91ee-33d8b0549b1a" : {
     "keyId" : "6ec73faf-3be6-40b1-91ee-33d8b0549b1a",
@@ -177,7 +182,8 @@
     "backingKeys" : {
       "7a7a8f4c-39ef-46e6-87d5-13910a13037b" : "FmOrDEW9oYd2RXy/Cdtht1i1KLcW2tFffZX9agvBcpg="
     },
-    "currentBackingKeyId" : "7a7a8f4c-39ef-46e6-87d5-13910a13037b"
+    "currentBackingKeyId" : "7a7a8f4c-39ef-46e6-87d5-13910a13037b",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::ed85eca6-a3d9-4b9d-a56b-cdd794216e38" : {
     "keyId" : "ed85eca6-a3d9-4b9d-a56b-cdd794216e38",
@@ -207,37 +213,8 @@
     "backingKeys" : {
       "e810f5de-25bb-420b-be0d-7bbb0bbbf702" : "ft3CSt2876esyYS1OvOca6OaDJLgwSMOnnFxeK9QbAs="
     },
-    "currentBackingKeyId" : "e810f5de-25bb-420b-be0d-7bbb0bbbf702"
-  },
-  "000000000000/ap-south-1::b483caa8-8c3d-412d-8b2b-54b21f13234f" : {
-    "keyId" : "b483caa8-8c3d-412d-8b2b-54b21f13234f",
-    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/b483caa8-8c3d-412d-8b2b-54b21f13234f",
-    "description" : "Default master key that protects my Redshift clusters when no other key is defined",
-    "enabled" : true,
-    "keyState" : "Enabled",
-    "origin" : "AWS_KMS",
-    "keyManager" : "AWS",
-    "expirationModel" : null,
-    "validTo" : 0,
-    "importParameters" : null,
-    "keyMaterialId" : null,
-    "keyUsage" : "ENCRYPT_DECRYPT",
-    "keySpec" : "SYMMETRIC_DEFAULT",
-    "multiRegion" : false,
-    "multiRegionKeyType" : null,
-    "multiRegionPrimaryRegion" : null,
-    "creationDate" : 1794676389,
-    "deletionDate" : 0,
-    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
-    "keyRotationEnabled" : true,
-    "tags" : { },
-    "privateKeyEncoded" : null,
-    "publicKeyEncoded" : null,
-    "onDemandRotationCount" : 0,
-    "backingKeys" : {
-      "ef70da55-adc9-4317-b572-128f082977a0" : "noJY/ycsNj1nQ1BA5e9xpM/lZ97WL2Bk7qPZbXANUto="
-    },
-    "currentBackingKeyId" : "ef70da55-adc9-4317-b572-128f082977a0"
+    "currentBackingKeyId" : "e810f5de-25bb-420b-be0d-7bbb0bbbf702",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::3ba87d28-1d89-48d7-aafa-36f4d9c09139" : {
     "keyId" : "3ba87d28-1d89-48d7-aafa-36f4d9c09139",
@@ -267,7 +244,39 @@
     "backingKeys" : {
       "3b380418-5bcd-4807-87ee-626c128ae3d8" : "i4PFZzQJZmEy6HSPjHneFCIrjU+rwv4ibog9sOxwSAY="
     },
-    "currentBackingKeyId" : "3b380418-5bcd-4807-87ee-626c128ae3d8"
+    "currentBackingKeyId" : "3b380418-5bcd-4807-87ee-626c128ae3d8",
+    "backingKeyRotationDates" : { }
+  },
+  "000000000000/ap-south-1::b483caa8-8c3d-412d-8b2b-54b21f13234f" : {
+    "keyId" : "b483caa8-8c3d-412d-8b2b-54b21f13234f",
+    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/b483caa8-8c3d-412d-8b2b-54b21f13234f",
+    "description" : "Default master key that protects my Redshift clusters when no other key is defined",
+    "enabled" : true,
+    "keyState" : "Enabled",
+    "origin" : "AWS_KMS",
+    "keyManager" : "AWS",
+    "expirationModel" : null,
+    "validTo" : 0,
+    "importParameters" : null,
+    "keyMaterialId" : null,
+    "keyUsage" : "ENCRYPT_DECRYPT",
+    "keySpec" : "SYMMETRIC_DEFAULT",
+    "multiRegion" : false,
+    "multiRegionKeyType" : null,
+    "multiRegionPrimaryRegion" : null,
+    "creationDate" : 1794676389,
+    "deletionDate" : 0,
+    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
+    "keyRotationEnabled" : true,
+    "tags" : { },
+    "privateKeyEncoded" : null,
+    "publicKeyEncoded" : null,
+    "onDemandRotationCount" : 0,
+    "backingKeys" : {
+      "ef70da55-adc9-4317-b572-128f082977a0" : "noJY/ycsNj1nQ1BA5e9xpM/lZ97WL2Bk7qPZbXANUto="
+    },
+    "currentBackingKeyId" : "ef70da55-adc9-4317-b572-128f082977a0",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::2d061336-58f5-414c-98da-376146193aeb" : {
     "keyId" : "2d061336-58f5-414c-98da-376146193aeb",
@@ -297,7 +306,8 @@
     "backingKeys" : {
       "920d11fd-7269-403e-97f1-e695a33c5cba" : "/fMKSLDKyqCAb6I4pq/68UBM8RnFg5o0kP/w+YsksFE="
     },
-    "currentBackingKeyId" : "920d11fd-7269-403e-97f1-e695a33c5cba"
+    "currentBackingKeyId" : "920d11fd-7269-403e-97f1-e695a33c5cba",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::efac1d0f-af48-4e94-a186-94334badb2b6" : {
     "keyId" : "efac1d0f-af48-4e94-a186-94334badb2b6",
@@ -327,7 +337,8 @@
     "backingKeys" : {
       "18743245-1637-4a5f-8367-f8edbb264ac9" : "P3yPmcb8TsezaQZpCkdz1vCVy3e7dJQ9LllxNUsUZrs="
     },
-    "currentBackingKeyId" : "18743245-1637-4a5f-8367-f8edbb264ac9"
+    "currentBackingKeyId" : "18743245-1637-4a5f-8367-f8edbb264ac9",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::a3a69379-a0bd-4e49-807e-8a0678dba490" : {
     "keyId" : "a3a69379-a0bd-4e49-807e-8a0678dba490",
@@ -357,7 +368,8 @@
     "backingKeys" : {
       "c45a4e73-17f2-40d4-8f46-b40d6ff876d4" : "eQbeUQxH/Bmgd70Jxui7VhmpApzz+ptgo2QSHvqvA5I="
     },
-    "currentBackingKeyId" : "c45a4e73-17f2-40d4-8f46-b40d6ff876d4"
+    "currentBackingKeyId" : "c45a4e73-17f2-40d4-8f46-b40d6ff876d4",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::3e87a8b0-4b1f-4507-835d-77ca8927d171" : {
     "keyId" : "3e87a8b0-4b1f-4507-835d-77ca8927d171",
@@ -387,67 +399,8 @@
     "backingKeys" : {
       "f3a658bc-5cf4-48e2-a616-004dcfa5db5d" : "TwD5D6ZGFeVQfAD5KNwovtI7EKPrCcoGP+hpmn1c4CE="
     },
-    "currentBackingKeyId" : "f3a658bc-5cf4-48e2-a616-004dcfa5db5d"
-  },
-  "000000000000/ap-south-1::a163b8fa-3d7c-4037-a48e-0ec70bdd787c" : {
-    "keyId" : "a163b8fa-3d7c-4037-a48e-0ec70bdd787c",
-    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/a163b8fa-3d7c-4037-a48e-0ec70bdd787c",
-    "description" : "Default master key that protects my Systems Manager data when no other key is defined",
-    "enabled" : true,
-    "keyState" : "Enabled",
-    "origin" : "AWS_KMS",
-    "keyManager" : "AWS",
-    "expirationModel" : null,
-    "validTo" : 0,
-    "importParameters" : null,
-    "keyMaterialId" : null,
-    "keyUsage" : "ENCRYPT_DECRYPT",
-    "keySpec" : "SYMMETRIC_DEFAULT",
-    "multiRegion" : false,
-    "multiRegionKeyType" : null,
-    "multiRegionPrimaryRegion" : null,
-    "creationDate" : 1794676389,
-    "deletionDate" : 0,
-    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
-    "keyRotationEnabled" : true,
-    "tags" : { },
-    "privateKeyEncoded" : null,
-    "publicKeyEncoded" : null,
-    "onDemandRotationCount" : 0,
-    "backingKeys" : {
-      "7d19d91a-7a04-447a-b0d8-6774a977d49e" : "JAS54kfiiZCzTtLQCP1AFMc+SHWywa3sv8R7gc74D9c="
-    },
-    "currentBackingKeyId" : "7d19d91a-7a04-447a-b0d8-6774a977d49e"
-  },
-  "000000000000/ap-south-1::ceca6ab5-1d2c-4c57-b338-9dc8884c6a32" : {
-    "keyId" : "ceca6ab5-1d2c-4c57-b338-9dc8884c6a32",
-    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/ceca6ab5-1d2c-4c57-b338-9dc8884c6a32",
-    "description" : "Default master key that protects my RDS database volumes when no other key is defined",
-    "enabled" : true,
-    "keyState" : "Enabled",
-    "origin" : "AWS_KMS",
-    "keyManager" : "AWS",
-    "expirationModel" : null,
-    "validTo" : 0,
-    "importParameters" : null,
-    "keyMaterialId" : null,
-    "keyUsage" : "ENCRYPT_DECRYPT",
-    "keySpec" : "SYMMETRIC_DEFAULT",
-    "multiRegion" : false,
-    "multiRegionKeyType" : null,
-    "multiRegionPrimaryRegion" : null,
-    "creationDate" : 1794676389,
-    "deletionDate" : 0,
-    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
-    "keyRotationEnabled" : true,
-    "tags" : { },
-    "privateKeyEncoded" : null,
-    "publicKeyEncoded" : null,
-    "onDemandRotationCount" : 0,
-    "backingKeys" : {
-      "5212e212-4750-4000-a335-86e8dda97027" : "yNxk2coki5NknY6GwVdet2RZpsEHn7ltwCloJn43I1I="
-    },
-    "currentBackingKeyId" : "5212e212-4750-4000-a335-86e8dda97027"
+    "currentBackingKeyId" : "f3a658bc-5cf4-48e2-a616-004dcfa5db5d",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::4b73516e-8c0c-47e2-b682-064c35604287" : {
     "keyId" : "4b73516e-8c0c-47e2-b682-064c35604287",
@@ -477,7 +430,70 @@
     "backingKeys" : {
       "97674ac7-cc0c-4ee9-a670-9018c82fb06a" : "5hzsde8C0HaOWw6+YX4u0jPa8hVm51ynmGtupdxf/XI="
     },
-    "currentBackingKeyId" : "97674ac7-cc0c-4ee9-a670-9018c82fb06a"
+    "currentBackingKeyId" : "97674ac7-cc0c-4ee9-a670-9018c82fb06a",
+    "backingKeyRotationDates" : { }
+  },
+  "000000000000/ap-south-1::ceca6ab5-1d2c-4c57-b338-9dc8884c6a32" : {
+    "keyId" : "ceca6ab5-1d2c-4c57-b338-9dc8884c6a32",
+    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/ceca6ab5-1d2c-4c57-b338-9dc8884c6a32",
+    "description" : "Default master key that protects my RDS database volumes when no other key is defined",
+    "enabled" : true,
+    "keyState" : "Enabled",
+    "origin" : "AWS_KMS",
+    "keyManager" : "AWS",
+    "expirationModel" : null,
+    "validTo" : 0,
+    "importParameters" : null,
+    "keyMaterialId" : null,
+    "keyUsage" : "ENCRYPT_DECRYPT",
+    "keySpec" : "SYMMETRIC_DEFAULT",
+    "multiRegion" : false,
+    "multiRegionKeyType" : null,
+    "multiRegionPrimaryRegion" : null,
+    "creationDate" : 1794676389,
+    "deletionDate" : 0,
+    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
+    "keyRotationEnabled" : true,
+    "tags" : { },
+    "privateKeyEncoded" : null,
+    "publicKeyEncoded" : null,
+    "onDemandRotationCount" : 0,
+    "backingKeys" : {
+      "5212e212-4750-4000-a335-86e8dda97027" : "yNxk2coki5NknY6GwVdet2RZpsEHn7ltwCloJn43I1I="
+    },
+    "currentBackingKeyId" : "5212e212-4750-4000-a335-86e8dda97027",
+    "backingKeyRotationDates" : { }
+  },
+  "000000000000/ap-south-1::a163b8fa-3d7c-4037-a48e-0ec70bdd787c" : {
+    "keyId" : "a163b8fa-3d7c-4037-a48e-0ec70bdd787c",
+    "arn" : "arn:aws:kms:ap-south-1:000000000000:key/a163b8fa-3d7c-4037-a48e-0ec70bdd787c",
+    "description" : "Default master key that protects my Systems Manager data when no other key is defined",
+    "enabled" : true,
+    "keyState" : "Enabled",
+    "origin" : "AWS_KMS",
+    "keyManager" : "AWS",
+    "expirationModel" : null,
+    "validTo" : 0,
+    "importParameters" : null,
+    "keyMaterialId" : null,
+    "keyUsage" : "ENCRYPT_DECRYPT",
+    "keySpec" : "SYMMETRIC_DEFAULT",
+    "multiRegion" : false,
+    "multiRegionKeyType" : null,
+    "multiRegionPrimaryRegion" : null,
+    "creationDate" : 1794676389,
+    "deletionDate" : 0,
+    "policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Enable IAM User Permissions\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::000000000000:root\"},\"Action\":\"kms:*\",\"Resource\":\"*\"}]}",
+    "keyRotationEnabled" : true,
+    "tags" : { },
+    "privateKeyEncoded" : null,
+    "publicKeyEncoded" : null,
+    "onDemandRotationCount" : 0,
+    "backingKeys" : {
+      "7d19d91a-7a04-447a-b0d8-6774a977d49e" : "JAS54kfiiZCzTtLQCP1AFMc+SHWywa3sv8R7gc74D9c="
+    },
+    "currentBackingKeyId" : "7d19d91a-7a04-447a-b0d8-6774a977d49e",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::4d2c1448-1874-40c2-87a9-d51feecc7fed" : {
     "keyId" : "4d2c1448-1874-40c2-87a9-d51feecc7fed",
@@ -507,7 +523,8 @@
     "backingKeys" : {
       "201fdb6c-98a7-49ce-8809-e090c9a0a5aa" : "yxbKslRnhY0EDPR+eowap7Ss+3ZBmuSJOIyzqt+rkFU="
     },
-    "currentBackingKeyId" : "201fdb6c-98a7-49ce-8809-e090c9a0a5aa"
+    "currentBackingKeyId" : "201fdb6c-98a7-49ce-8809-e090c9a0a5aa",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::a956f2b9-9d30-4687-b5b7-0bfb7823690b" : {
     "keyId" : "a956f2b9-9d30-4687-b5b7-0bfb7823690b",
@@ -537,7 +554,8 @@
     "backingKeys" : {
       "8ed0acc9-8721-44be-b842-d55174a24e17" : "LrZoO+f0PWdzW7YP1pSAjSSRjaEU9s54MvXR8enEexE="
     },
-    "currentBackingKeyId" : "8ed0acc9-8721-44be-b842-d55174a24e17"
+    "currentBackingKeyId" : "8ed0acc9-8721-44be-b842-d55174a24e17",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::b512b34a-db93-4190-98fc-9ac916ea959c" : {
     "keyId" : "b512b34a-db93-4190-98fc-9ac916ea959c",
@@ -567,7 +585,8 @@
     "backingKeys" : {
       "ac75a67a-835f-4c6e-859b-87e51b040f5a" : "e0uKgnGKOd0hNX9pY3CI7yuyZ7x6HRBva8xDomsjl4s="
     },
-    "currentBackingKeyId" : "ac75a67a-835f-4c6e-859b-87e51b040f5a"
+    "currentBackingKeyId" : "ac75a67a-835f-4c6e-859b-87e51b040f5a",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::18f61a0d-31b3-47c0-b081-6d60a66a21fc" : {
     "keyId" : "18f61a0d-31b3-47c0-b081-6d60a66a21fc",
@@ -597,7 +616,8 @@
     "backingKeys" : {
       "64e3e95a-872a-4321-945c-5cee85df5e59" : "NGqXoNAIyV7Ixt1iQBusNC6Zc3iDVcYXgo5xc0bejko="
     },
-    "currentBackingKeyId" : "64e3e95a-872a-4321-945c-5cee85df5e59"
+    "currentBackingKeyId" : "64e3e95a-872a-4321-945c-5cee85df5e59",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::c5006b2f-1185-44ba-8716-1b8e3a8bc48b" : {
     "keyId" : "c5006b2f-1185-44ba-8716-1b8e3a8bc48b",
@@ -627,7 +647,8 @@
     "backingKeys" : {
       "f1eae8f7-045c-4db8-8c92-6d8882984804" : "PjD/IcYsOJKSct7bFXSfKb6pvtJZ0IlQn/sJfnz1KA0="
     },
-    "currentBackingKeyId" : "f1eae8f7-045c-4db8-8c92-6d8882984804"
+    "currentBackingKeyId" : "f1eae8f7-045c-4db8-8c92-6d8882984804",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::467fb8f1-5bcf-4184-aec6-97bb83596c7b" : {
     "keyId" : "467fb8f1-5bcf-4184-aec6-97bb83596c7b",
@@ -657,7 +678,8 @@
     "backingKeys" : {
       "d9404a37-a660-49ef-b323-2cffcb0763f0" : "dARD/z/sx7xJsN9zaJgIlMKJDjFoeeoCm6KDwhl7xkk="
     },
-    "currentBackingKeyId" : "d9404a37-a660-49ef-b323-2cffcb0763f0"
+    "currentBackingKeyId" : "d9404a37-a660-49ef-b323-2cffcb0763f0",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::3167d2df-d587-409b-958d-fbe00b5d720b" : {
     "keyId" : "3167d2df-d587-409b-958d-fbe00b5d720b",
@@ -687,7 +709,8 @@
     "backingKeys" : {
       "efc34cb3-0426-47f3-b596-5f418188a354" : "rzyqt686w6HsIZruO3vRFDwu61UWKsr+IFKskTQcy9c="
     },
-    "currentBackingKeyId" : "efc34cb3-0426-47f3-b596-5f418188a354"
+    "currentBackingKeyId" : "efc34cb3-0426-47f3-b596-5f418188a354",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::a023fb02-5954-4e69-8e91-68e49ae8d193" : {
     "keyId" : "a023fb02-5954-4e69-8e91-68e49ae8d193",
@@ -717,7 +740,8 @@
     "backingKeys" : {
       "83d927bc-336b-495a-a384-d54b3271f9f0" : "2AwRGnBih0UdZcfbQEkVw4ssPxBNsXXl7hmIXIdlRtQ="
     },
-    "currentBackingKeyId" : "83d927bc-336b-495a-a384-d54b3271f9f0"
+    "currentBackingKeyId" : "83d927bc-336b-495a-a384-d54b3271f9f0",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::0fc37467-0205-4010-89aa-cec17244f23a" : {
     "keyId" : "0fc37467-0205-4010-89aa-cec17244f23a",
@@ -747,7 +771,8 @@
     "backingKeys" : {
       "e863daed-2edb-4279-9416-a8c7b362bc46" : "ekwHfiHQrLQhX9PoDohlNgyw6OGnP0Jx73QlvRjZW8I="
     },
-    "currentBackingKeyId" : "e863daed-2edb-4279-9416-a8c7b362bc46"
+    "currentBackingKeyId" : "e863daed-2edb-4279-9416-a8c7b362bc46",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::218bdb2c-faf3-453f-ace5-db1dcfa37888" : {
     "keyId" : "218bdb2c-faf3-453f-ace5-db1dcfa37888",
@@ -777,7 +802,8 @@
     "backingKeys" : {
       "d9b45667-2073-41d2-855c-c798b81db6ad" : "q5rSp+okPNlusGNCYiicmdGhiHaXsi+QkWeTOH1576E="
     },
-    "currentBackingKeyId" : "d9b45667-2073-41d2-855c-c798b81db6ad"
+    "currentBackingKeyId" : "d9b45667-2073-41d2-855c-c798b81db6ad",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::bb13ce90-c1ff-460d-92f1-db1729571be3" : {
     "keyId" : "bb13ce90-c1ff-460d-92f1-db1729571be3",
@@ -807,7 +833,8 @@
     "backingKeys" : {
       "9e83a371-a17a-470b-9ed6-504ad1540e4b" : "S/zmOoDRLXJ2LVBTaeZUUeUvtxgCbszO/D+hwWO8a/Y="
     },
-    "currentBackingKeyId" : "9e83a371-a17a-470b-9ed6-504ad1540e4b"
+    "currentBackingKeyId" : "9e83a371-a17a-470b-9ed6-504ad1540e4b",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::21b6e066-35a8-4fe2-a955-74c956e8b170" : {
     "keyId" : "21b6e066-35a8-4fe2-a955-74c956e8b170",
@@ -837,7 +864,8 @@
     "backingKeys" : {
       "6f6f48d8-758f-49ae-b04a-9ffcaaa667c8" : "D2GGy63sqaa+CVrcUOQwAvSWL8KtTk/wIu0nKF/Bx2Q="
     },
-    "currentBackingKeyId" : "6f6f48d8-758f-49ae-b04a-9ffcaaa667c8"
+    "currentBackingKeyId" : "6f6f48d8-758f-49ae-b04a-9ffcaaa667c8",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::f30a02f7-f5fc-4e44-9427-564bec33949d" : {
     "keyId" : "f30a02f7-f5fc-4e44-9427-564bec33949d",
@@ -867,7 +895,8 @@
     "backingKeys" : {
       "c0b7c413-eac0-4e24-8331-6b81fd60b352" : "sVpacaqzFn+VU2RjCdO+es1Ql4L+olEb3aq/qVY6c7s="
     },
-    "currentBackingKeyId" : "c0b7c413-eac0-4e24-8331-6b81fd60b352"
+    "currentBackingKeyId" : "c0b7c413-eac0-4e24-8331-6b81fd60b352",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::84f4e0d7-f248-4929-9040-6e5dc096df63" : {
     "keyId" : "84f4e0d7-f248-4929-9040-6e5dc096df63",
@@ -897,7 +926,8 @@
     "backingKeys" : {
       "1c2cbcd1-e4d4-446c-a1c8-5810fa27c791" : "rhr0nfkxjhRr09nTD7Yc0ifkh+lJ/vlRjotKXi2pN3k="
     },
-    "currentBackingKeyId" : "1c2cbcd1-e4d4-446c-a1c8-5810fa27c791"
+    "currentBackingKeyId" : "1c2cbcd1-e4d4-446c-a1c8-5810fa27c791",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::28387c0a-e3b7-43cd-b17c-cbb84d49fa38" : {
     "keyId" : "28387c0a-e3b7-43cd-b17c-cbb84d49fa38",
@@ -927,7 +957,8 @@
     "backingKeys" : {
       "b7cfbb4c-fd2e-4434-aa4e-d924e4ebbda5" : "K74VkRPuF7+J0UG18w17pPuBxYD5OaDMWtIMbMDjhkI="
     },
-    "currentBackingKeyId" : "b7cfbb4c-fd2e-4434-aa4e-d924e4ebbda5"
+    "currentBackingKeyId" : "b7cfbb4c-fd2e-4434-aa4e-d924e4ebbda5",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::ff5e441c-469c-4cd3-8ec2-c6cd61e0de26" : {
     "keyId" : "ff5e441c-469c-4cd3-8ec2-c6cd61e0de26",
@@ -957,7 +988,8 @@
     "backingKeys" : {
       "4614ea7c-9238-49b7-a3e4-a9de33f66530" : "QKIC0KK8qQLrDKqYZp3MmaHRxD50Nwwvup8/G2t7sQA="
     },
-    "currentBackingKeyId" : "4614ea7c-9238-49b7-a3e4-a9de33f66530"
+    "currentBackingKeyId" : "4614ea7c-9238-49b7-a3e4-a9de33f66530",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::1b096ca9-3139-4e76-a7e2-e29929836ac6" : {
     "keyId" : "1b096ca9-3139-4e76-a7e2-e29929836ac6",
@@ -987,7 +1019,8 @@
     "backingKeys" : {
       "bd92620f-701f-4f85-8e38-db4180f5e9fc" : "BxmFWpZZl+PcCVxEPcRlbgg2DB/YynJbYJfIb/uLYLk="
     },
-    "currentBackingKeyId" : "bd92620f-701f-4f85-8e38-db4180f5e9fc"
+    "currentBackingKeyId" : "bd92620f-701f-4f85-8e38-db4180f5e9fc",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::c987248a-9332-439e-a98a-6873acc4b471" : {
     "keyId" : "c987248a-9332-439e-a98a-6873acc4b471",
@@ -1017,7 +1050,8 @@
     "backingKeys" : {
       "7680ce9e-053f-40a6-8494-248f4efdafef" : "QXfsnxbCySwMb+5Ykmaf48WNJzSrivDOsIJKZJHq/+c="
     },
-    "currentBackingKeyId" : "7680ce9e-053f-40a6-8494-248f4efdafef"
+    "currentBackingKeyId" : "7680ce9e-053f-40a6-8494-248f4efdafef",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::717ddcb9-dd22-480f-bd1f-3958429ce865" : {
     "keyId" : "717ddcb9-dd22-480f-bd1f-3958429ce865",
@@ -1047,7 +1081,8 @@
     "backingKeys" : {
       "d5e2fafd-9c6d-4635-8c3e-c810e2909858" : "VUZwk+JJGC0t3POuCo9pgggTXV+gsjoEyb6voYByJ2s="
     },
-    "currentBackingKeyId" : "d5e2fafd-9c6d-4635-8c3e-c810e2909858"
+    "currentBackingKeyId" : "d5e2fafd-9c6d-4635-8c3e-c810e2909858",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::c35432c9-1c76-42b0-975d-67af268bd317" : {
     "keyId" : "c35432c9-1c76-42b0-975d-67af268bd317",
@@ -1077,7 +1112,8 @@
     "backingKeys" : {
       "47af9109-e841-48ce-a250-8aca88734d1e" : "xhSD+Z60BsMFkZtrKzjNedZJ3rptT3uZLQ1AN2cPFTw="
     },
-    "currentBackingKeyId" : "47af9109-e841-48ce-a250-8aca88734d1e"
+    "currentBackingKeyId" : "47af9109-e841-48ce-a250-8aca88734d1e",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::6cd1fee9-5f20-443d-aae0-82fb78c2724f" : {
     "keyId" : "6cd1fee9-5f20-443d-aae0-82fb78c2724f",
@@ -1107,7 +1143,8 @@
     "backingKeys" : {
       "6830dabf-d06e-4034-a265-09ba8f10ef23" : "Qi+4i7RWLnZRMiI1w2KxgTAOp+cTPnVovkyFuKTK3tQ="
     },
-    "currentBackingKeyId" : "6830dabf-d06e-4034-a265-09ba8f10ef23"
+    "currentBackingKeyId" : "6830dabf-d06e-4034-a265-09ba8f10ef23",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::bf30c23f-f8fe-400a-ad34-f3836353d00b" : {
     "keyId" : "bf30c23f-f8fe-400a-ad34-f3836353d00b",
@@ -1137,7 +1174,8 @@
     "backingKeys" : {
       "3a112fbb-f898-4508-819e-17983d0af761" : "/GTfD3yZZoX/l79vdpA10oLp8x99Vt8b28Ayte0z10o="
     },
-    "currentBackingKeyId" : "3a112fbb-f898-4508-819e-17983d0af761"
+    "currentBackingKeyId" : "3a112fbb-f898-4508-819e-17983d0af761",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::f79852e5-4008-42d4-bc0b-41461b5b24bd" : {
     "keyId" : "f79852e5-4008-42d4-bc0b-41461b5b24bd",
@@ -1167,7 +1205,8 @@
     "backingKeys" : {
       "d7839ad5-780c-40ba-926a-8f15953a7a07" : "81FtvdonLDXaalvFBcyjLlL35XuNIMUT/KOdl8QNxcE="
     },
-    "currentBackingKeyId" : "d7839ad5-780c-40ba-926a-8f15953a7a07"
+    "currentBackingKeyId" : "d7839ad5-780c-40ba-926a-8f15953a7a07",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::ef73e1ab-3088-4234-ad8c-fdb15d1f74f5" : {
     "keyId" : "ef73e1ab-3088-4234-ad8c-fdb15d1f74f5",
@@ -1197,7 +1236,8 @@
     "backingKeys" : {
       "7a4eaa48-b96a-4e37-918e-a1a16b512166" : "j/mhV93D0Nh+z5nN8BLrTKtMACLaChw8A53nUAl/D9w="
     },
-    "currentBackingKeyId" : "7a4eaa48-b96a-4e37-918e-a1a16b512166"
+    "currentBackingKeyId" : "7a4eaa48-b96a-4e37-918e-a1a16b512166",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::cc339450-c3f5-47e1-a1e7-3d9ee56d6abe" : {
     "keyId" : "cc339450-c3f5-47e1-a1e7-3d9ee56d6abe",
@@ -1227,7 +1267,8 @@
     "backingKeys" : {
       "7a5f254b-e411-4faa-924c-ce065d4e2a10" : "F+Mo6tTioBXhUgJGMHCDVA7N66gOTPvbk2ForhbbeeA="
     },
-    "currentBackingKeyId" : "7a5f254b-e411-4faa-924c-ce065d4e2a10"
+    "currentBackingKeyId" : "7a5f254b-e411-4faa-924c-ce065d4e2a10",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::780a5ca2-2ea0-4930-9dda-effb3e8b5481" : {
     "keyId" : "780a5ca2-2ea0-4930-9dda-effb3e8b5481",
@@ -1257,7 +1298,8 @@
     "backingKeys" : {
       "58836b01-27ce-44e7-8c06-98ce99ebc95a" : "bpB+f0UdgNjem0aiMSocVmic9qo3LlJKsvOLIEX8c9Q="
     },
-    "currentBackingKeyId" : "58836b01-27ce-44e7-8c06-98ce99ebc95a"
+    "currentBackingKeyId" : "58836b01-27ce-44e7-8c06-98ce99ebc95a",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::b14dd6d2-57f8-4786-b339-bd7237d8cb98" : {
     "keyId" : "b14dd6d2-57f8-4786-b339-bd7237d8cb98",
@@ -1287,7 +1329,8 @@
     "backingKeys" : {
       "f891cd7e-ea16-4b74-a36d-cc14b501d5e5" : "+DmpHU0fxPFIeBGQUixyys1MpwZgaIoZVwL6okkVdCc="
     },
-    "currentBackingKeyId" : "f891cd7e-ea16-4b74-a36d-cc14b501d5e5"
+    "currentBackingKeyId" : "f891cd7e-ea16-4b74-a36d-cc14b501d5e5",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::a4f05485-0b31-4403-a08e-c9a80b1f748c" : {
     "keyId" : "a4f05485-0b31-4403-a08e-c9a80b1f748c",
@@ -1317,7 +1360,8 @@
     "backingKeys" : {
       "b00ab72b-ea76-44c5-a45d-1f236296f1a9" : "eZSY+7jR7G69f0ZZ9PcM4Ll8TrM+kIyF1hENw0IcHro="
     },
-    "currentBackingKeyId" : "b00ab72b-ea76-44c5-a45d-1f236296f1a9"
+    "currentBackingKeyId" : "b00ab72b-ea76-44c5-a45d-1f236296f1a9",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::816dabd8-1d41-4563-9c8d-2a23ac1aa1ef" : {
     "keyId" : "816dabd8-1d41-4563-9c8d-2a23ac1aa1ef",
@@ -1347,7 +1391,8 @@
     "backingKeys" : {
       "890f60f5-ef81-4d91-b858-1104fd9f40ba" : "jD17aEMTiG2ZGoL2xo1Dm4b81dtvbX0jl4A17COVtVE="
     },
-    "currentBackingKeyId" : "890f60f5-ef81-4d91-b858-1104fd9f40ba"
+    "currentBackingKeyId" : "890f60f5-ef81-4d91-b858-1104fd9f40ba",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::fcec7fc3-f35e-4425-b042-537ec4e6766d" : {
     "keyId" : "fcec7fc3-f35e-4425-b042-537ec4e6766d",
@@ -1377,7 +1422,8 @@
     "backingKeys" : {
       "0dce870f-1f78-48a9-94b8-2543a0e5af90" : "w4dEUOUcEjay7xY8LcIfKijPQwWE8+RaFP9yyrtudjI="
     },
-    "currentBackingKeyId" : "0dce870f-1f78-48a9-94b8-2543a0e5af90"
+    "currentBackingKeyId" : "0dce870f-1f78-48a9-94b8-2543a0e5af90",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::0fd4e38e-a91c-463a-972b-cf45221c07d6" : {
     "keyId" : "0fd4e38e-a91c-463a-972b-cf45221c07d6",
@@ -1407,7 +1453,8 @@
     "backingKeys" : {
       "7092eba9-4c66-4c1d-8a60-43d74d9fc4fa" : "xLWt/yZd3WZ56j3+GaOYagsDQzeESDLcidskw16QLyA="
     },
-    "currentBackingKeyId" : "7092eba9-4c66-4c1d-8a60-43d74d9fc4fa"
+    "currentBackingKeyId" : "7092eba9-4c66-4c1d-8a60-43d74d9fc4fa",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/us-east-1::0336efe8-a5fa-40ab-b1c8-7d0354244a7c" : {
     "keyId" : "0336efe8-a5fa-40ab-b1c8-7d0354244a7c",
@@ -1437,7 +1484,8 @@
     "backingKeys" : {
       "c93d9676-71e6-40d7-a0f1-4d026339fbee" : "pNFpQK4gxHzYDQLTK5FsHkKx/miHnhilbVm88ADHGjY="
     },
-    "currentBackingKeyId" : "c93d9676-71e6-40d7-a0f1-4d026339fbee"
+    "currentBackingKeyId" : "c93d9676-71e6-40d7-a0f1-4d026339fbee",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::c0165fd4-19f2-4380-a1ff-eb0e95e7daab" : {
     "keyId" : "c0165fd4-19f2-4380-a1ff-eb0e95e7daab",
@@ -1467,7 +1515,8 @@
     "backingKeys" : {
       "fd223a68-f732-4689-bd47-f5ba243cd4db" : "BtZCw7VEluLu447UYBI2FzkFukoadFmvYqvJxQPher8="
     },
-    "currentBackingKeyId" : "fd223a68-f732-4689-bd47-f5ba243cd4db"
+    "currentBackingKeyId" : "fd223a68-f732-4689-bd47-f5ba243cd4db",
+    "backingKeyRotationDates" : { }
   },
   "000000000000/ap-south-1::bbc48a46-79b9-4488-87ec-a6f99ac6b939" : {
     "keyId" : "bbc48a46-79b9-4488-87ec-a6f99ac6b939",
@@ -1497,6 +1546,7 @@
     "backingKeys" : {
       "71e625aa-71ba-45ac-ae34-0aff2e550683" : "sIxuodahvHd7XhSjv2CFwKFSIJYP10TPL00oizRvSbI="
     },
-    "currentBackingKeyId" : "71e625aa-71ba-45ac-ae34-0aff2e550683"
+    "currentBackingKeyId" : "71e625aa-71ba-45ac-ae34-0aff2e550683",
+    "backingKeyRotationDates" : { }
   }
 }
